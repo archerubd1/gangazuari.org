@@ -106,16 +106,7 @@
         <!-- Home -->
         <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
 
-        <!-- About Us Dropdown -->
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
-          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
-            <a class="dropdown-item" href="about-academy.php">About the Academy</a>
-            <a class="dropdown-item" href="leadership.php">Leadership & Governance</a>
-            <a class="dropdown-item" href="reports.php">Reports & Financials</a>
-            <a class="dropdown-item" href="proceedings.php">Proceedings & Speeches</a>
-          </div>
-        </li>
+       
 
         <!-- Programs Dropdown -->
         <li class="nav-item dropdown">
@@ -147,6 +138,17 @@
             <a class="dropdown-item" href="glimpses.php">Glimpses of GZA</a>
           </div>
         </li>
+		
+		 <!-- About Us Dropdown -->
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+          <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <a class="dropdown-item" href="about-academy.php">About the Academy</a>
+            <a class="dropdown-item" href="leadership.php">Leadership & Governance</a>
+            <a class="dropdown-item" href="reports.php">Reports & Financials</a>
+            <a class="dropdown-item" href="proceedings.php">Proceedings & Speeches</a>
+          </div>
+        </li>
 
         <!-- Get Involved Dropdown -->
         <li class="nav-item dropdown">
@@ -160,7 +162,7 @@
         </li>
 
         <!-- Contact Us -->
-        <li class="nav-item"><a href="contact.php" class="nav-link">Contact Us</a></li>
+        <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 
       </ul>
     </div>
