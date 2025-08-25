@@ -49,6 +49,7 @@
 
 	<!-- Favicon -->
 	<link rel="icon" href="images/favicon.ico" type="image/png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 	<!-- Google Analytics (for SEM & tracking) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-1"></script>
@@ -131,11 +132,11 @@
 
         <!-- Research Dropdown -->
         <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" id="researchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
+          <a href="#" class="nav-link dropdown-toggle" id="researchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
           <div class="dropdown-menu" aria-labelledby="researchDropdown">
             <a class="dropdown-item" href="blogs.php">Blogs</a>
             <a class="dropdown-item" href="publications.php">Publications</a>
-            <a class="dropdown-item" href="glimpses.php">Glimpses of GZA</a>
+           
           </div>
         </li>
 		
