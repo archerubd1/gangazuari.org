@@ -1438,27 +1438,27 @@ include_once('head_nav.php');
    <div class="col-md-9">
      <div class="partner-logos">
        <div class="logos-slide">
-         <img src="images/logos/ministry-culture.png" alt="Ministry of Culture">
+         <img src="images/logos/ministry-culture.png" alt="Ministry of Culture Goa">
          <img src="images/logos/art-culture-goa.png" alt="Directorate of Art & Culture Goa">
          <img src="images/logos/goa-tourism.png" alt="Goa Tourism Development Corporation">
          <img src="images/logos/dept-tourism-goa.png" alt="Dept. of Tourism Goa">
-         <img src="images/logos/kala-academy.png" alt="Kala Academy">
-         <img src="images/logos/csir.png" alt="CSIR NIO">
-         <img src="images/logos/wallace.png" alt="Wallace Pharmaceuticals">
-         <img src="images/logos/bluecross.png" alt="BlueCross Pharmaceuticals">
-         <img src="images/logos/rajdeep.png" alt="Rajdeep Builders">
-         <img src="images/logos/drag.png" alt="DRAG Clothing">
-         <img src="images/logos/pnb.png" alt="Punjab National Bank">
+         <img src="images/logos/kala-academy.png" alt="Kala Academy Goa">
+         <img src="images/logos/csir.png" alt="CSIR NIO Goa">
+         <img src="images/logos/wallace.png" alt="Wallace Pharmaceuticals Goa">
+         <img src="images/logos/bluecross.png" alt="BlueCross Pharmaceuticals Goa">
+         <img src="images/logos/rajdeep.png" alt="Rajdeep Builders Goa">
+         <img src="images/logos/drag.png" alt="DRAG Clothing Goa">
+         <img src="images/logos/pnb.png" alt="Punjab National Bank Goa">
          <img src="images/logos/acgl.png" alt="Automobile Corporation of Goa">
-         <img src="images/logos/taleigao.png" alt="Taleigao Panchayat">
-         <img src="images/logos/vaibhavi.png" alt="Vaibhavi Enterprises">
-         <img src="images/logos/kohinoor.png" alt="Kohinoor Enterprises">
-         <img src="images/logos/laxmi-industries.png" alt="Laxmi Industries">
-         <img src="images/logos/tv-plastics.png" alt="T.V. Plastics">
-         <img src="images/logos/sb-enterprises.png" alt="S.B. Enterprises">
-         <img src="images/logos/corrosion.png" alt="Corrosion Control & Insulation Services">
-         <img src="images/logos/stay-sharp.png" alt="Stay Sharp Diamond Tools">
-         <img src="images/logos/bandhan.png" alt="Bandhan Bank">
+         <img src="images/logos/taleigao.png" alt="Taleigao Panchayat Goa">
+         <img src="images/logos/vaibhavi.png" alt="Vaibhavi Enterprises Goa">
+         <img src="images/logos/kohinoor.png" alt="Kohinoor Enterprises Goa">
+         <img src="images/logos/laxmi-industries.png" alt="Laxmi Industries Goa">
+         <img src="images/logos/tv-plastics.png" alt="T.V. Plastics Goa">
+         <img src="images/logos/sb-enterprises.png" alt="S.B. Enterprises Goa">
+         <img src="images/logos/corrosion.png" alt="Corrosion Control & Insulation Services Goa">
+         <img src="images/logos/stay-sharp.png" alt="Stay Sharp Diamond Tools Goa">
+         <img src="images/logos/bandhan.png" alt="Bandhan Bank goa">
        </div>
      </div>
    </div>
