@@ -214,6 +214,9 @@ include_once('head_nav.php');
         </div>
       </div>
     </div>
+	
+	</div>
+	
   </div>
 </section>
 
