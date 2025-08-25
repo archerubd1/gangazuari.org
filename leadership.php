@@ -396,27 +396,27 @@ include_once('head_nav.php');
    <div class="col-md-9">
      <div class="partner-logos">
        <div class="logos-slide">
-         <img src="logos/ministry-culture.png" alt="Ministry of Culture">
-         <img src="logos/art-culture-goa.png" alt="Directorate of Art & Culture Goa">
-         <img src="logos/goa-tourism.png" alt="Goa Tourism Development Corporation">
-         <img src="logos/dept-tourism-goa.png" alt="Dept. of Tourism Goa">
-         <img src="logos/kala-academy.png" alt="Kala Academy">
-         <img src="logos/csir.png" alt="CSIR NIO">
-         <img src="logos/wallace.png" alt="Wallace Pharmaceuticals">
-         <img src="logos/bluecross.png" alt="BlueCross Pharmaceuticals">
-         <img src="logos/rajdeep.png" alt="Rajdeep Builders">
-         <img src="logos/drag.png" alt="DRAG Clothing">
-         <img src="logos/pnb.png" alt="Punjab National Bank">
-         <img src="logos/acgl.png" alt="Automobile Corporation of Goa">
-         <img src="logos/taleigao.png" alt="Taleigao Panchayat">
-         <img src="logos/vaibhavi.png" alt="Vaibhavi Enterprises">
-         <img src="logos/kohinoor.png" alt="Kohinoor Enterprises">
-         <img src="logos/laxmi-industries.png" alt="Laxmi Industries">
-         <img src="logos/tv-plastics.png" alt="T.V. Plastics">
-         <img src="logos/sb-enterprises.png" alt="S.B. Enterprises">
-         <img src="logos/corrosion.png" alt="Corrosion Control & Insulation Services">
-         <img src="logos/stay-sharp.png" alt="Stay Sharp Diamond Tools">
-         <img src="logos/bandhan.png" alt="Bandhan Bank">
+         <img src="images/logos/ministry-culture.png" alt="Ministry of Culture">
+         <img src="images/logos/art-culture-goa.png" alt="Directorate of Art & Culture Goa">
+         <img src="images/logos/goa-tourism.png" alt="Goa Tourism Development Corporation">
+         <img src="images/logos/dept-tourism-goa.png" alt="Dept. of Tourism Goa">
+         <img src="images/logos/kala-academy.png" alt="Kala Academy">
+         <img src="images/logos/csir.png" alt="CSIR NIO">
+         <img src="images/logos/wallace.png" alt="Wallace Pharmaceuticals">
+         <img src="images/logos/bluecross.png" alt="BlueCross Pharmaceuticals">
+         <img src="images/logos/rajdeep.png" alt="Rajdeep Builders">
+         <img src="images/logos/drag.png" alt="DRAG Clothing">
+         <img src="images/logos/pnb.png" alt="Punjab National Bank">
+         <img src="images/logos/acgl.png" alt="Automobile Corporation of Goa">
+         <img src="images/logos/taleigao.png" alt="Taleigao Panchayat">
+         <img src="images/logos/vaibhavi.png" alt="Vaibhavi Enterprises">
+         <img src="images/logos/kohinoor.png" alt="Kohinoor Enterprises">
+         <img src="images/logos/laxmi-industries.png" alt="Laxmi Industries">
+         <img src="images/logos/tv-plastics.png" alt="T.V. Plastics">
+         <img src="images/logos/sb-enterprises.png" alt="S.B. Enterprises">
+         <img src="images/logos/corrosion.png" alt="Corrosion Control & Insulation Services">
+         <img src="images/logos/stay-sharp.png" alt="Stay Sharp Diamond Tools">
+         <img src="images/logos/bandhan.png" alt="Bandhan Bank">
        </div>
      </div>
    </div>
@@ -449,193 +449,10 @@ include_once('head_nav.php');
 </style>
 
 
-<section class="ftco-section testimony-section">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row justify-content-center pb-5">
-      <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
-        <span class="subheading">Testimonials</span>
-        <h2>Voices from Our Journey</h2>
-      </div>
-    </div>
-    <div class="row ftco-animate">
-      <div class="col-md-12">
-        <div class="carousel-testimony owl-carousel">
 
-          <!-- Unmesh -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-1.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“Unmesh opened my mind to new ways of thinking about literature and philosophy. 
-                It felt like an intellectual festival where ideas flowed as freely as music.”</p>
-                <p class="name">Ananya Chatterjee</p>
-                <span class="position">Professor, Kolkata</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Chhandovani -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-2.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“Through Chhandovani, I reconnected with my roots in dance and rhythm. 
-                The blend of Indian values with contemporary movement was truly inspiring.”</p>
-                <p class="name">Riya Naik</p>
-                <span class="position">Classical Dancer, Goa</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Utsav -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-3.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“UTSAV brought together people from all walks of life. 
-                The music, theatre, and art created a true spirit of unity and celebration.”</p>
-                <p class="name">Rohit Verma</p>
-                <span class="position">Theatre Artist, Delhi</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Tapovan -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-4.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“Tapovan gave us a platform to work on inclusive growth. 
-                The workshops on youth empowerment and culture left a lasting mark on our community.”</p>
-                <p class="name">Maria D’Souza</p>
-                <span class="position">Social Worker, Goa</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Extra Testimonial -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-5.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“Being part of Ganga Zuari’s initiatives has been transformative. 
-                It is more than culture — it is about creating belonging and community.”</p>
-                <p class="name">Sayan Mukherjee</p>
-                <span class="position">Writer, Bengaluru</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Additional 1 -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-6.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“The youth programs under Tapovan inspired my students to take pride in their culture while dreaming big for the future.”</p>
-                <p class="name">Neha Patil</p>
-                <span class="position">School Teacher, Pune</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Additional 2 -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-7.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“At UTSAV, I saw traditions from Bengal and Goa come together in perfect harmony. It reminded me of India’s true strength — unity in diversity.”</p>
-                <p class="name">Arindam Ghosh</p>
-                <span class="position">Entrepreneur, Kolkata</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Additional 3 -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-8.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“Chhandovani gave my daughter the confidence to perform on stage for the first time. It was a proud moment for our family.”</p>
-                <p class="name">Sunil Shenoy</p>
-                <span class="position">Parent, Mangalore</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Additional 4 -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-9.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“Unmesh showed me how literature can be a bridge between generations. 
-                My father and I attended together, and it sparked conversations we never had before.”</p>
-                <p class="name">Aditi Mehra</p>
-                <span class="position">Student, Mumbai</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="ftco-hireme bg-secondary">
-  <div class="container">
-    <div class="row justify-content-between">
-      <div class="col-md-8 col-lg-8 d-flex align-items-center">
-        <div class="w-100">
-          <h2>Building Bridges Between Goa & Bengal Through Culture</h2>
-        </div>
-      </div>
-      <div class="col-md-4 col-lg-4 d-flex align-items-center justify-content-end">
-        <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-4">Join the Movement</a></p>
-      </div>
-    </div>
-  </div>
-</section>
 
 <?php 
-
+include_once('testimonials.php');
 include_once('footer.php');
 
 ?>

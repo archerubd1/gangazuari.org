@@ -440,174 +440,12 @@ include_once('head_nav.php');
 
 
 
-<section class="ftco-section testimony-section">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row justify-content-center pb-5">
-      <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
-        <span class="subheading">Testimonials</span>
-        <h2>Voices from Our Journey</h2>
-      </div>
-    </div>
-    <div class="row ftco-animate">
-      <div class="col-md-12">
-        <div class="carousel-testimony owl-carousel">
+<?php
 
-          <!-- Unmesh -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-1.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“Unmesh opened my mind to new ways of thinking about literature and philosophy. 
-                It felt like an intellectual festival where ideas flowed as freely as music.”</p>
-                <p class="name">Ananya Chatterjee</p>
-                <span class="position">Professor, Kolkata</span>
-              </div>
-            </div>
-          </div>
+include_once('testimonials.php');
+?>
 
-          <!-- Chhandovani -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-2.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“Through Chhandovani, I reconnected with my roots in dance and rhythm. 
-                The blend of Indian values with contemporary movement was truly inspiring.”</p>
-                <p class="name">Riya Naik</p>
-                <span class="position">Classical Dancer, Goa</span>
-              </div>
-            </div>
-          </div>
 
-          <!-- Utsav -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-3.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“UTSAV brought together people from all walks of life. 
-                The music, theatre, and art created a true spirit of unity and celebration.”</p>
-                <p class="name">Rohit Verma</p>
-                <span class="position">Theatre Artist, Delhi</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Tapovan -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-4.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“Tapovan gave us a platform to work on inclusive growth. 
-                The workshops on youth empowerment and culture left a lasting mark on our community.”</p>
-                <p class="name">Maria D’Souza</p>
-                <span class="position">Social Worker, Goa</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Extra Testimonial -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-5.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“Being part of Ganga Zuari’s initiatives has been transformative. 
-                It is more than culture — it is about creating belonging and community.”</p>
-                <p class="name">Sayan Mukherjee</p>
-                <span class="position">Writer, Bengaluru</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Additional 1 -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-6.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“The youth programs under Tapovan inspired my students to take pride in their culture while dreaming big for the future.”</p>
-                <p class="name">Neha Patil</p>
-                <span class="position">School Teacher, Pune</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Additional 2 -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-7.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“At UTSAV, I saw traditions from Bengal and Goa come together in perfect harmony. It reminded me of India’s true strength — unity in diversity.”</p>
-                <p class="name">Arindam Ghosh</p>
-                <span class="position">Entrepreneur, Kolkata</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Additional 3 -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-8.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“Chhandovani gave my daughter the confidence to perform on stage for the first time. It was a proud moment for our family.”</p>
-                <p class="name">Sunil Shenoy</p>
-                <span class="position">Parent, Mangalore</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Additional 4 -->
-          <div class="item">
-            <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team-9.jpg)">
-              </div>
-              <div class="text pl-4">
-                <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="fa fa-quote-left"></i>
-                </span>
-                <p>“Unmesh showed me how literature can be a bridge between generations. 
-                My father and I attended together, and it sparked conversations we never had before.”</p>
-                <p class="name">Aditi Mehra</p>
-                <span class="position">Student, Mumbai</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="ftco-section">
   <div class="container">
@@ -768,16 +606,16 @@ include_once('head_nav.php');
 
             <!-- Front Side -->
             <div class="flip-card-front">
-              <div class="img" style="background-image: url(images/team-1.jpg);"></div>
+              <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
               <div class="text text-1">
-                <h3>Dr. Ananya Sen</h3>
+                <h3>Manguirish Pai Raikar</h3>
                 <span>President</span>
               </div>
             </div>
 
             <!-- Back Side -->
             <div class="flip-card-back">
-              <h4>Dr. Ananya Sen</h4>
+              <h4>Manguirish Pai Raikar</h4>
               <p>Cultural historian and community leader, driving initiatives to preserve Goa’s artistic heritage while fostering cross-regional collaboration.</p>
               <div class="social-icons d-flex justify-content-center">
                 <a href="#"><span class="fa fa-linkedin"></span></a>
@@ -795,14 +633,14 @@ include_once('head_nav.php');
         <div class="volunteer flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <div class="img" style="background-image: url(images/team-2.jpg);"></div>
+              <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
               <div class="text text-2">
-                <h3>Rajiv Naik</h3>
+                <h3>Rajesh Tarkar</h3>
                 <span>Vice President</span>
               </div>
             </div>
             <div class="flip-card-back">
-              <h4>Rajiv Naik</h4>
+              <h4>Rajesh Tarkar</h4>
               <p>Social activist and educationist, committed to strengthening cultural ties between Goa and Bengal through arts and festivals.</p>
               <div class="social-icons d-flex justify-content-center">
                 <a href="#"><span class="fa fa-linkedin"></span></a>
@@ -819,14 +657,14 @@ include_once('head_nav.php');
         <div class="volunteer flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <div class="img" style="background-image: url(images/team-3.jpg);"></div>
+              <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
               <div class="text text-3">
-                <h3>Meera Chatterjee</h3>
+                <h3>Ranadhir Mukhopadhyay</h3>
                 <span>General Secretary</span>
               </div>
             </div>
             <div class="flip-card-back">
-              <h4>Meera Chatterjee</h4>
+              <h4>Ranadhir Mukhopadhyay</h4>
               <p>A passionate advocate for performing arts, she has curated several youth-led programs to encourage emerging artists.</p>
               <div class="social-icons d-flex justify-content-center">
                 <a href="#"><span class="fa fa-linkedin"></span></a>
@@ -843,14 +681,14 @@ include_once('head_nav.php');
         <div class="volunteer flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <div class="img" style="background-image: url(images/team-4.jpg);"></div>
+              <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
               <div class="text text-4">
-                <h3>Vikram Rao</h3>
+                <h3>Saurav Roy</h3>
                 <span>Treasurer</span>
               </div>
             </div>
             <div class="flip-card-back">
-              <h4>Vikram Rao</h4>
+              <h4>Saurav Roy</h4>
               <p>Finance professional ensuring transparency and sustainability in cultural projects, while supporting grassroots initiatives.</p>
               <div class="social-icons d-flex justify-content-center">
                 <a href="#"><span class="fa fa-linkedin"></span></a>
