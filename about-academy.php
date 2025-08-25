@@ -594,8 +594,8 @@ include_once('head_nav.php');
             <tbody>
               <tr>
                 <td>P01</td>
-                <td>Sample Patron</td>
-                <td>Chief Patron</td>
+                <td>Maria Emilia Menezes</td>
+                <td>PhD, MD-Indi-Pharma, Philanthropist in Healthcare, Education, and Sports</td>
                 <td>
                   <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
                   <a href="#"><i class="fab fa-twitter mx-2"></i></a>
@@ -604,8 +604,30 @@ include_once('head_nav.php');
               </tr>
               <tr>
                 <td>P02</td>
-                <td>Another Patron</td>
-                <td>Advisor</td>
+                <td>Nitin Kunkolienkar</td>
+                <td>GCCI, MAIT, Vidya Vikas Mandal, CII, Smartlink NSL, Dona Paula</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>P03</td>
+                <td>Sukti Chatterjee</td>
+                <td>Passionate photographer with a unique perspective, Merces</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>P04</td>
+                <td>Vivek Pathiyan</td>
+                <td>General Manager, ICG, Dona Paula</td>
                 <td>
                   <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
                   <a href="#"><i class="fab fa-twitter mx-2"></i></a>
@@ -644,8 +666,8 @@ include_once('head_nav.php');
             <tbody>
               <tr>
                 <td>PR01</td>
-                <td>Sample Principal</td>
-                <td>Principal</td>
+                <td>Rajendra Prasad Pal</td>
+                <td> Sample Principal</td>
                 <td>
                   <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
                   <a href="#"><i class="fab fa-twitter mx-2"></i></a>
@@ -654,14 +676,357 @@ include_once('head_nav.php');
               </tr>
               <tr>
                 <td>PR02</td>
-                <td>Another Principal</td>
-                <td>Principal</td>
+                <td>Ranadhir Mukhopadhyay</td>
+                <td>PhD, Oceanographer, Dona Paula</td>
                 <td>
                   <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
                   <a href="#"><i class="fab fa-twitter mx-2"></i></a>
                   <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
                 </td>
               </tr>
+			  
+			  <tr>
+                <td>PR03</td>
+                <td>Ajanta Burman</td>
+                <td>Master Chef, Dance Exponent, </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR04</td>
+                <td>Prasenjit Bannerjee</td>
+                <td>Art Director, Sancoale, </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR05</td>
+                <td>Apurbo Biswas</td>
+                <td>Physician, Thivim </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			   <tr>
+                <td>PR06</td>
+                <td>Manisha Bannerjee</td>
+                <td>Entrepreneur, Sancoale </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR07</td>
+                <td>Rati Arun Naik</td>
+                <td>Art Director, Sancoale </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  	<tr>
+                <td>PR08</td>
+                <td>Ranjit Chatterjee</td>
+                <td>M/Communication, Taleigao </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR09</td>
+                <td>Bimalendu Dey</td>
+                <td>BARC & NPCIL, Taleigao </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			   <tr>
+                <td>PR010</td>
+                <td>Debashish Majumdar</td>
+                <td>PhD,Prof in Economics, Margao </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR011</td>
+                <td>Neeta Majumdar</td>
+                <td>PhD, Prof in Mathematics, Margao </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  	<tr>
+                <td>PR012</td>
+                <td>Venkat Gummalla</td>
+                <td>New India Insurance, Hyderabad </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			   <tr>
+                <td>PR013</td>
+                <td>Indira Gummalla</td>
+                <td>Entrepreneur, Hyderabad </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR014</td>
+                <td>Kunal Dutta$</td>
+                <td>Industrialist, Goa & Calcutta, </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR015</td>
+                <td>Arundhuti Dutta$</td>
+                <td>Singer, Artist, Goa & Calcutta</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR016</td>
+                <td>Amol Bhattacharya</td>
+                <td>IFB, Goa and Calcutta</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR017</td>
+                <td>Swati Sarkar</td>
+                <td>Entrepreneur, Sancoale</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR018</td>
+                <td>Rashmi Sen</td>
+                <td>Home Maker, Margao</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			   <tr>
+                <td>PR019</td>
+                <td>Rita Sorowar</td>
+                <td>PhD, Production Scientist, Frankfurt</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			   <tr>
+                <td>PR020</td>
+                <td>Nilanjana Mitra</td>
+                <td>Educationist, Humanist, Old Goa</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			   <tr>
+                <td>PR021</td>
+                <td>Tara Narayan</td>
+                <td>Associate Editor, Goan Observer</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR022</td>
+                <td>Saurav Roy</td>
+                <td>Logistics & Warehouse, CIPLA, Margao</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR023</td>
+                <td>Amitabh Moitro</td>
+                <td>DGM-PNB (Retd), Goa Velha</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR024</td>
+                <td>Rajesh Tarcar</td>
+                <td>CMD, Rajdeep Builders, Dona Paula</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR025</td>
+                <td>Amita Sharma</td>
+                <td>Director, Kota Foundation, Dona Paula</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			   
+			  <tr>
+                <td>PR026</td>
+                <td>Somnath Sarkar</td>
+                <td>Addl GM, Goa Shipyard, Sancoale</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR027</td>
+                <td>Apornita Sarkar</td>
+                <td>NGO Activist, Home maker, Sancoaletd</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR028</td>
+                <td>Rajiv Nigam</td>
+                <td>PhD, Palaeontology;Dona Paula</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR029</td>
+                <td>Anil Bhattacharya</td>
+                <td>National Savings Commissioner, Altinho</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR030</td>
+                <td>Dinesh Verma</td>
+                <td>Ophthalmologist, Chicalim</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR031</td>
+                <td>Manguirish Pai Raiker</td>
+                <td>Strategic Management Consultants, DP</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR032</td>
+                <td>Gargi Guha</td>
+                <td>MBA, Freelance writer, Margao</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>PR033</td>
+                <td>Pranab Mukhopadhyay</td>
+                <td>PhD, Economics, GU, Dona Paula</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
             </tbody>
           </table>
         </div>
@@ -694,24 +1059,284 @@ include_once('head_nav.php');
             <tbody>
               <tr>
                 <td>A01</td>
-                <td>Sample Associate</td>
-                <td>Member</td>
+                <td>Julie Mukhopadhyay</td>
+                <td>DHRM, LLB, Homemaker, Dona Paula</td>
                 <td>
                   <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
                   <a href="#"><i class="fab fa-twitter mx-2"></i></a>
                   <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
                 </td>
               </tr>
+			  
               <tr>
                 <td>A02</td>
-                <td>Another Associate</td>
-                <td>Member</td>
+                <td>Lata Satyen Naik</td>
+                <td>PhD, Mathematics, Mercel </td>
                 <td>
                   <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
                   <a href="#"><i class="fab fa-twitter mx-2"></i></a>
                   <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
                 </td>
               </tr>
+			  
+			  <tr>
+                <td>A03</td>
+                <td>Partho Sarathi Banerjee</td>
+                <td>Director, Fomento, Caranzalem </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A04</td>
+                <td>Nilima Chatterjee</td>
+                <td>Calangute Govt School, Taleigao </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  
+			  
+			  <tr>
+                <td>A06</td>
+                <td>Madhura Kolte</td>
+                <td>State Bank of India, Goa, Mumbai </td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A07</td>
+                <td>Anup Burman</td>
+                <td>Director, Bluecross Lab, Caranzalem</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A08</td>
+                <td>Arijit Choudhuri</td>
+                <td>Consulting Geophysicist, BPCL, Mumbai</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A09</td>
+                <td>Arunava Roy</td>
+                <td>Prasar Bharati, Goa & Kolkata</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  			  <tr>
+                <td>A010</td>
+                <td>Pragya Paromita Roy</td>
+                <td>Techno-India Education Society, Kolkata</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A011</td>
+                <td>Yogesh Suchak</td>
+                <td>Entrepreneur, London</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			   <tr>
+                <td>A012</td>
+                <td>Haimanti Biswas</td>
+                <td>PhD, Marine Biologist, Caranzalem</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A013</td>
+                <td>Gunjan Baijal</td>
+                <td>Oncologist, Manipal -Tata Hsp, Mumbai</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A014</td>
+                <td>Kamlesh H Vora</td>
+                <td>Deputy Director, NIO, Caranzalem</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A015</td>
+                <td>Amit Kumar Goswami</td>
+                <td>Retd Colonel, Indian Army, Sancoale</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A016</td>
+                <td>Rumi Roychoudhury</td>
+                <td>Fr. Principal, Army School, Dona Paula</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A017</td>
+                <td>Madhulika Mehta</td>
+                <td>Singer, Poet, Dona Paula</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A018</td>
+                <td>Basavadatta Mitra</td>
+                <td>PhD, English, BITS-Goa, Sancoale</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A019</td>
+                <td>Anil Chatterjee</td>
+                <td>PhD, Marine Biologist, NIO, Porvorim</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  
+			  <tr>
+                <td>A020</td>
+                <td>Devinder Anand</td>
+                <td>Psycho-Spiritual Coach, Reis-Magos</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A021</td>
+                <td>Vineeta Sood</td>
+                <td>Alternative education, Dona Paula</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  
+			  
+			  <tr>
+                <td>A023</td>
+                <td>Padmanabh V Sathe</td>
+                <td>Satellite Oceanographer, Dona Paulale</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A024</td>
+                <td>Vishve Sood</td>
+                <td>Engineer, Oil&Gas, Dona Paula</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			   <tr>
+                <td>A025</td>
+                <td>Hari Krishan Kaul</td>
+                <td>Retail Expert, Ex-Rotary Prez, Miramara</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			  <tr>
+                <td>A026</td>
+                <td>Sanjay Mangesh Korgaokar</td>
+                <td>Singer, Dahisar (E), Mumb</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
+			   <tr>
+                <td>A027</td>
+                <td>Dr. Shodhan Kamat</td>
+                <td>MS (Ortho), Porvorim</td>
+                <td>
+                  <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+                  <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+                </td>
+              </tr>
+			  
             </tbody>
           </table>
         </div>
