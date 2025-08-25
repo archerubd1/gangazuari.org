@@ -311,8 +311,9 @@ include_once('head_nav.php');
     <!-- Heading -->
     <div class="row justify-content-center pb-5">
       <div class="col-md-7 heading-section text-center ftco-animate">
-        <span class="subheading">Stronger Together</span>
-<h2>Team, Patrons & Members</h2>
+       <span class="subheading">United & Stronger Together for Change</span>
+<h2>Team, Transparency, Impact & Our Members</h2>
+
 
       </div>
     </div>
@@ -322,8 +323,8 @@ include_once('head_nav.php');
       <div class="col-md-10 text-center ftco-animate">
         <div class="btn-group flex-wrap" role="group" aria-label="Academy Tabs">
           <a class="btn btn-primary mx-2 active" data-toggle="tab" href="#team" role="tab">Meet the Team</a>
-          <a class="btn btn-outline-primary mx-2" data-toggle="tab" href="#patrons" role="tab">Patrons</a>
-          <a class="btn btn-outline-primary mx-2" data-toggle="tab" href="#proceedings" role="tab">Proceedings</a>
+          <a class="btn btn-outline-primary mx-2" data-toggle="tab" href="#disclosures" role="tab">Statutory Disclosures</a>
+          <a class="btn btn-outline-primary mx-2" data-toggle="tab" href="#impact" role="tab">Impact Reports</a>
           <a class="btn btn-outline-primary mx-2" data-toggle="tab" href="#members" role="tab">Patrons & Members</a>
         </div>
       </div>
@@ -548,20 +549,47 @@ include_once('head_nav.php');
 </style>
 
 
-      <!-- Patrons Tab -->
-      <div class="tab-pane fade" id="patrons" role="tabpanel">
+     
+
+      <!-- Disclosures Tab -->
+      <div class="tab-pane fade" id="disclosures" role="tabpanel">
+        <div class="row justify-content-center">
+    <div class="col-md-10 text-center">
+      <h4 class="mb-3">Statutory Disclosures</h4>
+      <p class="text-muted">
+        In keeping with our commitment to transparency and accountability, Ganga Zuari provides statutory disclosures in accordance with the applicable laws and regulatory requirements governing non-profit organizations in India.
+      </p>
+      <p class="text-muted">
+        The following information is made available to stakeholders, beneficiaries, and the general public:
+      </p>
+      <ul class="list-unstyled text-left d-inline-block">
+        <li>✔ Registration details under the Societies Registration Act/Trust Act.</li>
+        <li>✔ PAN and TAN details of the organization.</li>
+        <li>✔ Section 12A and 80G certifications for tax exemptions, where applicable.</li>
+        <li>✔ Details of the Governing Board and Trustees.</li>
+        <li>✔ Annual Reports and audited financial statements.</li>
+        <li>✔ CSR registration number, if applicable.</li>
+        <li>✔ FCRA registration status for foreign contributions (if applicable).</li>
+      </ul>
+      <p class="text-muted mt-3">
+        All disclosures are published annually and updated periodically to ensure compliance with statutory obligations and to uphold the trust of our stakeholders.
+      </p>
+    </div>
+  </div>
+      </div>
+
+
+
+
+
+ <!-- IMPACT  Tab -->
+      <div class="tab-pane fade" id="impact" role="tabpanel">
         <div class="row justify-content-center">
           <p class="text-muted text-center">Patrons content will go here...</p>
         </div>
       </div>
-
-      <!-- Proceedings Tab -->
-      <div class="tab-pane fade" id="proceedings" role="tabpanel">
-        <div class="row justify-content-center">
-          <p class="text-muted text-center">Proceedings content will go here...</p>
-        </div>
-      </div>
-
+	  
+	  
     
 
 	<!-- Members Tab -->
@@ -1410,27 +1438,27 @@ include_once('head_nav.php');
    <div class="col-md-9">
      <div class="partner-logos">
        <div class="logos-slide">
-         <img src="logos/ministry-culture.png" alt="Ministry of Culture">
-         <img src="logos/art-culture-goa.png" alt="Directorate of Art & Culture Goa">
-         <img src="logos/goa-tourism.png" alt="Goa Tourism Development Corporation">
-         <img src="logos/dept-tourism-goa.png" alt="Dept. of Tourism Goa">
-         <img src="logos/kala-academy.png" alt="Kala Academy">
-         <img src="logos/csir.png" alt="CSIR NIO">
-         <img src="logos/wallace.png" alt="Wallace Pharmaceuticals">
-         <img src="logos/bluecross.png" alt="BlueCross Pharmaceuticals">
-         <img src="logos/rajdeep.png" alt="Rajdeep Builders">
-         <img src="logos/drag.png" alt="DRAG Clothing">
-         <img src="logos/pnb.png" alt="Punjab National Bank">
-         <img src="logos/acgl.png" alt="Automobile Corporation of Goa">
-         <img src="logos/taleigao.png" alt="Taleigao Panchayat">
-         <img src="logos/vaibhavi.png" alt="Vaibhavi Enterprises">
-         <img src="logos/kohinoor.png" alt="Kohinoor Enterprises">
-         <img src="logos/laxmi-industries.png" alt="Laxmi Industries">
-         <img src="logos/tv-plastics.png" alt="T.V. Plastics">
-         <img src="logos/sb-enterprises.png" alt="S.B. Enterprises">
-         <img src="logos/corrosion.png" alt="Corrosion Control & Insulation Services">
-         <img src="logos/stay-sharp.png" alt="Stay Sharp Diamond Tools">
-         <img src="logos/bandhan.png" alt="Bandhan Bank">
+         <img src="images/logos/ministry-culture.png" alt="Ministry of Culture">
+         <img src="images/logos/art-culture-goa.png" alt="Directorate of Art & Culture Goa">
+         <img src="images/logos/goa-tourism.png" alt="Goa Tourism Development Corporation">
+         <img src="images/logos/dept-tourism-goa.png" alt="Dept. of Tourism Goa">
+         <img src="images/logos/kala-academy.png" alt="Kala Academy">
+         <img src="images/logos/csir.png" alt="CSIR NIO">
+         <img src="images/logos/wallace.png" alt="Wallace Pharmaceuticals">
+         <img src="images/logos/bluecross.png" alt="BlueCross Pharmaceuticals">
+         <img src="images/logos/rajdeep.png" alt="Rajdeep Builders">
+         <img src="images/logos/drag.png" alt="DRAG Clothing">
+         <img src="images/logos/pnb.png" alt="Punjab National Bank">
+         <img src="images/logos/acgl.png" alt="Automobile Corporation of Goa">
+         <img src="images/logos/taleigao.png" alt="Taleigao Panchayat">
+         <img src="images/logos/vaibhavi.png" alt="Vaibhavi Enterprises">
+         <img src="images/logos/kohinoor.png" alt="Kohinoor Enterprises">
+         <img src="images/logos/laxmi-industries.png" alt="Laxmi Industries">
+         <img src="images/logos/tv-plastics.png" alt="T.V. Plastics">
+         <img src="images/logos/sb-enterprises.png" alt="S.B. Enterprises">
+         <img src="images/logos/corrosion.png" alt="Corrosion Control & Insulation Services">
+         <img src="images/logos/stay-sharp.png" alt="Stay Sharp Diamond Tools">
+         <img src="images/logos/bandhan.png" alt="Bandhan Bank">
        </div>
      </div>
    </div>
@@ -1465,238 +1493,180 @@ include_once('head_nav.php');
 
 
 <section class="ftco-section testimony-section">
- <div class="overlay"></div>
- <div class="container">
-  <div class="row justify-content-center pb-5">
-    <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
-     <span class="subheading">Testimony</span>
-     <h2>Happy Clients &amp; Feedbacks</h2>
-   </div>
- </div>
- <div class="row ftco-animate">
-  <div class="col-md-12">
-    <div class="carousel-testimony owl-carousel">
-     <div class="item">
-      <div class="testimony-wrap d-flex">
-        <div class="user-img" style="background-image: url(images/person_1.jpg)">
-        </div>
-        <div class="text pl-4">
-         <span class="quote d-flex align-items-center justify-content-center">
-          <i class="fa fa-quote-left"></i>
-        </span>
-        <p class="rate">
-         <span class="fa fa-star"></span>
-         <span class="fa fa-star"></span>
-         <span class="fa fa-star"></span>
-         <span class="fa fa-star"></span>
-         <span class="fa fa-star"></span>
-       </p>
-       <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-       <p class="name">Racky Henderson</p>
-       <span class="position">Father</span>
-     </div>
-   </div>
- </div>
- <div class="item">
-  <div class="testimony-wrap d-flex">
-    <div class="user-img" style="background-image: url(images/person_2.jpg)">
-    </div>
-    <div class="text pl-4">
-     <span class="quote d-flex align-items-center justify-content-center">
-      <i class="fa fa-quote-left"></i>
-    </span>
-    <p class="rate">
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-   </p>
-   <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-   <p class="name">Henry Dee</p>
-   <span class="position">Businesswoman</span>
- </div>
-</div>
-</div>
-<div class="item">
-  <div class="testimony-wrap d-flex">
-    <div class="user-img" style="background-image: url(images/person_3.jpg)">
-    </div>
-    <div class="text pl-4">
-     <span class="quote d-flex align-items-center justify-content-center">
-      <i class="fa fa-quote-left"></i>
-    </span>
-    <p class="rate">
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-   </p>
-   <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-   <p class="name">Mark Huff</p>
-   <span class="position">Businesswoman</span>
- </div>
-</div>
-</div>
-<div class="item">
-  <div class="testimony-wrap d-flex">
-    <div class="user-img" style="background-image: url(images/person_4.jpg)">
-    </div>
-    <div class="text pl-4">
-     <span class="quote d-flex align-items-center justify-content-center">
-      <i class="fa fa-quote-left"></i>
-    </span>
-    <p class="rate">
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-   </p>
-   <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-   <p class="name">Benjie Busk Jr.</p>
-   <span class="position">Businesswoman</span>
- </div>
-</div>
-</div>
-<div class="item">
-  <div class="testimony-wrap d-flex">
-    <div class="user-img" style="background-image: url(images/person_1.jpg)">
-    </div>
-    <div class="text pl-4">
-     <span class="quote d-flex align-items-center justify-content-center">
-      <i class="fa fa-quote-left"></i>
-    </span>
-    <p class="rate">
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-     <span class="fa fa-star"></span>
-   </p>
-   <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-   <p class="name">Ken Bosh</p>
-   <span class="position">Businesswoman</span>
- </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-<section class="ftco-hireme bg-secondary">
- <div class="container">
-  <div class="row justify-content-between">
-   <div class="col-md-8 col-lg-8 d-flex align-items-center">
-    <div class="w-100">
-     <h2>Best Way to Make a Difference in the Lives of Others</h2>
-   </div>
- </div>
- <div class="col-md-4 col-lg-4 d-flex align-items-center justify-content-end">
-  <p class="mb-0"><a href="#" class="btn btn-primary py-3 px-4">Become A Volunteer</a></p>
-</div>
-</div>
-</div>
-</section>
-
-
-<footer class="footer">
- <div class="container">
-  <div class="row">
-   <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-    <h2 class="footer-heading">Unicare.</h2>
-    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-    <ul class="ftco-footer-social p-0">
-      <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
-      <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
-      <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
-    </ul>
-    <p><a href="#" class="btn btn-quarternary">Donate Now</a></p>
-  </div>
-  <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-    <h2 class="footer-heading">Latest News</h2>
-    <div class="block-21 mb-4 d-flex">
-      <a class="img mr-4 rounded" style="background-image: url(images/image_1.jpg);"></a>
-      <div class="text">
-        <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-        <div class="meta">
-          <div><a href="#">Jul 20, 2020</a></div>
-          <div><a href="#">Admin</a></div>
-          <div><a href="#">19</a></div>
-        </div>
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row justify-content-center pb-5">
+      <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
+        <span class="subheading">Testimonials</span>
+        <h2>Voices from Our Journey</h2>
       </div>
     </div>
-    <div class="block-21 mb-4 d-flex">
-      <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
-      <div class="text">
-        <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-        <div class="meta">
-          <div><a href="#">Jul 20, 2020</a></div>
-          <div><a href="#">Admin</a></div>
-          <div><a href="#">19</a></div>
+    <div class="row ftco-animate">
+      <div class="col-md-12">
+        <div class="carousel-testimony owl-carousel">
+
+          <!-- Unmesh -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team-1.jpg)">
+              </div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“Unmesh opened my mind to new ways of thinking about literature and philosophy. 
+                It felt like an intellectual festival where ideas flowed as freely as music.”</p>
+                <p class="name">Ananya Chatterjee</p>
+                <span class="position">Professor, Kolkata</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chhandovani -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team-2.jpg)">
+              </div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“Through Chhandovani, I reconnected with my roots in dance and rhythm. 
+                The blend of Indian values with contemporary movement was truly inspiring.”</p>
+                <p class="name">Riya Naik</p>
+                <span class="position">Classical Dancer, Goa</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Utsav -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team-3.jpg)">
+              </div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“UTSAV brought together people from all walks of life. 
+                The music, theatre, and art created a true spirit of unity and celebration.”</p>
+                <p class="name">Rohit Verma</p>
+                <span class="position">Theatre Artist, Delhi</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tapovan -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team-4.jpg)">
+              </div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“Tapovan gave us a platform to work on inclusive growth. 
+                The workshops on youth empowerment and culture left a lasting mark on our community.”</p>
+                <p class="name">Maria D’Souza</p>
+                <span class="position">Social Worker, Goa</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Extra Testimonial -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team-5.jpg)">
+              </div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“Being part of Ganga Zuari’s initiatives has been transformative. 
+                It is more than culture — it is about creating belonging and community.”</p>
+                <p class="name">Sayan Mukherjee</p>
+                <span class="position">Writer, Bengaluru</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Additional 1 -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team-6.jpg)">
+              </div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“The youth programs under Tapovan inspired my students to take pride in their culture while dreaming big for the future.”</p>
+                <p class="name">Neha Patil</p>
+                <span class="position">School Teacher, Pune</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Additional 2 -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team-7.jpg)">
+              </div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“At UTSAV, I saw traditions from Bengal and Goa come together in perfect harmony. It reminded me of India’s true strength — unity in diversity.”</p>
+                <p class="name">Arindam Ghosh</p>
+                <span class="position">Entrepreneur, Kolkata</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Additional 3 -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team-8.jpg)">
+              </div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“Chhandovani gave my daughter the confidence to perform on stage for the first time. It was a proud moment for our family.”</p>
+                <p class="name">Sunil Shenoy</p>
+                <span class="position">Parent, Mangalore</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Additional 4 -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team-9.jpg)">
+              </div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“Unmesh showed me how literature can be a bridge between generations. 
+                My father and I attended together, and it sparked conversations we never had before.”</p>
+                <p class="name">Aditi Mehra</p>
+                <span class="position">Student, Mumbai</span>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
-  <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
-    <h2 class="footer-heading">Quick Links</h2>
-    <ul class="list-unstyled">
-      <li><a href="#" class="py-2 d-block">Home</a></li>
-      <li><a href="#" class="py-2 d-block">About</a></li>
-      <li><a href="#" class="py-2 d-block">Causes</a></li>
-      <li><a href="#" class="py-2 d-block">New Campaigns</a></li>
-      <li><a href="#" class="py-2 d-block">Blog</a></li>
-      <li><a href="#" class="py-2 d-block">Contact</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-    <h2 class="footer-heading">Have a Questions?</h2>
-    <div class="block-23 mb-3">
-      <ul>
-        <li><span class="icon fa fa-map"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-        <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-        <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@yourdomain.com</span></a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-<div class="row mt-5">
-  <div class="col-md-12 text-center">
-
-    <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
-      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-    </div>
-  </div>
-</div>
-</footer>
+</section>
 
 
 
 
-<!-- loader -->
-<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+<?php 
 
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery-migrate-3.0.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/jquery.animateNumber.min.js"></script>
-<script src="js/bootstrap-datepicker.js"></script>
-<script src="js/jquery.timepicker.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/scrollax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-<script src="js/google-map.js"></script>
-<script src="js/main.js"></script>
+include_once('footer.php');
 
-</body>
-</html>
+?>
