@@ -705,6 +705,80 @@ include_once('testimonials.php');
 </section>
 
 
+<section class="ftco-counter" id="section-partners" style="background-color:#111;">
+ <div class="container">
+  <div class="row">
+  
+   <!-- Intro Text -->
+   <div class="col-md-3 mb-5 mb-md-0 text-center text-md-left">
+    <h2 class="font-weight-bold" style="color: #fff; font-size: 22px;">
+      Our Partners & Supporters
+     </div>
+  
+   <!-- Logos Carousel -->
+   <div class="col-md-9">
+     <div class="partner-logos">
+       <div class="logos-track">
+        
+         <img src="images/logos/goa.jpeg" alt="Directorate of Art & Culture Goa">
+         <img src="images/logos/goat.jpeg" alt="Goa Tourism Development Corporation">
+         <img src="images/logos/kala-academy.png" alt="Kala Academy Goa">
+         <img src="images/logos/wallace.png" alt="Wallace Pharmaceuticals Goa">
+         <img src="images/logos/bluecross.png" alt="BlueCross Pharmaceuticals Goa">
+         <img src="images/logos/rajdeep.png" alt="Rajdeep Builders Goa">
+         <img src="images/logos/drag.png" alt="DRAG Clothing Goa">
+         <img src="images/logos/pnb.png" alt="Punjab National Bank Goa">
+         <img src="images/logos/acgl.png" alt="Automobile Corporation of Goa">
+         <img src="images/logos/bandhan.png" alt="Bandhan Bank Goa">
+         
+         <!-- duplicate logos for seamless loop -->
+         <img src="images/logos/goa.jpeg" alt="">
+         <img src="images/logos/goat.jpeg" alt="">
+         <img src="images/logos/kala-academy.png" alt="">
+         <img src="images/logos/wallace.png" alt="">
+         <img src="images/logos/bluecross.png" alt="">
+         <img src="images/logos/rajdeep.png" alt="">
+         <img src="images/logos/drag.png" alt="">
+         <img src="images/logos/pnb.png" alt="">
+         <img src="images/logos/acgl.png" alt="">
+         <img src="images/logos/bandhan.png" alt="">
+         
+       </div>
+     </div>
+   </div>
+   
+  </div>
+ </div>
+</section>
+
+<!-- CSS -->
+<style>
+.partner-logos {
+  overflow: hidden;
+  position: relative;
+}
+
+.logos-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+.logos-track img {
+  height: 60px;
+  margin: 0 40px;
+  flex-shrink: 0;
+  /* removed filter so logos stay in original color */
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+</style>
+
+
+
 <?php 
 include_once('footer.php');
 ?>

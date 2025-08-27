@@ -1454,9 +1454,6 @@ include_once('head_nav.php');
   </div>
 </section>
 
-
-
-
 <section class="ftco-counter" id="section-partners" style="background-color:#111;">
  <div class="container">
   <div class="row">
@@ -1465,35 +1462,36 @@ include_once('head_nav.php');
    <div class="col-md-3 mb-5 mb-md-0 text-center text-md-left">
     <h2 class="font-weight-bold" style="color: #fff; font-size: 22px;">
       Our Partners & Supporters
-    </h2>
-    <p style="color:#ddd;">Together with government bodies, institutions, and enterprises, Ganga Zuari Academy continues to grow its cultural and social impact.</p>
-  </div>
+     </div>
   
    <!-- Logos Carousel -->
    <div class="col-md-9">
      <div class="partner-logos">
-       <div class="logos-slide">
-         <img src="images/logos/ministry-culture.png" alt="Ministry of Culture Goa">
-         <img src="images/logos/art-culture-goa.png" alt="Directorate of Art & Culture Goa">
-         <img src="images/logos/goa-tourism.png" alt="Goa Tourism Development Corporation">
-         <img src="images/logos/dept-tourism-goa.png" alt="Dept. of Tourism Goa">
+       <div class="logos-track">
+        
+         <img src="images/logos/goa.jpeg" alt="Directorate of Art & Culture Goa">
+         <img src="images/logos/goat.jpeg" alt="Goa Tourism Development Corporation">
          <img src="images/logos/kala-academy.png" alt="Kala Academy Goa">
-         <img src="images/logos/csir.png" alt="CSIR NIO Goa">
          <img src="images/logos/wallace.png" alt="Wallace Pharmaceuticals Goa">
          <img src="images/logos/bluecross.png" alt="BlueCross Pharmaceuticals Goa">
          <img src="images/logos/rajdeep.png" alt="Rajdeep Builders Goa">
          <img src="images/logos/drag.png" alt="DRAG Clothing Goa">
          <img src="images/logos/pnb.png" alt="Punjab National Bank Goa">
          <img src="images/logos/acgl.png" alt="Automobile Corporation of Goa">
-         <img src="images/logos/taleigao.png" alt="Taleigao Panchayat Goa">
-         <img src="images/logos/vaibhavi.png" alt="Vaibhavi Enterprises Goa">
-         <img src="images/logos/kohinoor.png" alt="Kohinoor Enterprises Goa">
-         <img src="images/logos/laxmi-industries.png" alt="Laxmi Industries Goa">
-         <img src="images/logos/tv-plastics.png" alt="T.V. Plastics Goa">
-         <img src="images/logos/sb-enterprises.png" alt="S.B. Enterprises Goa">
-         <img src="images/logos/corrosion.png" alt="Corrosion Control & Insulation Services Goa">
-         <img src="images/logos/stay-sharp.png" alt="Stay Sharp Diamond Tools Goa">
-         <img src="images/logos/bandhan.png" alt="Bandhan Bank goa">
+         <img src="images/logos/bandhan.png" alt="Bandhan Bank Goa">
+         
+         <!-- duplicate logos for seamless loop -->
+         <img src="images/logos/goa.jpeg" alt="">
+         <img src="images/logos/goat.jpeg" alt="">
+         <img src="images/logos/kala-academy.png" alt="">
+         <img src="images/logos/wallace.png" alt="">
+         <img src="images/logos/bluecross.png" alt="">
+         <img src="images/logos/rajdeep.png" alt="">
+         <img src="images/logos/drag.png" alt="">
+         <img src="images/logos/pnb.png" alt="">
+         <img src="images/logos/acgl.png" alt="">
+         <img src="images/logos/bandhan.png" alt="">
+         
        </div>
      </div>
    </div>
@@ -1506,25 +1504,27 @@ include_once('head_nav.php');
 <style>
 .partner-logos {
   overflow: hidden;
-  white-space: nowrap;
   position: relative;
 }
-.logos-slide {
-  display: inline-block;
+
+.logos-track {
+  display: flex;
+  width: max-content;
   animation: scroll 30s linear infinite;
 }
-.logos-slide img {
+
+.logos-track img {
   height: 60px;
   margin: 0 40px;
-  display: inline-block;
-  filter: brightness(0) invert(1); /* makes logos white-ish for dark bg */
+  flex-shrink: 0;
+  /* removed filter so logos stay in original color */
 }
+
 @keyframes scroll {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 </style>
-
 
 
 

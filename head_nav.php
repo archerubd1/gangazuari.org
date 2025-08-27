@@ -124,9 +124,9 @@
         <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" id="eventsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events & Media</a>
           <div class="dropdown-menu" aria-labelledby="eventsDropdown">
-            <a class="dropdown-item" href="upcoming-events.php">Upcoming Events</a>
-            <a class="dropdown-item" href="past-events.php">Past Events</a>
-            <a class="dropdown-item" href="media-gallery.php">Media Gallery</a>
+            <a class="dropdown-item" href="events.php">Upcoming Events</a>
+            <a class="dropdown-item" href="press.php">Mention in Press</a>
+            <a class="dropdown-item" href="gallery.php">Gallery</a>
           </div>
         </li>
 
@@ -136,6 +136,7 @@
           <div class="dropdown-menu" aria-labelledby="researchDropdown">
             <a class="dropdown-item" href="blogs.php">Blogs</a>
             <a class="dropdown-item" href="publications.php">Publications</a>
+			<a class="dropdown-item" href="research.php">Research</a>
            
           </div>
         </li>
