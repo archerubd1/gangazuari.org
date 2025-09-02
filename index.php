@@ -3,24 +3,29 @@ $page='home';
 include_once('head_nav.php');
 ?>
 
-	
-	<section class="hero-wrap js-fullheight">
+
+
+<section class="hero-wrap js-fullheight">
   <div class="home-slider js-fullheight owl-carousel">
 
     <!-- Slide 1 -->
-    <div class="slider-item js-fullheight" style="background-image:url(images/banner1.jpg);">
+    <div class="slider-item js-fullheight" style="background-image:url(images/2025/4.jpg);">
       <div class="overlay-1"></div><div class="overlay-2"></div><div class="overlay-3"></div><div class="overlay-4"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center">
           <div class="col-md-10 col-lg-7 ftco-animate">
             <div class="text w-100">
-              <h2>Celebrating Culture, Building Unity</h2>
-              <h1 class="mb-3">The Ganga Zuari Academy: Where Harmony Grows</h1>
+              <h2>From Local Roots to Global Connections</h2>
+              <h1 class="mb-3">The Ganga Zuari Academy: Bridging Communities Worldwide</h1>
               <div class="d-flex meta">
-                <div class="">
-                  <p class="mb-0"><a href="volunteer.php" class="btn btn-secondary py-3 px-2 px-md-4">Join As Volunteer</a></p>
+                <div>
+                  <p class="mb-0">
+                    <a href="volunteer.php" class="btn btn-secondary py-3 px-2 px-md-4">Join As Volunteer</a>
+                  </p>
                 </div>
-                <a href="https://youtu.be/samplevideo" class="d-flex align-items-center button-link" target="_blank">
+                <a href="#" class="d-flex align-items-center button-link" 
+                   data-toggle="modal" data-target="#videoModal" 
+                   data-video="https://www.youtube.com/embed/szVNhowVfss">
                   <div class="button-video d-flex align-items-center justify-content-center">
                     <span class="fa fa-play"></span>
                   </div>
@@ -34,19 +39,23 @@ include_once('head_nav.php');
     </div>
 
     <!-- Slide 2 -->
-    <div class="slider-item js-fullheight" style="background-image:url(images/banner2.jpg);">
+    <div class="slider-item js-fullheight" style="background-image:url(images/2025/7.jpg);">
       <div class="overlay-1"></div><div class="overlay-2"></div><div class="overlay-3"></div><div class="overlay-4"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center">
           <div class="col-md-10 col-lg-7 ftco-animate">
             <div class="text w-100">
-              <h2>Preserving Traditions</h2>
-              <h1 class="mb-3">Inclusive Growth Through Art & Culture</h1>
+              <h2>Honoring Traditions, Inspiring the World</h2>
+              <h1 class="mb-3">Cultural Exchange for Global Harmony</h1>
               <div class="d-flex meta">
-                <div class="">
-                  <p class="mb-0"><a href="programs.php" class="btn btn-secondary py-3 px-2 px-md-4">Explore Programs</a></p>
+                <div>
+                  <p class="mb-0">
+                    <a href="programs.php" class="btn btn-secondary py-3 px-2 px-md-4">Explore Programs</a>
+                  </p>
                 </div>
-                <a href="https://youtu.be/samplevideo" class="d-flex align-items-center button-link" target="_blank">
+                <a href="#" class="d-flex align-items-center button-link" 
+                   data-toggle="modal" data-target="#videoModal" 
+                   data-video="https://www.youtube.com/embed/WPvoGVTwXi0">
                   <div class="button-video d-flex align-items-center justify-content-center">
                     <span class="fa fa-play"></span>
                   </div>
@@ -60,23 +69,27 @@ include_once('head_nav.php');
     </div>
 
     <!-- Slide 3 -->
-    <div class="slider-item js-fullheight" style="background-image:url(images/banner3.jpg);">
+    <div class="slider-item js-fullheight" style="background-image:url(images/2025/19.jpg);">
       <div class="overlay-1"></div><div class="overlay-2"></div><div class="overlay-3"></div><div class="overlay-4"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center">
           <div class="col-md-10 col-lg-7 ftco-animate">
             <div class="text w-100">
-              <h2>Together for a Better Tomorrow</h2>
-              <h1 class="mb-3">Fostering Social Harmony in Goa & Beyond</h1>
+              <h2>Local Voices, Global Harmony</h2>
+              <h1 class="mb-3">Growing Across Continents for a Better Tomorrow</h1>
               <div class="d-flex meta">
-                <div class="">
-                  <p class="mb-0"><a href="donate.php" class="btn btn-secondary py-3 px-2 px-md-4">Support Our Cause</a></p>
+                <div>
+                  <p class="mb-0">
+                    <a href="donate.php" class="btn btn-secondary py-3 px-2 px-md-4">Support Our Cause</a>
+                  </p>
                 </div>
-                <a href="https://youtu.be/samplevideo" class="d-flex align-items-center button-link" target="_blank">
+                <a href="#" class="d-flex align-items-center button-link" 
+                   data-toggle="modal" data-target="#videoModal" 
+                   data-video="https://www.youtube.com/embed/pp10KSmKJ2g">
                   <div class="button-video d-flex align-items-center justify-content-center">
                     <span class="fa fa-play"></span>
                   </div>
-                  <span>Learn More</span>
+                  <span>Explore</span>
                 </a>
               </div>
             </div>
@@ -88,188 +101,315 @@ include_once('head_nav.php');
   </div>
 </section>
 
-
-	<section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      
-      <!-- Donation Form -->
-      <div class="col-md-5 order-md-last d-flex align-items-stretch">
-        <div class="donation-wrap">
-          <div class="total-donate d-flex align-items-center">
-            <span class="fa fa-heart"></span>
-            <h4>Donation Campaigns <br>are ongoing</h4>
-            <p class="d-flex align-items-center">
-              <span>₹</span>
-              <span class="number" data-number="2478100">0</span>
-            </p>
-          </div>
-          <form action="#" class="appointment">
-            <div class="row">
-              
-              <!-- Name -->
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label for="name">Full Name</label>
-                  <div class="input-wrap">
-                    <div class="icon"><span class="fa fa-user"></span></div>
-                    <input type="text" class="form-control" placeholder="">
-                  </div>
-                </div>
-              </div>
-              
-              <!-- Email -->
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label for="email">Email Address</label>
-                  <div class="input-wrap">
-                    <div class="icon"><span class="fa fa-paper-plane"></span></div>
-                    <input type="email" class="form-control" placeholder="">
-                  </div>
-                </div>
-              </div>
-              
-              <!-- Causes -->
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label for="cause">Select Cause</label>
-                  <div class="form-field">
-                    <div class="select-wrap">
-                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                      <select name="cause" id="cause" class="form-control">
-                        <option value="">Choose a cause...</option>
-                        <option value="unmesh">Unmesh – Literary Initiatives</option>
-                        <option value="chhandovani">Chhandovani – Musical Heritage</option>
-                        <option value="utsav">Utsav – Cultural Festivals</option>
-                        <option value="tapovan">Tapovan – Youth & Learning</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <!-- Amount -->
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label for="amount">Donation Amount (INR)</label>
-                  <div class="input-wrap">
-                    <div class="icon"><span class="fa fa-inr"></span></div>
-                    <input type="text" class="form-control" placeholder="₹500">
-                  </div>
-                </div>
-              </div>
-              
-              <!-- Payment Method -->
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label for="payment">Payment Method</label>
-                  <div class="d-lg-flex">
-                    <div class="form-radio mr-3">
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="payment" checked>
-                          <span class="checkmark"></span>
-                          <span class="fill-control-description">UPI / Netbanking</span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="form-radio mr-3">
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="payment">
-                          <span class="checkmark"></span>
-                          <span class="fill-control-description">Credit / Debit Card</span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="form-radio">
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="payment">
-                          <span class="checkmark"></span>
-                          <span class="fill-control-description">Bank Transfer</span>
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <!-- Submit -->
-              <div class="col-md-12">
-                <div class="form-group">
-                  <input type="submit" value="Donate Now" class="btn btn-secondary py-3 px-4">
-                </div>
-              </div>
-              
-            </div>
-          </form>
-        </div>
-      </div>
-      
-  <!-- About GZA -->
-<div class="col-md-7 wrap-about py-5">
-  <div class="heading-section pr-md-5 pt-md-5">
-    <span class="subheading">Welcome to The Ganga Zuari Academy</span>
-    <h2 class="mb-4">A Vibrant Cultural Think Tank for 2025–2028</h2>
-    <p>
-      The Ganga Zuari Academy (GZA) is a vibrant cultural organization that connects diverse 
-      traditions of India and abroad. Under the leadership of 
-      <strong>Mr. Manguirish Pai Raiker</strong>, who was elected President at the Annual General Meeting on 
-      <strong>29 June 2025</strong>, the Academy embarks on an exciting new chapter (2025–2028).
-    </p>
-    <p>
-      The 9-member Governing Presidium includes respected figures such as Mr. Rajesh Tarcar and 
-      Dr. Dinesh Verma (Vice Presidents), Ranadhir Mukhopadhyay (General Secretary), 
-      and Saurav Roy (Treasurer), with support from Dr. Neeta Hede Mazumdar (Joint Secretary). 
-      Event verticals are led by Dr. Anil Chatterjee <em>(Chhandovani)</em>, 
-      Somnath Sarkar <em>(Unmesh)</em>, and Devinder Anand <em>(Utsav)</em>.
-    </p>
-    <p>
-      With a vision to expand activities across Goa, including Margao and Vasco, 
-      the Academy is set to launch the annual <strong>GZA Cultural Stewardship Award</strong> in 2026. 
-      A year-round calendar of literary festivals, music and dance contests, culinary heritage 
-      events, youth forums, and the <em>Manavnama</em> workshop on human values will foster harmony 
-      and inclusivity across communities.
-    </p>
-  </div>
-
-  <div class="row my-md-5">
-    <div class="col-md-6 d-flex counter-wrap">
-      <div class="block-18 d-flex">
-        <div class="icon d-flex align-items-center justify-content-center">
-          <span class="flaticon-volunteer"></span>
-        </div>
-        <div class="desc">
-          <div class="text">
-            <strong class="number" data-number="120">0</strong>
-          </div>
-          <div class="text">
-            <span>Active Volunteers</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 d-flex counter-wrap">
-      <div class="block-18 d-flex">
-        <div class="icon d-flex align-items-center justify-content-center">
-          <span class="flaticon-piggy-bank"></span>
-        </div>
-        <div class="desc">
-          <div class="text">
-            <strong class="number" data-number="500000">0</strong>
-          </div>
-          <div class="text">
-            <span>Funds Raised (INR)</span>
-          </div>
-        </div>
+<!-- Video Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content bg-dark">
+      <!-- Close button -->
+      <button type="button" class="close text-white ml-auto mt-2 mr-2" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div class="modal-body p-0">
+        <iframe id="videoFrame" width="100%" height="500"
+                frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
       </div>
     </div>
   </div>
-
-  <p><a href="volunteer.php" class="btn btn-secondary btn-outline-secondary">Become A Volunteer</a></p>
 </div>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // Play video when modal opens
+  $('#videoModal').on('shown.bs.modal', function (event) {
+    var button = $(event.relatedTarget);
+    var videoSrc = button.data('video');
+    $('#videoFrame').attr('src', videoSrc + "?autoplay=1&mute=1&rel=0&modestbranding=1");
+  });
+
+  // Stop video when modal closes
+  $('#videoModal').on('hidden.bs.modal', function () {
+    $('#videoFrame').attr('src', '');
+  });
+</script>
+
+
+
+<!-- Include Uicons CDN -->
+<link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+
+<section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img" style="padding-top:0; padding-bottom:0;">
+  <div class="overlay"></div>
+  <div class="container py-4">
+    <div class="row g-4">
+
+      <!-- Testimonials Section -->
+      <div class="col-md-5 order-md-last d-flex align-items-start">
+        <div class="testimonial-wrap p-3 bg-light w-100 overflow-hidden">
+          <h4 class="mb-3"><span class="fa fa-comments"></span> What People Say</h4>
+
+          <div class="testimonial-container">
+            <div class="testimonial-list">
+
+              <!-- Testimonial Items -->
+              <div class="testimonial-item d-flex mb-3">
+                <img src="images/team/f1.jpg" alt="Riya Sharma" class="testimonial-img">
+                <div class="testimonial-text">
+                  <p>“The Academy gave me a platform to explore art and culture. Truly life-changing!”</p>
+                  <strong>- Riya Sharma</strong>
+                </div>
+              </div>
+
+              <div class="testimonial-item d-flex mb-3">
+                <img src="images/team/m1.jpg" alt="Arjun Mehta" class="testimonial-img">
+                <div class="testimonial-text">
+                  <p>“Volunteering here connected me with people from all over the world.”</p>
+                  <strong>- Arjun Mehta</strong>
+                </div>
+              </div>
+
+              <div class="testimonial-item d-flex mb-3">
+                <img src="images/team/f1.jpg" alt="Leena D’Souza" class="testimonial-img">
+                <div class="testimonial-text">
+                  <p>“Their cultural festivals are a beautiful blend of tradition and modern creativity.”</p>
+                  <strong>- Leena D’Souza</strong>
+                </div>
+              </div>
+
+              <div class="testimonial-item d-flex mb-3">
+                <img src="images/team/m1.jpg" alt="Karan Singh" class="testimonial-img">
+                <div class="testimonial-text">
+                  <p>“I met lifelong friends through their youth programs.”</p>
+                  <strong>- Karan Singh</strong>
+                </div>
+              </div>
+			  
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Section -->
+<div class="col-md-7 wrap-about pt-0">
+  <div class="heading-section pe-md-3">
+    <span class="subheading">Welcome to The Ganga Zuari Academy</span>
+    <h2 class="mb-3">A Global Cultural Think Tank</h2>
+    <p>
+      The <strong>Ganga Zuari Academy (GZA)</strong> is a cultural platform that unites traditions, ideas, and communities. 
+      Rooted in India’s heritage and open to the world, GZA serves as a hub for dialogue, creativity, and collaboration across borders.
+    </p>
+    <p>
+      Guided by dedicated Presidium leaders and event verticals like <em>Chhandovani</em> (music), <em>Unmesh</em> (literature), and <em>Utsav</em> (festivals), 
+      the Academy curates programs that blend classical wisdom with contemporary expression. From performances and literary forums to culinary showcases and youth engagement, 
+      every initiative fosters cultural understanding and human values.
+    </p>
+
+   <p><strong>We at GZA</strong> are committed to creating meaningful global impact through our initiatives:</p>
+<ul class="list-unstyled ms-3"> 
+  <li>🌍 <strong>Connect cultures globally</strong> through programs in music, literature, festivals, and art.</li>
+  <li>🤝 <strong>Facilitate cross-border dialogues</strong> to advance peace, inclusivity, and mutual respect.</li>
+  <li>📚 <strong>Serve as a knowledge hub</strong> by driving research, workshops, and international cultural exchange.</li>
+  <li>💡 <strong>Ignite creativity</strong> by merging traditional wisdom with contemporary innovation.</li>
+  <li>🎯 <strong>Empower youth</strong> to become cultural ambassadors and global changemakers.</li>
+  <li>🌱 <strong>Promote sustainable cultural development</strong> aligned with international goals and values.</li>
+</ul>
+
+
+    
+  </div>
+</div>
+
+
+	  
+
+    </div>
+  </div>
+</section>
+
+<!-- CSS for Testimonials -->
+<style>
+.testimonial-wrap {
+  height: auto; /* removed fixed height */
+}
+
+.testimonial-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* spacing between items */
+}
+
+.testimonial-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  background: #fff;
+  border-left: 4px solid #6c63ff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}
+
+.testimonial-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  border: 2px solid #6c63ff;
+}
+
+.testimonial-text p {
+  margin: 0 0 5px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.testimonial-text strong {
+  font-size: 13px;
+  color: #555;
+}
+</style>
+
+
+
+<section class="ftco-section ftco-no-pt ftco-no-pb">
+  <div class="container">
+    <div class="row no-gutters">
+      
+      <!-- Connecting Cultures -->
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="services">
+          <div class="text text-center bg-primary">
+            <h3>Connecting <br>Cultures</h3>
+            <p>We celebrate cultural diversity by creating opportunities for people from 
+               different backgrounds to come together, learn from one another, and 
+               build mutual respect. </p>
+            <p>Our initiatives foster inclusivity and strengthen the bonds of a 
+               shared global community.</p>
+          </div>
+          <div class="img border-1" style="background-image: url(images/connect.jpg);">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="flaticon-ecological"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Igniting Ideas -->
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="services">
+          <div class="text text-center bg-tertiary">
+            <h3>Igniting <br>Ideas</h3>
+            <p>We empower individuals and communities to turn creativity into action. 
+               By supporting innovation and cultural entrepreneurship, we transform 
+               ideas into solutions that make a global impact. </p>
+            <p>Our work inspires new ways of thinking to address challenges in 
+               sustainability, inclusion, and human development.</p>
+          </div>
+          <div class="img border-3" style="background-image: url(images/ideas.jpg);">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="flaticon-donation"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+	  
+      <!-- Fostering Dialogues -->
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="services">
+          <div class="text text-center bg-secondary">
+            <h3>Fostering <br>Dialogues</h3>
+            <p>Through international exchanges, forums, and collaborations, we create 
+               platforms for dialogue that address pressing global challenges. </p>
+            <p>By encouraging conversations across cultures and disciplines, we build 
+               understanding and inspire collective action for a better future.</p>
+          </div>
+          <div class="img border-2" style="background-image: url(images/dialogue.jpg);">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="flaticon-volunteer"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+</section>
+
+<section class="ftco-section ftco-no-pt ftco-no-pb">
+  <div class="container">
+    <div class="row no-gutters">
+      
+      <!-- Connecting Cultures -->
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="services">
+          <div class="text text-center bg-primary">
+            <h3>Connecting <br>Cultures</h3>
+            <ul class="list-unstyled">
+              <li>🌍 Celebrate global diversity</li>
+              <li>🤝 Build mutual respect & trust</li>
+              <li>🌐 Promote cultural exchange programs</li>
+              <li>🎭 Share art, music & traditions worldwide</li>
+              <li>📚 Encourage intercultural learning</li>
+              <li>🕊️ Strengthen unity through shared values</li>
+            </ul>
+          </div>
+          <div class="img border-1" style="background-image: url(images/connect.jpg);">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="flaticon-ecological"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fostering Dialogues -->
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="services">
+          <div class="text text-center bg-secondary">
+            <h3>Fostering <br>Dialogues</h3>
+            <ul class="list-unstyled">
+              <li>💬 Create global platforms for exchange</li>
+              <li>🌎 Address shared challenges collectively</li>
+              <li>🔗 Encourage cross-cultural collaboration</li>
+              <li>📢 Amplify voices of youth & communities</li>
+              <li>🤔 Promote critical thinking & empathy</li>
+              <li>📝 Document and share global learnings</li>
+            </ul>
+          </div>
+          <div class="img border-2" style="background-image: url(images/dialogue.jpg);">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="flaticon-volunteer"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Igniting Ideas -->
+      <div class="col-md-4 d-flex align-items-stretch">
+        <div class="services">
+          <div class="text text-center bg-tertiary">
+            <h3>Igniting <br>Ideas</h3>
+            <ul class="list-unstyled">
+              <li>💡 Inspire creativity & innovation</li>
+              <li>🚀 Transform ideas to solutions</li>
+              <li>🌱 Promote sustainability & green practices</li>
+              <li>📊 Cultural entrepreneurship</li>
+              <li>🎯 Empower communities with knowledge</li>
+              <li>🌐 Share scalable models for social impact</li>
+            </ul>
+          </div>
+          <div class="img border-3" style="background-image: url(images/ideas.jpg);">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="flaticon-donation"></span>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>
@@ -278,84 +418,58 @@ include_once('head_nav.php');
 
 
 
-<section class="ftco-section ftco-no-pb">
+<!-- Programs Section -->
+<section class="ftco-section ftco-no-pb" style="padding-top:2rem; padding-bottom:2rem;">
   <div class="container">
-    <div class="row justify-content-center pb-5 mb-3">
-      <div class="col-md-7 heading-section text-center ftco-animate">
-        <span class="subheading">What We Do</span>
-        <h2>Our Programs & Initiatives</h2>
+    <div class="row justify-content-center pb-3 mb-2">
+      <div class="col-md-7 heading-section text-center">
+        <span class="subheading">Activities</span>
+        <h2>Programs & Initiatives</h2>
       </div>
     </div>
-    <div class="row">
-      
-      <!-- UNMESH -->
+    <div class="row g-3">
+
+      <!-- Program Card -->
       <div class="col-md-6 col-lg-3">
-        <div class="causes causes-2 text-center ftco-animate">
+        <div class="causes causes-2 text-center">
           <a href="#" class="img w-100" style="background-image: url(images/unmesh.jpg);"></a>
           <div class="text p-3">
             <h2><a href="#">UNMESH</a></h2>
             <p>Exploring literature, language and philosophy through talks, seminars, and creative exchanges that foster critical thoughts.</p>
-            <div class="goal mb-4">
-              <p>Upcoming Events</p>
-              <div class="progress" style="height:20px">
-                <div class="progress-bar progress-bar-striped" style="width:100%; height:20px">Register Now</div>
-              </div>
-            </div>
-            <p><a href="#" class="btn btn-light w-100">Learn More</a></p>
+            <p><a href="#" class="btn btn-light w-100">Explore</a></p>
           </div>
         </div>
       </div>
 
-      <!-- CHHANDOVANI -->
       <div class="col-md-6 col-lg-3">
-        <div class="causes causes-2 text-center ftco-animate">
+        <div class="causes causes-2 text-center">
           <a href="#" class="img w-100" style="background-image: url(images/chann.jpg);"></a>
           <div class="text p-3">
-            <h2><a href="#">Chhandovani</a></h2>
+            <h2><a href="#">CHHANDOVANI</a></h2>
             <p>Promoting dance and music rooted in Indian values, with workshops and performances blending tradition and expression.</p>
-            <div class="goal mb-4">
-              <p>Upcoming Events</p>
-              <div class="progress" style="height:20px">
-                <div class="progress-bar progress-bar-striped" style="width:100%; height:20px">Register Now</div>
-              </div>
-            </div>
-            <p><a href="#" class="btn btn-light w-100">Learn More</a></p>
+            <p><a href="#" class="btn btn-light w-100">Explore</a></p>
           </div>
         </div>
       </div>
 
-      <!-- UTSAV -->
       <div class="col-md-6 col-lg-3">
-        <div class="causes causes-2 text-center ftco-animate">
+        <div class="causes causes-2 text-center">
           <a href="#" class="img w-100" style="background-image: url(images/utsav.jpg);"></a>
           <div class="text p-3">
             <h2><a href="#">UTSAV</a></h2>
             <p>Annual cultural festivals celebrating art, music, theatre, and traditions — strengthening bonds of community and inclusivity.</p>
-            <div class="goal mb-4">
-              <p>Upcoming Events</p>
-              <div class="progress" style="height:20px">
-                <div class="progress-bar progress-bar-striped" style="width:100%; height:20px">Register Now</div>
-              </div>
-            </div>
-            <p><a href="#" class="btn btn-light w-100">Learn More</a></p>
+            <p><a href="#" class="btn btn-light w-100">Explore</a></p>
           </div>
         </div>
       </div>
 
-      <!-- TAPOVAN -->
       <div class="col-md-6 col-lg-3">
-        <div class="causes causes-2 text-center ftco-animate">
+        <div class="causes causes-2 text-center">
           <a href="#" class="img w-100" style="background-image: url(images/tapovan.jpg);"></a>
           <div class="text p-3">
-            <h2><a href="#">Tapovan</a></h2>
-            <p>A sister organization fostering inclusive socio-economic growth, youth empowerment, and cultural training in Goa and beyond.</p>
-            <div class="goal mb-4">
-              <p>Upcoming Events</p>
-              <div class="progress" style="height:20px">
-                <div class="progress-bar progress-bar-striped" style="width:100%; height:20px">Register Now</div>
-              </div>
-            </div>
-            <p><a href="#" class="btn btn-light w-100">Learn More</a></p>
+            <h2><a href="#">KSHITIJ</a></h2>
+            <p>fglkfgjfd gfdlkgjfdgjfdl ffdgj gfjdlgfdgfdgfd g </p>
+            <p><a href="#" class="btn btn-light w-100">Explore</a></p>
           </div>
         </div>
       </div>
@@ -442,7 +556,7 @@ include_once('head_nav.php');
 
 <?php
 
-include_once('testimonials.php');
+//include_once('testimonials.php');
 ?>
 
 
@@ -451,8 +565,8 @@ include_once('testimonials.php');
   <div class="container">
     <div class="row justify-content-center pb-5 mb-3">
       <div class="col-md-7 heading-section text-center ftco-animate">
-        <span class="subheading">Our Blog</span>
-        <h2>Latest Stories & Updates</h2>
+        <span class="subheading">Where stories find their hues and paintings find their voices</span>
+        <h2>Mélange</h2>
       </div>
     </div>
     <div class="row d-flex">
@@ -597,110 +711,242 @@ include_once('testimonials.php');
         <h2>Key People Who Make It Happen</h2>
       </div>
     </div>
-    <div class="row">
+	
+	
+   <div class="row text-center">
 
-      <!-- Person 1 -->
-      <div class="col-md-6 col-lg-3">
-        <div class="volunteer flip-card">
-          <div class="flip-card-inner">
-
-            <!-- Front Side -->
-            <div class="flip-card-front">
-              <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
-              <div class="text text-1">
-                <h3>Manguirish Pai Raikar</h3>
-                <span>President</span>
-              </div>
-            </div>
-
-            <!-- Back Side -->
-            <div class="flip-card-back">
-              <h4>Manguirish Pai Raikar</h4>
-              <p>Cultural historian and community leader, driving initiatives to preserve Goa’s artistic heritage while fostering cross-regional collaboration.</p>
-              <div class="social-icons d-flex justify-content-center">
-                <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </div>
-            </div>
-
+  <!-- Person 1 -->
+  <div class="col-md-6 col-lg">
+    <div class="volunteer flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="text">
+            <h3>Manguirish Pai Raikar</h3>
+            <span>President</span>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <h4>Manguirish Pai Raikar</h4>
+          <p>Cultural historian and community leader, driving initiatives to preserve artistic heritage while fostering global collaboration.</p>
+          <div class="social-icons d-flex justify-content-center">
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-instagram"></span></a>
           </div>
         </div>
       </div>
-
-      <!-- Person 2 -->
-      <div class="col-md-6 col-lg-3">
-        <div class="volunteer flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
-              <div class="text text-2">
-                <h3>Rajesh Tarkar</h3>
-                <span>Vice President</span>
-              </div>
-            </div>
-            <div class="flip-card-back">
-              <h4>Rajesh Tarkar</h4>
-              <p>Social activist and educationist, committed to strengthening cultural ties between Goa and Bengal through arts and festivals.</p>
-              <div class="social-icons d-flex justify-content-center">
-                <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Person 3 -->
-      <div class="col-md-6 col-lg-3">
-        <div class="volunteer flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
-              <div class="text text-3">
-                <h3>Ranadhir Mukhopadhyay</h3>
-                <span>General Secretary</span>
-              </div>
-            </div>
-            <div class="flip-card-back">
-              <h4>Ranadhir Mukhopadhyay</h4>
-              <p>A passionate advocate for performing arts, she has curated several youth-led programs to encourage emerging artists.</p>
-              <div class="social-icons d-flex justify-content-center">
-                <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Person 4 -->
-      <div class="col-md-6 col-lg-3">
-        <div class="volunteer flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
-              <div class="text text-4">
-                <h3>Saurav Roy</h3>
-                <span>Treasurer</span>
-              </div>
-            </div>
-            <div class="flip-card-back">
-              <h4>Saurav Roy</h4>
-              <p>Finance professional ensuring transparency and sustainability in cultural projects, while supporting grassroots initiatives.</p>
-              <div class="social-icons d-flex justify-content-center">
-                <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
+  </div>
+
+  <!-- Person 2 -->
+  <div class="col-md-6 col-lg">
+    <div class="volunteer flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="text">
+            <h3>Rajesh Tarkar</h3>
+            <span>Vice President</span>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <h4>Rajesh Tarkar</h4>
+          <p>Social activist and educationist, committed to strengthening cultural ties through arts and festivals.</p>
+          <div class="social-icons d-flex justify-content-center">
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-instagram"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Person 4 -->
+  <div class="col-md-6 col-lg">
+    <div class="volunteer flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="text">
+            <h3>DV</h3>
+            <span>Joint Secretary</span>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <h4>DV</h4>
+          <p>Dedicated to fostering cultural diversity and mentoring initiatives that inspire future leaders in the arts.</p>
+          <div class="social-icons d-flex justify-content-center">
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-instagram"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Person 3 -->
+  <div class="col-md-6 col-lg">
+    <div class="volunteer flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="text">
+            <h3>Ranadhir Mukhopadhyay</h3>
+            <span>General Secretary</span>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <h4>Ranadhir Mukhopadhyay</h4>
+          <p>Passionate advocate for performing arts, curating youth-led programs to encourage emerging artists.</p>
+          <div class="social-icons d-flex justify-content-center">
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-instagram"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Person 5 -->
+  <div class="col-md-6 col-lg">
+    <div class="volunteer flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="text">
+            <h3>Hari Krishna Kaul</h3>
+            <span>Treasurer</span>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <h4>Hari Krishna Kaul</h4>
+          <p>Finance professional ensuring transparency and sustainability in projects, while supporting grassroots initiatives.</p>
+          <div class="social-icons d-flex justify-content-center">
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-instagram"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="row text-center mt-4">
+
+  <!-- Person 6 -->
+  <div class="col-md-6 col-lg-3">
+    <div class="volunteer flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="text">
+            <h3>Ashwin Mehta</h3>
+            <span>Program Director</span>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <h4>Ashwin Mehta</h4>
+          <p>Oversees cultural programs with a focus on global outreach, ensuring diversity and inclusivity in all initiatives.</p>
+          <div class="social-icons d-flex justify-content-center">
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-instagram"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Person 7 -->
+  <div class="col-md-6 col-lg-3">
+    <div class="volunteer flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="text">
+            <h3>Priya Sharma</h3>
+            <span>Communications Head</span>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <h4>Priya Sharma</h4>
+          <p>Leads global communications, building networks and amplifying GZA’s voice across international platforms.</p>
+          <div class="social-icons d-flex justify-content-center">
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-instagram"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Person 8 -->
+  <div class="col-md-6 col-lg-3">
+    <div class="volunteer flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="text">
+            <h3>Michael Rodrigues</h3>
+            <span>International Relations</span>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <h4>Michael Rodrigues</h4>
+          <p>Specialist in building partnerships with global cultural organizations and supporting cross-border collaborations.</p>
+          <div class="social-icons d-flex justify-content-center">
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-instagram"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Person 9 -->
+  <div class="col-md-6 col-lg-3">
+    <div class="volunteer flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="text">
+            <h3>Sofia Khan</h3>
+            <span>Outreach Coordinator</span>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <h4>Sofia Khan</h4>
+          <p>Coordinates outreach initiatives, engaging communities worldwide and ensuring meaningful participation in projects.</p>
+          <div class="social-icons d-flex justify-content-center">
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-instagram"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+	
+	
+	
+	
+	
   </div>
 </section>
 

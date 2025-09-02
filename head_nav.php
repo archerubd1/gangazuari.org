@@ -120,26 +120,56 @@
           </div>
         </li>
 
-        <!-- Events & Media Dropdown -->
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" id="eventsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events & Media</a>
-          <div class="dropdown-menu" aria-labelledby="eventsDropdown">
-            <a class="dropdown-item" href="events.php">Upcoming Events</a>
-            <a class="dropdown-item" href="press.php">Mention in Press</a>
-            <a class="dropdown-item" href="gallery.php">Gallery</a>
-          </div>
-        </li>
 
-        <!-- Research Dropdown -->
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" id="researchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
-          <div class="dropdown-menu" aria-labelledby="researchDropdown">
-            <a class="dropdown-item" href="blogs.php">Blogs</a>
-            <a class="dropdown-item" href="publications.php">Publications</a>
-			<a class="dropdown-item" href="research.php">Research</a>
-           
-          </div>
-        </li>
+
+<!-- GZA International Dropdown -->
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" id="gzaDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    GZA International
+  </a>
+  <div class="dropdown-menu" aria-labelledby="gzaDropdown">
+
+    <h6 class="dropdown-header">Our Global Vision</h6>
+    <a class="dropdown-item" href="overview.php">Overview</a>
+    <a class="dropdown-item" href="objectives.php">Objectives & Impact</a>
+    <a class="dropdown-item" href="partnerships.php">Global Partnerships</a>
+    <div class="dropdown-divider"></div>
+
+    <h6 class="dropdown-header">Programs with Global Reach</h6>
+    <a class="dropdown-item" href="unmesh.php">Unmesh</a>
+    <a class="dropdown-item" href="chhandovani.php">Chhandovani</a>
+    <a class="dropdown-item" href="utsav.php">Utsav</a>
+    <a class="dropdown-item" href="tapovan.php">Tapovan</a>
+    <div class="dropdown-divider"></div>
+
+    <h6 class="dropdown-header">Engage with Us</h6>
+    <a class="dropdown-item" href="insights.php">Insights & Resources</a>
+    <a class="dropdown-item" href="get-involved.php">Get Involved</a>
+    <a class="dropdown-item" href="contact.php">Contact Us</a>
+  </div>
+</li>
+
+       <!-- Insights & Resources Dropdown -->
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" id="insightsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Insights & Resources
+  </a>
+  <div class="dropdown-menu" aria-labelledby="insightsDropdown">
+    <!-- Events & Media -->
+    <h6 class="dropdown-header">Events & Media</h6>
+    <a class="dropdown-item" href="events.php">Upcoming Events</a>
+    <a class="dropdown-item" href="press.php">Mention in Press</a>
+    <a class="dropdown-item" href="gallery.php">Gallery</a>
+    <div class="dropdown-divider"></div>
+    
+    <!-- Research & Publications -->
+    <h6 class="dropdown-header">Research & Publications</h6>
+    <a class="dropdown-item" href="melange.php">Melange</a>
+    <a class="dropdown-item" href="publications.php">Publications</a>
+    <a class="dropdown-item" href="research.php">Research</a>
+  </div>
+</li>
+
 		
 		 <!-- About Us Dropdown -->
         <li class="nav-item dropdown">

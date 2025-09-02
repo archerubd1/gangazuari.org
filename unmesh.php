@@ -19,13 +19,16 @@ include_once('head_nav.php');
   <div class="container">
     <div class="row">
       <div class="col-lg-8 ftco-animate">
-        <h2 class="mb-3">Ganga Zuari Unmesh: Celebrating Literature, Language & Philosophy</h2>
+        <h2 class="mb-3">Unmesh: Celebrating Literature, Language & Philosophy</h2>
         <p>The Ganga Zuari Unmesh program is a confluence of minds, words, and ideas. It brings together writers, thinkers, and readers to explore the essence of literature and the philosophy that shapes human expression. This initiative is not just about reading—it’s about questioning, interpreting, and expanding horizons.</p>
-        <p>Our sessions embrace the depth of language and the beauty of philosophy, creating a dialogue that transcends boundaries. From classical texts to contemporary voices, Unmesh seeks to keep alive the spirit of inquiry and the art of storytelling that defines our shared culture.</p>
+        <p>Our sessions embrace the depth of language and the beauty of philosophy, creating a dialogue that transcends boundaries. From classical texts to contemporary voices, Unmesh seeks to keep alive the spirit of inquiry and the art of storytelling that defines our culture.</p>
         <h2 class="mb-3 mt-5">Exploring New Dimensions</h2>
-        <p>Unmesh isn’t a static program—it’s an evolving conversation. Through workshops, readings, and discussions, participants engage with themes that are both timeless and urgent: identity, ethics, society, and the power of imagination. Each interaction becomes a bridge between the personal and the universal.</p>
+        <p>Unmesh isn’t a static program—it’s an evolving conversation. Through workshops, readings, and discussions, participants engage with themes that are both 
+		timeless and urgent: identity, ethics, society, and the power of imagination. 
+		Each interaction becomes a bridge between the personal and the universal.</p>
         <p><img src="images/unmesh_discussion.jpg" alt="Philosophical Dialogue" class="img-fluid"></p>
-        <p>The journey of literature and philosophy is endless. At Ganga Zuari Unmesh, every dialogue is an invitation—to reflect, to challenge, and to grow. This isn’t just an event; it’s a movement of ideas flowing like the rivers it is named after.</p>
+        <p>The journey of literature and philosophy is endless. At Unmesh, every dialogue is an invitation—to reflect and introspect, to challenge, and to grow. 
+		This isn’t just an event; it’s a movement of ideas flowing like a river it is named after.</p>
         <div class="tag-widget post-tag-container mb-5 mt-5">
           <div class="tagcloud">
             <a href="#" class="tag-cloud-link">Literature</a>
@@ -36,7 +39,7 @@ include_once('head_nav.php');
         </div>
         <div class="about-author d-flex p-4 bg-light">
           <div class="bio mr-5">
-            <img src="images/unmesh_author.jpg" alt="Speaker photo" class="img-fluid mb-4">
+            <img src="images/team/m1.jpg" alt="Speaker photo" class="img-fluid mb-4">
           </div>
           <div class="desc">
             <h3>About the Unmesh Program</h3>
