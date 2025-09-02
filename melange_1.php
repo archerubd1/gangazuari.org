@@ -28,12 +28,23 @@ include_once('head_nav.php');
 
      <!-- Main Article -->
 <div class="col-lg-8 ftco-animate">
+
+  <!-- Translator -->
+  <div id="google_translate_element" class="mb-4"></div>
+
   <p>
     <img src="images/article_1.jpg" alt="Article Image" class="img-fluid">
   </p>
 
-  <h2 class="mb-3">বহু বিদ্যা, তীক্ষ্ণ বোধ, তথাপি নির্বোধ</h2>
-  <h5 class="mb-4">অরিজিৎ কথঞ্চিৎ</h5>
+  <h2 class="mb-3"> অরিজিৎ কথঞ্চিৎ</h2>
+  <h5 class="mb-4">বহু বিদ্যা, তীক্ষ্ণ বোধ, তথাপি নির্বোধ- ১<br>
+নির্বুদ্ধিতা- ব্যক্তিগত বনাম গোষ্ঠীগত</h5>
+ <p style="text-align: center;">
+  এক বিষয়ের পণ্ডিত যিনি, তীক্ষ্ণ বুদ্ধিমান,<br>
+  অন্য বিষয় বুঝতে গিয়ে হিমশিম খান।
+</p>
+
+
 
   <p>নির্বুদ্ধিতা- ব্যক্তিগত বনাম গোষ্ঠীগত</p>
   <p>এক বিষয়ের পণ্ডিত যিনি, তীক্ষ্ণ বুদ্ধিমান, অন্য বিষয় বুঝতে গিয়ে হিমশিম খান। মেধাবী মানুষ—যেমন কোন বিখ্যাত দার্শনিক বা বিজ্ঞানী দৈনন্দিন সাধারণ সিদ্ধান্ত নিতে ভুল করে আমাদের অবাক করেন। কুরি দম্পতি মারী ও পিয়ের প্ল্যানচেটে যান, নিউটন ইথারে বিশ্বাস করেন আর না বুঝতে পারা শেয়ার বাজারে টাকা খোওয়ান, আইনস্টাইন অনিশ্চয়তা তত্ত্বের বিরোধিতা করতে গিয়ে ঈশ্বরেচ্ছার শরণ নেন। সেই স্বাভাবিক ঘটনাবলী দেখে অন্যরা যে অবাক হন তার কারণ বিভা-প্রভাব (Halo effect)। কেউ একটি বিষয়ে ভাল করলে অন্য বিষয়েও উৎকৃষ্ট হবেন—এই ভুল ধারণা। যেমন, পদার্থবিদ্যায় পণ্ডিত শেয়ার বাজারেও ভাল করবেন—এমনটা নয়।</p>
@@ -107,6 +118,18 @@ include_once('head_nav.php');
     </div>
   </div>
 </div> <!-- .col-lg-8 -->
+
+<!-- Google Translate Scripts -->
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {pageLanguage: 'bn', includedLanguages: 'en,hi,fr,de,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 
+      'google_translate_element'
+    );
+  }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 
 
       <!-- Sidebar -->

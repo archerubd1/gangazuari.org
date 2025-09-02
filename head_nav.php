@@ -86,30 +86,125 @@
 		</div>
 	</div>
 	
+	<!-- END nav -->
 	
-	
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar-2">
   <div class="container">
     <!-- Brand / Logo -->
     <a class="navbar-brand" href="index.php">
       <img src="images/logo-3-4.png" alt="The Ganga Zuari Academy Logo" style="height:40px; margin-right:8px;">
     </a>
 
-    <!-- Mobile Menu Toggle -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Mobile Toggle -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav-2" aria-controls="ftco-nav-2" aria-expanded="false" aria-label="Toggle navigation">
       <span class="oi oi-menu"></span> Menu
     </button>
 
     <!-- Menu Items -->
-    <div class="collapse navbar-collapse" id="ftco-nav">
+    <div class="collapse navbar-collapse" id="ftco-nav-2">
       <ul class="navbar-nav ml-auto">
 
         <!-- Home -->
         <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
 
-       
+        <!-- About Us -->
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="aboutDropdown2" data-toggle="dropdown">About Us</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="about-academy.php">Academy</a>
+            <a class="dropdown-item" href="leadership.php">Leadership & Governance</a>
+            <a class="dropdown-item" href="reports.php">Reports & Financials</a>
+            <a class="dropdown-item" href="proceedings.php">Proceedings & Speeches</a>
+          </div>
+        </li>
 
-        <!-- Programs Dropdown -->
+        <!-- Programs -->
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="programDropdown2" data-toggle="dropdown">Programs</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="unmesh.php">Unmesh</a>
+            <a class="dropdown-item" href="chhandovani.php">Chhandovani</a>
+            <a class="dropdown-item" href="utsav.php">Utsav</a>
+            <a class="dropdown-item" href="tapovan.php">Kshijit</a>
+          </div>
+        </li>
+
+        <!-- Insights & Resources -->
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="insightsDropdown2" data-toggle="dropdown">Insights & Resources</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="press.php">Inmedia Coverage</a>
+            <a class="dropdown-item" href="gallery.php">Gallery</a>
+            <a class="dropdown-item" href="melange.php">Blog-Mélange</a>
+            <a class="dropdown-item" href="publications.php">Publication</a>
+            <a class="dropdown-item" href="research.php">Research</a>
+            <a class="dropdown-item" href="tapovan.php">Sister Concern – Tapavan</a>
+          </div>
+        </li>
+
+        <!-- GZA International -->
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="gzaDropdown2" data-toggle="dropdown">GZA International</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="overview.php">Overview</a>
+            <a class="dropdown-item" href="tapovan.php">Kshijit</a>
+            <a class="dropdown-item" href="get-involved.php">Get Involved</a>
+            <a class="dropdown-item" href="contact.php">Contact Us</a>
+          </div>
+        </li>
+
+        <!-- Get Involved -->
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="involvedDropdown2" data-toggle="dropdown">Get Involved</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="membership.php">Membership</a>
+            <a class="dropdown-item" href="volunteer.php">Volunteers</a>
+            <a class="dropdown-item" href="donate.php">Donate</a>
+            <a class="dropdown-item" href="careers.php">Work With Us</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ============================================================
+     START: OLD NAVBAR (COMMENTED OUT)
+     This was the original navigation menu for the Ganga Zuari Academy website.
+     It has been replaced with a new navigation structure that aligns directly 
+     with the updated "Menu Table" specification provided by the client.
+
+     Reason for Commenting:
+     - Retained here for reference, rollback, or future design comparison.
+     - Not currently active on the live site.
+
+     To reactivate:
+     - Simply remove the comment tags (<!-- ... -->
+ 
+
+<!--
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+  <div class="container">
+    <!-- Brand / Logo 
+    <a class="navbar-brand" href="index.php">
+      <img src="images/logo-3-4.png" alt="The Ganga Zuari Academy Logo" style="height:40px; margin-right:8px;">
+    </a>
+
+    <!-- Mobile Menu Toggle 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="oi oi-menu"></span> Menu
+    </button>
+
+    <!-- Menu Items 
+    <div class="collapse navbar-collapse" id="ftco-nav">
+      <ul class="navbar-nav ml-auto">
+
+        <!-- Home 
+        <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
+
+        <!-- Programs Dropdown 
         <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" id="programsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programs</a>
           <div class="dropdown-menu" aria-labelledby="programsDropdown">
@@ -120,58 +215,51 @@
           </div>
         </li>
 
+        <!-- GZA International Dropdown 
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="gzaDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            GZA International
+          </a>
+          <div class="dropdown-menu" aria-labelledby="gzaDropdown">
+            <h6 class="dropdown-header">Our Global Vision</h6>
+            <a class="dropdown-item" href="overview.php">Overview</a>
+            <a class="dropdown-item" href="objectives.php">Objectives & Impact</a>
+            <a class="dropdown-item" href="partnerships.php">Global Partnerships</a>
+            <div class="dropdown-divider"></div>
+            <h6 class="dropdown-header">Programs with Global Reach</h6>
+            <a class="dropdown-item" href="unmesh.php">Unmesh</a>
+            <a class="dropdown-item" href="chhandovani.php">Chhandovani</a>
+            <a class="dropdown-item" href="utsav.php">Utsav</a>
+            <a class="dropdown-item" href="tapovan.php">Tapovan</a>
+            <div class="dropdown-divider"></div>
+            <h6 class="dropdown-header">Engage with Us</h6>
+            <a class="dropdown-item" href="insights.php">Insights & Resources</a>
+            <a class="dropdown-item" href="get-involved.php">Get Involved</a>
+            <a class="dropdown-item" href="contact.php">Contact Us</a>
+          </div>
+        </li>
 
+        <!-- Insights & Resources Dropdown 
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="insightsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Insights & Resources
+          </a>
+          <div class="dropdown-menu" aria-labelledby="insightsDropdown">
+            <!-- Events & Media 
+            <h6 class="dropdown-header">Events & Media</h6>
+            <a class="dropdown-item" href="events.php">Upcoming Events</a>
+            <a class="dropdown-item" href="press.php">Mention in Press</a>
+            <a class="dropdown-item" href="gallery.php">Gallery</a>
+            <div class="dropdown-divider"></div>
+            <!-- Research & Publications 
+            <h6 class="dropdown-header">Research & Publications</h6>
+            <a class="dropdown-item" href="melange.php">Melange</a>
+            <a class="dropdown-item" href="publications.php">Publications</a>
+            <a class="dropdown-item" href="research.php">Research</a>
+          </div>
+        </li>
 
-<!-- GZA International Dropdown -->
-<li class="nav-item dropdown">
-  <a href="#" class="nav-link dropdown-toggle" id="gzaDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    GZA International
-  </a>
-  <div class="dropdown-menu" aria-labelledby="gzaDropdown">
-
-    <h6 class="dropdown-header">Our Global Vision</h6>
-    <a class="dropdown-item" href="overview.php">Overview</a>
-    <a class="dropdown-item" href="objectives.php">Objectives & Impact</a>
-    <a class="dropdown-item" href="partnerships.php">Global Partnerships</a>
-    <div class="dropdown-divider"></div>
-
-    <h6 class="dropdown-header">Programs with Global Reach</h6>
-    <a class="dropdown-item" href="unmesh.php">Unmesh</a>
-    <a class="dropdown-item" href="chhandovani.php">Chhandovani</a>
-    <a class="dropdown-item" href="utsav.php">Utsav</a>
-    <a class="dropdown-item" href="tapovan.php">Tapovan</a>
-    <div class="dropdown-divider"></div>
-
-    <h6 class="dropdown-header">Engage with Us</h6>
-    <a class="dropdown-item" href="insights.php">Insights & Resources</a>
-    <a class="dropdown-item" href="get-involved.php">Get Involved</a>
-    <a class="dropdown-item" href="contact.php">Contact Us</a>
-  </div>
-</li>
-
-       <!-- Insights & Resources Dropdown -->
-<li class="nav-item dropdown">
-  <a href="#" class="nav-link dropdown-toggle" id="insightsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Insights & Resources
-  </a>
-  <div class="dropdown-menu" aria-labelledby="insightsDropdown">
-    <!-- Events & Media -->
-    <h6 class="dropdown-header">Events & Media</h6>
-    <a class="dropdown-item" href="events.php">Upcoming Events</a>
-    <a class="dropdown-item" href="press.php">Mention in Press</a>
-    <a class="dropdown-item" href="gallery.php">Gallery</a>
-    <div class="dropdown-divider"></div>
-    
-    <!-- Research & Publications -->
-    <h6 class="dropdown-header">Research & Publications</h6>
-    <a class="dropdown-item" href="melange.php">Melange</a>
-    <a class="dropdown-item" href="publications.php">Publications</a>
-    <a class="dropdown-item" href="research.php">Research</a>
-  </div>
-</li>
-
-		
-		 <!-- About Us Dropdown -->
+        <!-- About Us Dropdown 
         <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
           <div class="dropdown-menu" aria-labelledby="aboutDropdown">
@@ -182,7 +270,7 @@
           </div>
         </li>
 
-        <!-- Get Involved Dropdown -->
+        <!-- Get Involved Dropdown 
         <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" id="involvedDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Get Involved</a>
           <div class="dropdown-menu" aria-labelledby="involvedDropdown">
@@ -193,13 +281,15 @@
           </div>
         </li>
 
-        <!-- Contact Us -->
+        <!-- Contact Us 
         <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 
       </ul>
     </div>
   </div>
 </nav>
+-->
 
-
-	<!-- END nav -->
+<!-- ============================================================
+     END: OLD NAVBAR (COMMENTED OUT)
+   ============================================================ -->

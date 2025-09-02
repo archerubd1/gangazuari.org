@@ -9,7 +9,7 @@ include_once('head_nav.php');
     <div class="row no-gutters slider-text align-items-end">
       <div class="col-md-9 ftco-animate pb-5">
         <p class="breadcrumbs mb-2">
-          <span class="mr-2"><a href="index.php">Melange <i class="ion-ios-arrow-forward"></i></a></span> 
+          <span class="mr-2"><a href="index.php">Mélange <i class="ion-ios-arrow-forward"></i></a></span> 
           <span>Article <i class="ion-ios-arrow-forward"></i></span>
         </p>
         <h1 class="mb-0 bread">তোমার আছে তো হাতখানি | Dipankar Chowdhury</h1>
@@ -25,14 +25,29 @@ include_once('head_nav.php');
    <!-- Main Article -->
 <div class="col-lg-8 ftco-animate">
 
+
   <!-- Article Title & Author -->
   <h1 class="mb-4">।। তোমার আছে তো হাতখানি ।।</h1>
   <h5 class="mb-4">--- দীপঙ্কর চৌধুরী</h5>
 
+
+<!-- Translator -->
+  <div id="google_translate_element" class="mb-4"></div>
   <!-- Article Image -->
   <p>
     <img src="images/diba.jpg" alt="তোমার আছে তো হাতখানি" class="img-fluid mb-4">
   </p>
+
+<!-- Google Translate Scripts -->
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {pageLanguage: 'bn', includedLanguages: 'en,hi,fr,de,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 
+      'google_translate_element'
+    );
+  }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
   <!-- Section 1 -->
   <section>

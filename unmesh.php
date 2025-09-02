@@ -28,7 +28,8 @@ include_once('head_nav.php');
 		Each interaction becomes a bridge between the personal and the universal.</p>
         <p><img src="images/unmesh_discussion.jpg" alt="Philosophical Dialogue" class="img-fluid"></p>
         <p>The journey of literature and philosophy is endless. At Unmesh, every dialogue is an invitation—to reflect and introspect, to challenge, and to grow. 
-		This isn’t just an event; it’s a movement of ideas flowing like a river it is named after.</p>
+		This isn’t just an event; it’s a movement of ideas flowing like a river it is named after.
+		<b>The Blog is the living voice of Unmesh </b> — an activity curated and carefully maintained by UNMESH.</p>
         <div class="tag-widget post-tag-container mb-5 mt-5">
           <div class="tagcloud">
             <a href="#" class="tag-cloud-link">Literature</a>
@@ -137,7 +138,7 @@ include_once('head_nav.php');
           <h2><a href="event-identity.html">Identity in Indian Literature</a></h2>
           <p>Exploring how stories shape the self, from epics to modern narratives.</p>
           <div class="goal mb-4">
-            <p><strong>Date:</strong> Sept 5, 2025</p>
+         <!--   <p><strong>Date:</strong> Sept 5, 2025</p>    --->
             <div class="progress" style="height:20px">
               <div class="progress-bar progress-bar-striped" style="width:100%; height:20px">
                 <a href="#" style="color:white; text-decoration:none; display:block;">Register Now</a>
@@ -157,7 +158,7 @@ include_once('head_nav.php');
           <h2><a href="event-language.html">Philosophy of Language</a></h2>
           <p>A dialogue on meaning, silence, and the spaces between words.</p>
           <div class="goal mb-4">
-            <p><strong>Date:</strong> Sept 12, 2025</p>
+           <!--   <p><strong>Date:</strong> Sept 5, 2025</p>    --->
             <div class="progress" style="height:20px">
               <div class="progress-bar progress-bar-striped bg-success" style="width:100%; height:20px">
                 <a href="#" style="color:white; text-decoration:none; display:block;">Register Now</a>
@@ -177,7 +178,7 @@ include_once('head_nav.php');
           <h2><a href="event-metaphor.html">The River as Metaphor</a></h2>
           <p>How flowing waters reflect philosophy, literature, and cultural identity.</p>
           <div class="goal mb-4">
-            <p><strong>Date:</strong> Oct 19, 2025</p>
+          <!--   <p><strong>Date:</strong> Sept 5, 2025</p>    --->
             <div class="progress" style="height:20px">
               <div class="progress-bar progress-bar-striped bg-info" style="width:100%; height:20px">
                 <a href="#" style="color:white; text-decoration:none; display:block;">Register Now</a>
@@ -197,7 +198,7 @@ include_once('head_nav.php');
           <h2><a href="event-dialogues.html">Cross-Cultural Dialogues</a></h2>
           <p>A confluence of voices sharing stories, philosophies, and traditions.</p>
           <div class="goal mb-4">
-            <p><strong>Date:</strong> Nov 26, 2025</p>
+        <!--   <p><strong>Date:</strong> Sept 5, 2025</p>    --->
             <div class="progress" style="height:20px">
               <div class="progress-bar progress-bar-striped bg-warning" style="width:100%; height:20px">
                 <a href="#" style="color:white; text-decoration:none; display:block;">Register Now</a>
@@ -210,10 +211,270 @@ include_once('head_nav.php');
     </div>
 
   </div>
+  
+  
+  
+  
+  
+  
+  <p><br></p>
+
+
+  <div class="row justify-content-center mb-5">
+  <div class="col-md-8 heading-section text-center ftco-animate">
+    <h2>Past Events of Unmesh</h2>
+    <p>Discover the journey of Unmesh through its past dialogues, literary explorations, and cultural milestones.</p>
+  </div>
 </div>
 
   
+  <!-- ================= Tabs Navigation ================= -->
+<div class="row justify-content-center mb-4">
+  <div class="col-md-10 text-center ftco-animate">
+    <div class="btn-group flex-wrap" role="group" aria-label="Event Tabs">
+      <a class="btn btn-primary mx-2 active" data-toggle="tab" href="#films" role="tab">Film Festivals</a>
+      <a class="btn btn-outline-primary mx-2" data-toggle="tab" href="#cultural" role="tab">Cultural Events</a>
+      <a class="btn btn-outline-primary mx-2" data-toggle="tab" href="#workshops" role="tab">Workshops & Competitions</a>
+      <a class="btn btn-outline-primary mx-2" data-toggle="tab" href="#social" role="tab">Social Initiatives</a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- ================= Tabs Content ================= -->
+<div class="tab-content">
+
+  <!-- Film Festivals -->
+  <div class="tab-pane fade show active" id="films" role="tabpanel">
+    <div class="row">
+      <div class="col-12 my-4">
+        <h4 class="mb-2 pl-3" style="border-left:5px solid #007bff; padding-left:12px;">
+          Film Festivals
+        </h4>
+        <p class="text-muted pl-3" style="font-size:0.95rem; line-height:1.6;">
+          Showcasing cinematic excellence through curated screenings and retrospectives of legendary filmmakers.  
+          These festivals foster dialogue, creativity, and appreciation for diverse film traditions.
+        </p>
+      </div>
+
+      <!-- 3 Event Cards -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded h-100">
+          <img src="images/bimal.png" class="card-img-top" alt="Bimal Roy Film Festival">
+          <div class="card-body text-center">
+            <h5 class="card-title">Bimal Roy Film Festival</h5>
+            <p class="text-muted">2 Photos</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Album</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded h-100">
+          <img src="images/suchi.jpg" class="card-img-top" alt="Suchitra Sen Film Festival">
+          <div class="card-body text-center">
+            <h5 class="card-title">Suchitra Sen Film Festival</h5>
+            <p class="text-muted">9 Photos • 2014</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Album</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded h-100">
+          <img src="images/mrig.jpg" class="card-img-top" alt="Mrig Trishna">
+          <div class="card-body text-center">
+            <h5 class="card-title">Mrig Trishna</h5>
+            <p class="text-muted">13 Photos</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Album</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cultural Events -->
+  <div class="tab-pane fade" id="cultural" role="tabpanel">
+    <div class="row">
+      <div class="col-12 my-4">
+        <h4 class="mb-2 pl-3" style="border-left:5px solid #007bff; padding-left:12px;">
+          Cultural Events
+        </h4>
+        <p class="text-muted pl-3" style="font-size:0.95rem; line-height:1.6;">
+          Celebrating heritage through music, dance, theatre, and festivals that bring communities together.  
+          These events preserve traditions while embracing contemporary cultural expressions.
+        </p>
+      </div>
+
+      <!-- 3 Event Cards -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded h-100">
+          <img src="images/phagun.jpg" class="card-img-top" alt="Phagun Utsav">
+          <div class="card-body text-center">
+            <h5 class="card-title">Phagun Utsav</h5>
+            <p class="text-muted">7 Photos • 2017</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Album</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded h-100">
+          <img src="images/sham.jpg" class="card-img-top" alt="Sham-e-Gazal">
+          <div class="card-body text-center">
+            <h5 class="card-title">Sham-e-Gazal</h5>
+            <p class="text-muted">3 Photos • 2019</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Album</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded h-100">
+          <img src="images/indra.jpg" class="card-img-top" alt="Indradhanush">
+          <div class="card-body text-center">
+            <h5 class="card-title">Indradhanush</h5>
+            <p class="text-muted">8 Photos • 2011</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Album</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Workshops -->
+  <div class="tab-pane fade" id="workshops" role="tabpanel">
+    <div class="row">
+      <div class="col-12 my-4">
+        <h4 class="mb-2 pl-3" style="border-left:5px solid #007bff; padding-left:12px;">
+          Workshops & Competitions
+        </h4>
+        <p class="text-muted pl-3" style="font-size:0.95rem; line-height:1.6;">
+          Engaging sessions designed to nurture creativity, skills, and collaboration.  
+          Our workshops and competitions encourage participation across diverse fields.
+        </p>
+      </div>
+
+      <!-- 3 Event Cards -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded h-100">
+          <img src="images/dancew.jpg" class="card-img-top" alt="Dance Workshop">
+          <div class="card-body text-center">
+            <h5 class="card-title">Dance Workshop</h5>
+            <p class="text-muted">2 Photos • 2008</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Album</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded h-100">
+          <img src="images/dancec.jpg" class="card-img-top" alt="Dance Competition">
+          <div class="card-body text-center">
+            <h5 class="card-title">Dance Competition</h5>
+            <p class="text-muted">8 Photos • 2009</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Album</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded h-100">
+          <img src="images/kon.jpg" class="card-img-top" alt="Konkani Class">
+          <div class="card-body text-center">
+            <h5 class="card-title">Conversational Konkani Class</h5>
+            <p class="text-muted">Photos Collection</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Album</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Social Initiatives -->
+  <div class="tab-pane fade" id="social" role="tabpanel">
+    <div class="row">
+      <div class="col-12 my-4">
+        <h4 class="mb-2 pl-3" style="border-left:5px solid #007bff; padding-left:12px;">
+          Social Initiatives
+        </h4>
+        <p class="text-muted pl-3" style="font-size:0.95rem; line-height:1.6;">
+          Dedicated programs that promote community welfare, sustainability, and inclusivity.  
+          These initiatives reflect our commitment to making a meaningful social impact.
+        </p>
+      </div>
+
+      <!-- 3 Event Cards -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded h-100">
+          <img src="images/blo.jpg" class="card-img-top" alt="Blood Donation Camp">
+          <div class="card-body text-center">
+            <h5 class="card-title">Blood Donation Camp</h5>
+            <p class="text-muted">7 Photos • 2012</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Album</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded h-100">
+          <img src="images/panel.jpg" class="card-img-top" alt="Vivekananda Panel">
+          <div class="card-body text-center">
+            <h5 class="card-title">Panel Discussions on Vivekananda</h5>
+            <p class="text-muted">9 Photos • 2012</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Album</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded h-100">
+          <img src="images/mant.jpg" class="card-img-top" alt="Manthan">
+          <div class="card-body text-center">
+            <h5 class="card-title">Manthan</h5>
+            <p class="text-muted">8 Photos • 2020</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">View Album</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+ 
+<!-- Script: clickable/re-clickable tabs -->
+<script>
+  document.querySelectorAll('[data-toggle="tab"]').forEach(tab => {
+    tab.addEventListener('click', function (e) {
+      e.preventDefault();
+      let target = document.querySelector(this.getAttribute('href'));
+
+      // Reset all buttons
+      document.querySelectorAll('[data-toggle="tab"]').forEach(btn => {
+        btn.classList.remove('btn-primary', 'active');
+        btn.classList.add('btn-outline-primary');
+      });
+
+      // Set active state for clicked button
+      this.classList.add('btn-primary', 'active');
+      this.classList.remove('btn-outline-primary');
+
+      // Reset all tab panes
+      document.querySelectorAll('.tab-pane').forEach(pane => {
+        pane.classList.remove('show', 'active');
+      });
+
+      // Show selected pane
+      target.classList.add('show', 'active');
+    });
+  });
+</script>
+
   
+</div>
+
   
 </section>
 

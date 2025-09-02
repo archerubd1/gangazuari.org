@@ -33,7 +33,7 @@ include_once('head_nav.php');
       <!-- Left Column: Editor Image -->
       <div class="col-lg-4 col-md-5 text-center ftco-animate mb-4 mb-md-0"><p><br><br><br></p>
         
-        <h5 class="mt-3 mb-1">Mr. Somnath Sarkar</h5>
+        <h5 class="mt-3 mb-1">Somnath Sarkar</h5>
         <p class="text-muted">Editor, Mélange</p>
       </div>
       
@@ -42,7 +42,7 @@ include_once('head_nav.php');
 	  
         <h2 class="mb-4">From the Editor’s Desk</h2>
         <p>Welcome to the first issue of <strong>Mélange</strong>—a space where stories, ideas, and voices come together. In a world of fast-moving messages, <em>Mélange</em> serves as a pause: a place to reflect, read, and rediscover the joy of expression. Here, literature from diverse traditions meets on the same platform, carrying the rhythm and richness of multiple cultures.</p>
-        <p>What makes <strong>Mélange</strong> distinctive is its multilingual spirit. By bringing together works in different tongues, we celebrate the beauty of every language and show how they converse through translation, dialogue, and shared imagination.</p>
+        <p>What makes <strong>Mélange</strong> distinctive is its multilingual spirit. By bringing together works in different languages, we celebrate the beauty of every language and show how they converse through translation, dialogue, and shared imagination.</p>
       <p>Every issue of <strong>Mélange</strong> will bring you:</p>
         <ul>
           <li>Short stories, poems, and essays.</li>
@@ -54,8 +54,10 @@ include_once('head_nav.php');
 		 <div class="col-lg-12 col-md-7 ftco-animate">
        
         <p>We invite you, dear reader, not just to read but to engage—to see how one voice echoes in another, how words and visuals open up new ways of seeing, and how creativity connects us across boundaries.</p>
-        <p>This is only the beginning of our journey. We aspire to grow into a community that celebrates diversity of language, thought, and expression—a place where every voice has room to be heard. Step in, explore, and may something here stay with you long after you close this page.</p>
-        <p class="mt-3"><strong>With warmth and anticipation,<br>Somnath Sarkar<br>Editor, Mélange</strong></p>
+        <p>This is only the beginning of our journey. 
+		<p>While the author contributes in their regional expression we provide you the option to translate it using google translator so you do not miss on the article. However the essense may be diluted at times which we sincerely regret.
+		<p>We aspire to grow into a community that celebrates diversity of language, thought, and expression—a place where every voice has room to be heard. Step in, explore, and may something here stay with you long after you close this page.</p>
+        <p class="mt-3">Somnath Sarkar<br>Editor, Mélange</strong></p>
 		</div>
     </div>
     
@@ -216,6 +218,27 @@ include_once('head_nav.php');
     </div>
   </div>
 </div>
+
+
+
+<!-- Article 10 -->
+<div class="col-md-6 col-lg-4 d-flex ftco-animate" style="padding: 10px;">
+  <div class="blog-entry align-self-stretch" style="border: 2px solid #ccc; border-radius: 0; overflow: hidden; background: #fff;">
+    <a href="#" class="block-20" style="background-image: url('images/nos_khu.jpg'); height: 250px; background-size: cover; background-position: center;"></a>
+    <div class="text p-4">
+      <div class="meta mb-2">
+        <div><a href="#">Khushi Chodankar</a></div>
+        <div><a href="#">Art | Painting</a></div>
+      </div>
+      <h3 class="heading"><a href="melange_10.php">Nostalgia</a></h3>
+      <p>“Nostalgia” captures fleeting emotions and cherished memories through Khushi Chodankar’s artistic lens, blending color and sentiment in a timeless painting.</p>
+      <p>
+        <a href="melange_10.php" class="btn btn-secondary btn-sm me-2" style="padding: 0.25rem 0.5rem; font-size: 0.75rem;">View Artwork</a>
+      </p>
+    </div>
+  </div>
+</div>
+
 
 
     </div>
