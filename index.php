@@ -399,12 +399,12 @@ include_once('head_nav.php');
 </section>
 
 
-
+<!---- 
 <section class="ftco-section ftco-no-pt ftco-no-pb">
   <div class="container">
     <div class="row no-gutters">
       
-      <!-- Connecting Cultures -->
+      <!-- Connecting Cultures 
       <div class="col-md-4 d-flex align-items-stretch">
         <div class="services">
           <div class="text text-center bg-primary">
@@ -423,7 +423,7 @@ include_once('head_nav.php');
         </div>
       </div>
 
-<!-- Igniting Ideas -->
+<!-- Igniting Ideas 
       <div class="col-md-4 d-flex align-items-stretch">
         <div class="services">
           <div class="text text-center bg-tertiary">
@@ -442,7 +442,7 @@ include_once('head_nav.php');
         </div>
       </div>
 	  
-      <!-- Fostering Dialogues -->
+      <!-- Fostering Dialogues 
       <div class="col-md-4 d-flex align-items-stretch">
         <div class="services">
           <div class="text text-center bg-secondary">
@@ -464,7 +464,7 @@ include_once('head_nav.php');
 
     </div>
   </div>
-</section>
+</section>      ------>
 
 <section class="ftco-section ftco-no-pt ftco-no-pb">
   <div class="container">
@@ -481,10 +481,10 @@ include_once('head_nav.php');
               <li>🌐 Promote cultural exchange programs</li>
               <li>🎭 Share art, music & traditions worldwide</li>
               <li>📚 Encourage intercultural learning</li>
-              <li>🕊️ Strengthen unity through shared values</li>
+              <li>🕊️ Strengthen unity and values</li>
             </ul>
           </div>
-          <div class="img border-1" style="background-image: url(images/connect.jpg);">
+          <div class="img border-1" style="background-image: url(images/2025/9.jpg);">
             <div class="icon d-flex align-items-center justify-content-center">
               <span class="flaticon-ecological"></span>
             </div>
@@ -506,7 +506,7 @@ include_once('head_nav.php');
               <li>📝 Document and share global learnings</li>
             </ul>
           </div>
-          <div class="img border-2" style="background-image: url(images/dialogue.jpg);">
+          <div class="img border-2" style="background-image: url(images/2025/10.jpg);">
             <div class="icon d-flex align-items-center justify-content-center">
               <span class="flaticon-volunteer"></span>
             </div>
@@ -528,7 +528,7 @@ include_once('head_nav.php');
               <li>🌐 Share scalable models for social impact</li>
             </ul>
           </div>
-          <div class="img border-3" style="background-image: url(images/ideas.jpg);">
+          <div class="img border-3" style="background-image: url(images/2025/6.jpg);">
             <div class="icon d-flex align-items-center justify-content-center">
               <span class="flaticon-donation"></span>
             </div>
@@ -593,7 +593,7 @@ include_once('head_nav.php');
           <a href="#" class="img w-100" style="background-image: url(images/tapovan.jpg);"></a>
           <div class="text p-3">
             <h2><a href="#">KSHITIJ</a></h2>
-            <p>fglkfgjfd gfdlkgjfdgjfdl ffdgj gfjdlgfdgfdgfd g </p>
+            <p>Kshijit is committed to advancing holistic socio-economic development by connecting people, knowledge, and opportunities. </p>
             <p><a href="#" class="btn btn-light w-100">Explore</a></p>
           </div>
         </div>
@@ -699,17 +699,17 @@ include_once('head_nav.php');
       <!-- Blog 1 -->
       <div class="col-md-6 col-lg-3 d-flex ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('images/blog2.jpg');">
+          <a href="melange_1.php" class="block-20" style="background-image: url('images/article_1.jpg');">
           </a>
           <div class="text p-4">
             <div class="meta mb-2">
               <div><a href="#">March 15, 2025</a></div>
-              <div><a href="#">Admin</a></div>
+              <div><a href="#">Arijit Chowdhury</a></div>
               <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 5</a></div>
             </div>
-            <h3 class="heading"><a href="#">Unmesh: Voices of Literature</a></h3>
-            <p>Writers, poets, and thinkers came together at Unmesh to celebrate literature, free thought, and cultural dialogue.</p>
-            <p><a href="#" class="btn btn-secondary">Read more</a></p>
+            <h3 class="heading"><a href="melange_1.php">বহু বিদ্যা, তীক্ষ্ণ বোধ, তথাপি নির্বোধ- ১</a></h3>
+            <p>A reflective article exploring contemporary cultural themes, critical insights and personal perspectives.</p>
+            <p><a href="melange_1.php" class="btn btn-secondary">Read more</a></p>
           </div>
         </div>
       </div>
@@ -717,35 +717,40 @@ include_once('head_nav.php');
       <!-- Blog 2 -->
       <div class="col-md-6 col-lg-3 d-flex ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('images/blog3.jpg');">
+          <a href="melange_4.php" class="block-20" style="background-image: url('images/science_1.jpg');">
           </a>
           <div class="text p-4">
             <div class="meta mb-2">
               <div><a href="#">February 10, 2025</a></div>
-              <div><a href="#">Admin</a></div>
+              <div><a href="#">Prof. (Dr.) Shibaji Roy</a></div>
               <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 8</a></div>
             </div>
-            <h3 class="heading"><a href="#">Tapovan: Youth & Leadership</a></h3>
-            <p>Through workshops and mentorship, Tapovan nurtures the creativity and leadership of India’s young minds.</p>
-            <p><a href="#" class="btn btn-secondary">Read more</a></p>
+            <h3 class="heading"><a href="melange_4.php">The Mystery of the Universe</a></h3>
+            <p>Insights on the creation of the universe and scientific musings on fundamental questions about existence.</p>
+            <p><a href="melange_4.php" class="btn btn-secondary">Read more</a></p>
           </div>
         </div>
       </div>
 
       <!-- Blog 3 -->
+	  
+	  
+	  
+<!-- Article 3 -->
+
       <div class="col-md-6 col-lg-3 d-flex ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('images/blog1.jpg');">
+          <a href="melange_3.php" class="block-20" style="background-image: url('images/essay_1.jpg');">
           </a>
           <div class="text p-4">
             <div class="meta mb-2">
               <div><a href="#">January 28, 2025</a></div>
-              <div><a href="#">Admin</a></div>
+              <div><a href="#">Somnath Sarkar</a></div>
               <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 12</a></div>
             </div>
-            <h3 class="heading"><a href="#">Utsav: A Celebration of Unity</a></h3>
-            <p>UTSAV brought together artists, musicians, and communities — showcasing the spirit of India’s diversity.</p>
-            <p><a href="#" class="btn btn-secondary">Read more</a></p>
+            <h3 class="heading"><a href="melange_3.php">রবিগান রহস্য -৩: আমি যখন তাঁর দুয়ারে</a></h3>
+            <p>An essay exploring Rabindranath Tagore’s philosophy and influence on literature and culture - a must read.</p>
+            <p><a href="melange_3.php" class="btn btn-secondary">Read more</a></p>
           </div>
         </div>
       </div>
@@ -753,17 +758,17 @@ include_once('head_nav.php');
       <!-- Blog 4 -->
       <div class="col-md-6 col-lg-3 d-flex ftco-animate">
         <div class="blog-entry align-self-stretch">
-          <a href="blog-single.html" class="block-20" style="background-image: url('images/blog4.jpg');">
+          <a href="melange_10.php" class="block-20" style="background-image: url('images/nos_khu.jpg');">
           </a>
           <div class="text p-4">
             <div class="meta mb-2">
-              <div><a href="#">December 12, 2024</a></div>
-              <div><a href="#">Admin</a></div>
+              <div><a href="#">September 2, 2025</a></div>
+              <div><a href="#">Khushi Chodankar</a></div>
               <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 7</a></div>
             </div>
-            <h3 class="heading"><a href="#">Chhandovani: Dance & Expression</a></h3>
-            <p>Chhandovani continues to highlight classical and contemporary dance, nurturing performers across generations.</p>
-            <p><a href="#" class="btn btn-secondary">Read more</a></p>
+            <h3 class="heading"><a href="melange_10.php">Nostalgia</a></h3>
+            <p>Captures fleeting emotions and cherished memories through Khushi’s artistic lens, blending color and sentiment in a timeless painting.</p>
+            <p><a href="melange_10.php" class="btn btn-secondary">Read more</a></p>
           </div>
         </div>
       </div>
