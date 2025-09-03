@@ -146,52 +146,220 @@ include_once('head_nav.php');
   <div class="container py-4">
     <div class="row g-4">
 
-      <!-- Testimonials Section -->
-      <div class="col-md-5 order-md-last d-flex align-items-start">
-        <div class="testimonial-wrap p-3 bg-light w-100 overflow-hidden">
-          <h4 class="mb-3"><span class="fa fa-comments"></span> What People Say</h4>
 
-          <div class="testimonial-container">
-            <div class="testimonial-list">
+<div class="col-md-5 order-md-last">
+  <div class="testimonial-wrap p-3 bg-light w-100">
+    <!-- Fixed Header -->
+    <h4 class="mb-3"><span class="fa fa-comments"></span> What People Say</h4>
 
-              <!-- Testimonial Items -->
-              <div class="testimonial-item d-flex mb-3">
-                <img src="images/team/f1.jpg" alt="Riya Sharma" class="testimonial-img">
-                <div class="testimonial-text">
-                  <p>“The Academy gave me a platform to explore art and culture. Truly life-changing!”</p>
-                  <strong>- Riya Sharma</strong>
-                </div>
-              </div>
-
-              <div class="testimonial-item d-flex mb-3">
-                <img src="images/team/m1.jpg" alt="Arjun Mehta" class="testimonial-img">
-                <div class="testimonial-text">
-                  <p>“Volunteering here connected me with people from all over the world.”</p>
-                  <strong>- Arjun Mehta</strong>
-                </div>
-              </div>
-
-              <div class="testimonial-item d-flex mb-3">
-                <img src="images/team/f1.jpg" alt="Leena D’Souza" class="testimonial-img">
-                <div class="testimonial-text">
-                  <p>“Their cultural festivals are a beautiful blend of tradition and modern creativity.”</p>
-                  <strong>- Leena D’Souza</strong>
-                </div>
-              </div>
-
-              <div class="testimonial-item d-flex mb-3">
-                <img src="images/team/m1.jpg" alt="Karan Singh" class="testimonial-img">
-                <div class="testimonial-text">
-                  <p>“I met lifelong friends through their youth programs.”</p>
-                  <strong>- Karan Singh</strong>
-                </div>
-              </div>
-			  
-
-            </div>
+    <!-- Scrollable Testimonials -->
+    <div class="testimonial-container" style="height: calc(100% - 50px); overflow: hidden; position: relative;">
+      <div class="testimonial-list auto-scroll">
+        <!-- Testimonial Items -->
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/f1.jpg" alt="Amartya Sen" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>Ganga Zuari Academy nurtures dialogue across cultures, embodying India’s pluralism while enriching global conversations.</p>
+            <strong>- Amartya Sen (Economist, Nobel Laureate)</strong>
           </div>
         </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/m1.jpg" alt="Senayangba Chubatoshi Jamir" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>I am pleased to inaugurate the Ganga Zuari Academy. When rivers meet, they enrich without conflict. Here, unity in diversity is the guiding principle. With an apolitical stance and a commitment to the public, let knowledge be GZA’s boat and dialogue your destination.</p>
+            <strong>- Senayangba Chubatoshi Jamir (Former Governor of Goa)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/f2.jpg" alt="Pratap Singh Rane" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>An apolitical stage where voices mingle, GZA transforms cultural confluences into meaningful, democratic imagination.</p>
+            <strong>- Pratap Singh Rane (Former Chief Minister, Goa)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/m2.jpg" alt="Maria Emelia Menezes" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>By connecting traditions and ideas, GZA builds bridges essential for inclusive growth and social harmony.</p>
+            <strong>- Maria Emelia Menezes (Industrialist, Philanthropist)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/f3.jpg" alt="Amitav Ghosh" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>GZA recalls India’s timeless civilizational dialogues, turning heritage into living thought and artistic engagement.</p>
+            <strong>- Amitav Ghosh (Novelist, Historian of Culture)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/m3.jpg" alt="Manohar Parrikar" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>Few platforms embody India’s cultural continuum like GZA—fostering unity while celebrating diversity.</p>
+            <strong>- Manohar Parrikar (Former Chief Minister- Goa, and Union Minister)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/f4.jpg" alt="Haimanti Shukla" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>GZA creates resonant spaces where music, memory, and meaning inspire deeper human connection.</p>
+            <strong>- Haimanti Shukla (Musician, Global Artist)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/m4.jpg" alt="Nitin Kunkolienkar" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>Supporting GZA strengthens not just culture, but innovation, leadership, and inclusive social responsibility.</p>
+            <strong>- Nitin Kunkolienkar (Industrialist)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/f5.jpg" alt="Arijit Chaudhuri" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>Academy’s initiatives decentralise knowledge, ensuring marginal voices shape national and global conversations.</p>
+            <strong>- Arijit Chaudhuri (Literary Theorist, Scholar)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/m5.jpg" alt="Manguirish Pai Raiker" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>By linking heritage and sustainability, GZA inspires ecological consciousness within India’s future generations.</p>
+            <strong>- Manguirish Pai Raiker (President- GCCI, Chair- India-MSME)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/f6.jpg" alt="Syed Wajih Ahmad Naqvi" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>In promoting intellectual and cultural plurality, GZA safeguards democracy’s most precious lifeblood—dialogue.</p>
+            <strong>- Syed Wajih Ahmad Naqvi (Scientist and Academician)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/m6.jpg" alt="Mridula Sinha" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>GZA reflects humanity’s universal search: connecting diverse voices, weaving stories into shared meaning.</p>
+            <strong>- Mridula Sinha (Former Governor- Goa, Author)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/f7.jpg" alt="Sunil Singh" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>GZA embodies people-centred knowledge, fostering dialogue where economics, culture, and society converge productively.</p>
+            <strong>- Sunil Singh (Director, Scientist, Academician)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/m7.jpg" alt="Suresh Prabhu" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>GZA reclaims dialogue as India’s civilizational strength, where past and present converse fruitfully.</p>
+            <strong>- Suresh Prabhu (Former Union Minister, Vice-Chancellor)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/f8.jpg" alt="Alka Deo Marulkar" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>Through melody, we weave cultures. Ganga and Zuari flow together in song, reminding us that music unites hearts beyond boundaries.</p>
+            <strong>- Alka Deo Marulkar (Versatile vocalist, purist and experimentalist)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/m8.jpg" alt="Rajendra Prasad Pal" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>Through GZA, young minds discover that creativity, compassion, and culture can transform communities.</p>
+            <strong>- Rajendra Prasad Pal (IAS, Former Secretary, Poet)</strong>
+          </div>
+        </div>
+
+        <div class="testimonial-item d-flex mb-3">
+          <img src="images/team/f9.jpg" alt="Rajiv Nigam" class="testimonial-img">
+          <div class="testimonial-text">
+            <p>GZA’s inspiring vision weaves art, environment, and heritage together like a vibrant tapestry, creating a collective journey toward a brighter future.</p>
+            <strong>- Rajiv Nigam (Philosopher, Geoarchaeologist)</strong>
+          </div>
+        </div>
+
       </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.testimonial-wrap {
+  height: 600px; /* fixed height */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Smooth auto-scroll for testimonial items */
+.testimonial-list.auto-scroll {
+  display: flex;
+  flex-direction: column;
+  animation: scrollTestimonials 40s linear infinite;
+}
+
+.testimonial-wrap:hover .testimonial-list.auto-scroll {
+  animation-play-state: paused;
+}
+
+@keyframes scrollTestimonials {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); } /* adjust if more items */
+}
+
+.testimonial-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 12px;
+  background: #fff;
+  border-left: 4px solid #6c63ff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  margin-bottom: 10px;
+}
+
+.testimonial-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+  border: 2px solid #6c63ff;
+}
+
+.testimonial-text p {
+  margin: 0 0 5px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.testimonial-text strong {
+  font-size: 13px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .testimonial-wrap { height: 400px; }
+}
+</style>
+
+
+
+
 
       <!-- About Section -->
 <div class="col-md-7 wrap-about pt-0">
@@ -229,49 +397,6 @@ include_once('head_nav.php');
     </div>
   </div>
 </section>
-
-<!-- CSS for Testimonials -->
-<style>
-.testimonial-wrap {
-  height: auto; /* removed fixed height */
-}
-
-.testimonial-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px; /* spacing between items */
-}
-
-.testimonial-item {
-  display: flex;
-  align-items: flex-start;
-  padding: 10px;
-  background: #fff;
-  border-left: 4px solid #6c63ff;
-  border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
-}
-
-.testimonial-img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 10px;
-  border: 2px solid #6c63ff;
-}
-
-.testimonial-text p {
-  margin: 0 0 5px;
-  font-style: italic;
-  font-size: 14px;
-}
-
-.testimonial-text strong {
-  font-size: 13px;
-  color: #555;
-}
-</style>
 
 
 

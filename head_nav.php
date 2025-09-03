@@ -92,7 +92,7 @@
   <div class="container">
     <!-- Brand / Logo -->
     <a class="navbar-brand" href="index.php">
-      <img src="images/logo-3-4.png" alt="The Ganga Zuari Academy Logo" style="height:40px; margin-right:8px;">
+      <img src="images/2025/gza_logo.jpg" alt="The Ganga Zuari Academy Logo" style="height:80px; width:80px; margin-right:8px;">
     </a>
 
     <!-- Mobile Toggle -->
@@ -125,7 +125,7 @@
             <a class="dropdown-item" href="unmesh.php">Unmesh</a>
             <a class="dropdown-item" href="chhandovani.php">Chhandovani</a>
             <a class="dropdown-item" href="utsav.php">Utsav</a>
-            <a class="dropdown-item" href="tapovan.php">Kshijit</a>
+            <a class="dropdown-item" href="kshijit.php">Kshijit</a>
           </div>
         </li>
 
@@ -147,8 +147,8 @@
           <a href="#" class="nav-link dropdown-toggle" id="gzaDropdown2" data-toggle="dropdown">GZA International</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="overview.php">Overview</a>
-            <a class="dropdown-item" href="tapovan.php">Kshijit</a>
-            <a class="dropdown-item" href="get-involved.php">Get Involved</a>
+            <a class="dropdown-item" href="kshijit.php">Kshijit</a>
+            <a class="dropdown-item" href="membership.php">Get Involved</a>
             <a class="dropdown-item" href="contact.php">Contact Us</a>
           </div>
         </li>
