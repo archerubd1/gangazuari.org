@@ -269,7 +269,7 @@ include_once('head_nav.php');
         </div>
 
         <div class="testimonial-item d-flex mb-3">
-          <img src="images/testimonial/admarulkar.jpeg" alt="Alka Deo Marulkar" class="testimonial-img">
+          <img src="images/testimonial/admarulkar.jpg" alt="Alka Deo Marulkar" class="testimonial-img">
           <div class="testimonial-text">
             <p>Through melody, we weave cultures. Ganga and Zuari flow together in song, reminding us that music unites hearts beyond boundaries.</p>
             <strong>- Alka Deo Marulkar (Versatile vocalist, purist and experimentalist)</strong>
@@ -856,7 +856,7 @@ include_once('head_nav.php');
     <div class="volunteer flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="img" style="background-image: url(images/team/mpraikar.jpg);"></div>
           <div class="text">
             <h3>Manguirish Pai Raikar</h3>
             <span>President</span>
@@ -880,7 +880,7 @@ include_once('head_nav.php');
     <div class="volunteer flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="img" style="background-image: url(images/team/rtarkar.jpg);"></div>
           <div class="text">
             <h3>Rajesh Tarkar</h3>
             <span>Vice President</span>
@@ -906,7 +906,7 @@ include_once('head_nav.php');
     <div class="volunteer flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="img" style="background-image: url(images/team/dverma.jpg);"></div>
           <div class="text">
             <h3>DV</h3>
             <span>Joint Secretary</span>
@@ -931,7 +931,7 @@ include_once('head_nav.php');
     <div class="volunteer flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="img" style="background-image: url(images/team/rmukhopadhyay.jpg);"></div>
           <div class="text">
             <h3>Ranadhir Mukhopadhyay</h3>
             <span>General Secretary</span>
@@ -956,7 +956,7 @@ include_once('head_nav.php');
     <div class="volunteer flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="img" style="background-image: url(images/team/hkkaul.jpg);"></div>
           <div class="text">
             <h3>Hari Krishna Kaul</h3>
             <span>Treasurer</span>
@@ -984,15 +984,15 @@ include_once('head_nav.php');
     <div class="volunteer flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="img" style="background-image: url(images/team/dnhmazumdar.jpg);"></div>
           <div class="text">
-            <h3>Ashwin Mehta</h3>
-            <span>Program Director</span>
+            <h3>Dr.Neeta Hede Mazumdar</h3>
+            <span>Joint Secretary</span>
           </div>
         </div>
         <div class="flip-card-back">
-          <h4>Ashwin Mehta</h4>
-          <p>Oversees cultural programs with a focus on global outreach, ensuring diversity and inclusivity in all initiatives.</p>
+          <h4>Dr.Neeta Hede Mazumdar</h4>
+          <p>Dr. Neeta Hede Mazumdar is dedicated to advancing cultural awareness and educational outreach, combining research with hands-on leadership.</p>
           <div class="social-icons d-flex justify-content-center">
             <a href="#"><span class="fa fa-linkedin"></span></a>
             <a href="#"><span class="fa fa-facebook"></span></a>
@@ -1008,15 +1008,15 @@ include_once('head_nav.php');
     <div class="volunteer flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="img" style="background-image: url(images/team/dachattarjee.jpg);"></div>
           <div class="text">
-            <h3>Priya Sharma</h3>
-            <span>Communications Head</span>
+            <h3>Dr. Anil Chatterjee</h3>
+            <span>Chhandovani</span>
           </div>
         </div>
         <div class="flip-card-back">
-          <h4>Priya Sharma</h4>
-          <p>Leads global communications, building networks and amplifying GZA’s voice across international platforms.</p>
+          <h4>Dr. Anil Chatterjee</h4>
+          <p>Dr. Anil Chatterjee brings literary excellence to the Academy, nurturing creativity, writing, and cultural expression through Chhandovani..</p>
           <div class="social-icons d-flex justify-content-center">
             <a href="#"><span class="fa fa-linkedin"></span></a>
             <a href="#"><span class="fa fa-facebook"></span></a>
@@ -1032,15 +1032,15 @@ include_once('head_nav.php');
     <div class="volunteer flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="img" style="background-image: url(images/team/sskarkar.jpg);"></div>
           <div class="text">
-            <h3>Michael Rodrigues</h3>
-            <span>International Relations</span>
+            <h3>Somnath Sarkar</h3>
+            <span>Unmesh</span>
           </div>
         </div>
         <div class="flip-card-back">
-          <h4>Michael Rodrigues</h4>
-          <p>Specialist in building partnerships with global cultural organizations and supporting cross-border collaborations.</p>
+          <h4>Somnath Sarkar</h4>
+          <p>Somnath Sarkar leads Unmesh with a focus on inspiring performances and cultural innovation, bridging tradition and modernity.</p>
           <div class="social-icons d-flex justify-content-center">
             <a href="#"><span class="fa fa-linkedin"></span></a>
             <a href="#"><span class="fa fa-facebook"></span></a>
@@ -1056,15 +1056,15 @@ include_once('head_nav.php');
     <div class="volunteer flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/m1.jpg);"></div>
+          <div class="img" style="background-image: url(images/team/danand.jpg);"></div>
           <div class="text">
-            <h3>Sofia Khan</h3>
-            <span>Outreach Coordinator</span>
+            <h3>Devindar Anand</h3>
+            <span>Utsav</span>
           </div>
         </div>
         <div class="flip-card-back">
-          <h4>Sofia Khan</h4>
-          <p>Coordinates outreach initiatives, engaging communities worldwide and ensuring meaningful participation in projects.</p>
+          <h4>Devindar Anand</h4>
+          <p>Devindar Anand curates Utsav, celebrating culture and heritage through festivals, events, and creative showcases for the community.</p>
           <div class="social-icons d-flex justify-content-center">
             <a href="#"><span class="fa fa-linkedin"></span></a>
             <a href="#"><span class="fa fa-facebook"></span></a>
