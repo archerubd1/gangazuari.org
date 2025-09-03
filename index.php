@@ -784,307 +784,322 @@ include_once('head_nav.php');
 </section>
 
 
-
-
 <style>
-.flip-card {
+.team-card {
   background: transparent;
-  perspective: 1000px; /* 3D effect */
+  perspective: 1000px;
+  margin-bottom: 30px;
 }
-.flip-card-inner {
+.team-card-inner {
   position: relative;
   width: 100%;
   height: 350px;
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-.flip-card:hover .flip-card-inner {
+.team-card:hover .team-card-inner {
   transform: rotateY(180deg);
 }
-.flip-card-front, .flip-card-back {
+.team-card-front, .team-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  border-radius: 8px;
+  border-radius: 6px;
   overflow: hidden;
+  border: 3px solid #ddd;
 }
-.flip-card-front {
+.team-card-front {
   background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
 }
-.flip-card-back {
-  background: #007bff; /* Back color */
+.team-card-front .img {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 3px solid #ddd;
+}
+.team-card-front .text {
+  padding: 12px;
+}
+.team-card-front h3 {
+  font-size: 1rem;
+  margin-bottom: 3px;
+  font-weight: 700;
+}
+.team-card-front span {
+  font-size: 0.9rem;
+  color: #555;
+}
+.team-card-back {
+  background: #007bff;
   color: #fff;
+  transform: rotateY(180deg);
+  padding: 15px;
+  font-size: 0.8rem;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  padding: 20px;
-  transform: rotateY(180deg);
 }
-
+.team-card-back h4 {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
 .social-icons {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .social-icons a {
-  color: #fff;        /* white icons on back */
-  font-size: 18px;    /* slightly bigger */
-  margin: 0 10px;     /* spacing */
+  color: #fff;
+  font-size: 16px;
+  margin: 0 8px;
   transition: color 0.3s;
 }
 .social-icons a:hover {
-  color: #ffdd57;     /* highlight color on hover */
+  color: #ffdd57;
 }
-
-
 </style>
 
 <section class="ftco-section ftco-no-pt">
   <div class="container">
+    <!-- Section Heading -->
     <div class="row justify-content-center pb-5 mb-3">
-      <div class="col-md-7 heading-section text-center ftco-animate">
+      <div class="col-md-8 heading-section text-center ftco-animate">
         <span class="subheading">Our Team</span>
         <h2>Key People Who Make It Happen</h2>
       </div>
     </div>
-	
-	
-   <div class="row text-center">
 
-  <!-- Person 1 -->
-  <div class="col-md-6 col-lg">
-    <div class="volunteer flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/mpraikar.jpg);"></div>
-          <div class="text">
-            <h3>Manguirish Pai Raikar</h3>
-            <span>President</span>
-          </div>
-        </div>
-        <div class="flip-card-back">
-          <h4>Manguirish Pai Raikar</h4>
-          <p>Cultural historian and community leader, driving initiatives to preserve artistic heritage while fostering global collaboration.</p>
-          <div class="social-icons d-flex justify-content-center">
-            <a href="#"><span class="fa fa-linkedin"></span></a>
-            <a href="#"><span class="fa fa-facebook"></span></a>
-            <a href="#"><span class="fa fa-instagram"></span></a>
+    <!-- President on Top -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-6 col-lg-4">
+        <div class="team-card">
+          <div class="team-card-inner">
+            <div class="team-card-front">
+              <div class="img" style="background-image: url(images/team/mpraikar.jpg);"></div>
+              <div class="text">
+                <h3>Manguirish Pai Raikar</h3>
+                <span>President</span>
+              </div>
+            </div>
+            <div class="team-card-back">
+              <h4>Manguirish Pai Raikar</h4>
+              <p>Goa-based entrepreneur and industry leader promoting MSMEs, skill development, and innovation. Former Chairman of ASSOCHAM National Council for MSME and past President of GCCI, he contributes actively to policy advocacy and sustainable economic growth.</p>
+              <div class="social-icons d-flex justify-content-center">
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Person 2 -->
-  <div class="col-md-6 col-lg">
-    <div class="volunteer flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/rtarkar.jpg);"></div>
-          <div class="text">
-            <h3>Rajesh Tarkar</h3>
-            <span>Vice President</span>
+    <!-- 2 Rows of 4 Members Each -->
+    <div class="row text-center">
+      <!-- Member 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="team-card">
+          <div class="team-card-inner">
+            <div class="team-card-front">
+              <div class="img" style="background-image: url(images/team/rtarkar.jpg);"></div>
+              <div class="text">
+                <h3>Rajesh Tarkar</h3>
+                <span>Vice President</span>
+              </div>
+            </div>
+            <div class="team-card-back">
+              <h4>Rajesh Tarkar</h4>
+              <p>A Krishna devotee, speaker, and builder from Goa. Rising from humble roots with faith in Karma, he excels in business, music, and inspires with his spiritual leadership.</p>
+              <div class="social-icons d-flex justify-content-center">
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="flip-card-back">
-          <h4>Rajesh Tarkar</h4>
-          <p>Social activist and educationist, committed to strengthening cultural ties through arts and festivals.</p>
-          <div class="social-icons d-flex justify-content-center">
-            <a href="#"><span class="fa fa-linkedin"></span></a>
-            <a href="#"><span class="fa fa-facebook"></span></a>
-            <a href="#"><span class="fa fa-instagram"></span></a>
+      </div>
+
+      <!-- Member 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="team-card">
+          <div class="team-card-inner">
+            <div class="team-card-front">
+              <div class="img" style="background-image: url(images/team/dverma.jpg);"></div>
+              <div class="text">
+                <h3>Dinesh Verma</h3>
+                <span>Vice President</span>
+              </div>
+            </div>
+            <div class="team-card-back">
+              <h4>Dinesh Verma</h4>
+              <p>Ophthalmologist, inventor, and entrepreneur with focus on device innovation, cataract surgery, and retinal therapies. Leads Dumfries Visionostics in Scotland to advance ophthalmic research.</p>
+              <div class="social-icons d-flex justify-content-center">
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="team-card">
+          <div class="team-card-inner">
+            <div class="team-card-front">
+              <div class="img" style="background-image: url(images/team/rmukhopadhyay.jpg);"></div>
+              <div class="text">
+                <h3>Ranadhir Mukhopadhyay</h3>
+                <span>General Secretary</span>
+              </div>
+            </div>
+            <div class="team-card-back">
+              <h4>Ranadhir Mukhopadhyay</h4>
+              <p>Interdisciplinary scholar with doctorates in Geology and Public Administration. Integrates science, ethics, and governance to promote inclusivity, sustainability, and equitable solutions for humanity’s future.</p>
+              <div class="social-icons d-flex justify-content-center">
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member 5 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="team-card">
+          <div class="team-card-inner">
+            <div class="team-card-front">
+              <div class="img" style="background-image: url(images/team/hkkaul.jpg);"></div>
+              <div class="text">
+                <h3>Hari Krishan Kaul</h3>
+                <span>Treasurer</span>
+              </div>
+            </div>
+            <div class="team-card-back">
+              <h4>Hari Krishan Kaul</h4>
+              <p>General Manager of CMM ARENA-Goa and Chairman of GCCI’s Retail Trade Committee. Passionately drives consumer-focused retail growth, developing innovative facilities that shape Goa’s retail landscape.</p>
+              <div class="social-icons d-flex justify-content-center">
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-
-
-  <!-- Person 4 -->
-  <div class="col-md-6 col-lg">
-    <div class="volunteer flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/dverma.jpg);"></div>
-          <div class="text">
-            <h3>DV</h3>
-            <span>Joint Secretary</span>
+    <div class="row text-center mt-4">
+      <!-- Member 6 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="team-card">
+          <div class="team-card-inner">
+            <div class="team-card-front">
+              <div class="img" style="background-image: url(images/team/dnhmazumdar.jpg);"></div>
+              <div class="text">
+                <h3>Dr. Neeta Hede Mazumdar</h3>
+                <span>Joint Secretary</span>
+              </div>
+            </div>
+            <div class="team-card-back">
+              <h4>Dr. Neeta Hede Mazumdar</h4>
+              <p>PhD in Mathematics and Associate Professor at Quepem College. She brings academic rigor and leadership in education, contributing to cultural and intellectual growth.</p>
+              <div class="social-icons d-flex justify-content-center">
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="flip-card-back">
-          <h4>DV</h4>
-          <p>Dedicated to fostering cultural diversity and mentoring initiatives that inspire future leaders in the arts.</p>
-          <div class="social-icons d-flex justify-content-center">
-            <a href="#"><span class="fa fa-linkedin"></span></a>
-            <a href="#"><span class="fa fa-facebook"></span></a>
-            <a href="#"><span class="fa fa-instagram"></span></a>
+      </div>
+
+      <!-- Member 7 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="team-card">
+          <div class="team-card-inner">
+            <div class="team-card-front">
+              <div class="img" style="background-image: url(images/team/dachattarjee.jpg);"></div>
+              <div class="text">
+                <h3>Dr. Anil Chatterji</h3>
+                <span>Convenor – Chhandovani</span>
+              </div>
+            </div>
+            <div class="team-card-back">
+              <h4>Dr. Anil Chatterji</h4>
+              <p>Indian marine biologist and CSIR-NIO veteran who advanced aquaculture through prawn hatcheries, raft farming, and pioneering research on the Indian horseshoe crab. Also a gifted musician.</p>
+              <div class="social-icons d-flex justify-content-center">
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member 8 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="team-card">
+          <div class="team-card-inner">
+            <div class="team-card-front">
+              <div class="img" style="background-image: url(images/team/sskarkar.jpg);"></div>
+              <div class="text">
+                <h3>Somnath Sarkar</h3>
+                <span>Convenor – Unmesh</span>
+              </div>
+            </div>
+            <div class="team-card-back">
+              <h4>Somnath Sarkar</h4>
+              <p>IIT Kharagpur graduate, retired Additional GM at Goa Shipyard Ltd. Deeply interested in art, culture, philosophy, writing, and modern physical science.</p>
+              <div class="social-icons d-flex justify-content-center">
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Member 9 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="team-card">
+          <div class="team-card-inner">
+            <div class="team-card-front">
+              <div class="img" style="background-image: url(images/team/danand.jpg);"></div>
+              <div class="text">
+                <h3>Devinder Anand</h3>
+                <span>Convenor – Utsav</span>
+              </div>
+            </div>
+            <div class="team-card-back">
+              <h4>Devinder Anand</h4>
+              <p>Psycho-Spiritual Coach who left careers in exports, consultancy, and manpower analysis to focus on holistic well-being. Loves to travel, read, and immerse in nature.</p>
+              <div class="social-icons d-flex justify-content-center">
+                <a href="#"><span class="fa fa-linkedin"></span></a>
+                <a href="#"><span class="fa fa-facebook"></span></a>
+                <a href="#"><span class="fa fa-instagram"></span></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  
-  
-  <!-- Person 3 -->
-  <div class="col-md-6 col-lg">
-    <div class="volunteer flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/rmukhopadhyay.jpg);"></div>
-          <div class="text">
-            <h3>Ranadhir Mukhopadhyay</h3>
-            <span>General Secretary</span>
-          </div>
-        </div>
-        <div class="flip-card-back">
-          <h4>Ranadhir Mukhopadhyay</h4>
-          <p>Passionate advocate for performing arts, curating youth-led programs to encourage emerging artists.</p>
-          <div class="social-icons d-flex justify-content-center">
-            <a href="#"><span class="fa fa-linkedin"></span></a>
-            <a href="#"><span class="fa fa-facebook"></span></a>
-            <a href="#"><span class="fa fa-instagram"></span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Person 5 -->
-  <div class="col-md-6 col-lg">
-    <div class="volunteer flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/hkkaul.jpg);"></div>
-          <div class="text">
-            <h3>Hari Krishna Kaul</h3>
-            <span>Treasurer</span>
-          </div>
-        </div>
-        <div class="flip-card-back">
-          <h4>Hari Krishna Kaul</h4>
-          <p>Finance professional ensuring transparency and sustainability in projects, while supporting grassroots initiatives.</p>
-          <div class="social-icons d-flex justify-content-center">
-            <a href="#"><span class="fa fa-linkedin"></span></a>
-            <a href="#"><span class="fa fa-facebook"></span></a>
-            <a href="#"><span class="fa fa-instagram"></span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<div class="row text-center mt-4">
-
-  <!-- Person 6 -->
-  <div class="col-md-6 col-lg-3">
-    <div class="volunteer flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/dnhmazumdar.jpg);"></div>
-          <div class="text">
-            <h3>Dr.Neeta Hede Mazumdar</h3>
-            <span>Joint Secretary</span>
-          </div>
-        </div>
-        <div class="flip-card-back">
-          <h4>Dr.Neeta Hede Mazumdar</h4>
-          <p>Dr. Neeta Hede Mazumdar is dedicated to advancing cultural awareness and educational outreach, combining research with hands-on leadership.</p>
-          <div class="social-icons d-flex justify-content-center">
-            <a href="#"><span class="fa fa-linkedin"></span></a>
-            <a href="#"><span class="fa fa-facebook"></span></a>
-            <a href="#"><span class="fa fa-instagram"></span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Person 7 -->
-  <div class="col-md-6 col-lg-3">
-    <div class="volunteer flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/dachattarjee.jpg);"></div>
-          <div class="text">
-            <h3>Dr. Anil Chatterjee</h3>
-            <span>Chhandovani</span>
-          </div>
-        </div>
-        <div class="flip-card-back">
-          <h4>Dr. Anil Chatterjee</h4>
-          <p>Dr. Anil Chatterjee brings literary excellence to the Academy, nurturing creativity, writing, and cultural expression through Chhandovani..</p>
-          <div class="social-icons d-flex justify-content-center">
-            <a href="#"><span class="fa fa-linkedin"></span></a>
-            <a href="#"><span class="fa fa-facebook"></span></a>
-            <a href="#"><span class="fa fa-instagram"></span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Person 8 -->
-  <div class="col-md-6 col-lg-3">
-    <div class="volunteer flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/sskarkar.jpg);"></div>
-          <div class="text">
-            <h3>Somnath Sarkar</h3>
-            <span>Unmesh</span>
-          </div>
-        </div>
-        <div class="flip-card-back">
-          <h4>Somnath Sarkar</h4>
-          <p>Somnath Sarkar leads Unmesh with a focus on inspiring performances and cultural innovation, bridging tradition and modernity.</p>
-          <div class="social-icons d-flex justify-content-center">
-            <a href="#"><span class="fa fa-linkedin"></span></a>
-            <a href="#"><span class="fa fa-facebook"></span></a>
-            <a href="#"><span class="fa fa-instagram"></span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Person 9 -->
-  <div class="col-md-6 col-lg-3">
-    <div class="volunteer flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-          <div class="img" style="background-image: url(images/team/danand.jpg);"></div>
-          <div class="text">
-            <h3>Devindar Anand</h3>
-            <span>Utsav</span>
-          </div>
-        </div>
-        <div class="flip-card-back">
-          <h4>Devindar Anand</h4>
-          <p>Devindar Anand curates Utsav, celebrating culture and heritage through festivals, events, and creative showcases for the community.</p>
-          <div class="social-icons d-flex justify-content-center">
-            <a href="#"><span class="fa fa-linkedin"></span></a>
-            <a href="#"><span class="fa fa-facebook"></span></a>
-            <a href="#"><span class="fa fa-instagram"></span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-
-	
-	
-	
-	
-	
   </div>
 </section>
+
+
+
 
 
 <section class="ftco-counter" id="section-partners" style="background-color:#111;">
