@@ -14,7 +14,7 @@
           <!-- Amartya Sen -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f1.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/asen.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -29,7 +29,7 @@
           <!-- Senayangba Chubatoshi Jamir -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/m1.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/scjamir.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -44,7 +44,7 @@
           <!-- Pratap Singh Rane -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f2.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/psrane.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -59,7 +59,7 @@
           <!-- Maria Emelia Menezes -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/m2.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/memenezes.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -74,7 +74,7 @@
           <!-- Amitav Ghosh -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f3.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/aghosh.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -89,7 +89,7 @@
           <!-- Manohar Parrikar -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/m3.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/mparrikar.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -104,7 +104,7 @@
           <!-- Haimanti Shukla -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f4.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/hshukla.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -119,7 +119,7 @@
           <!-- Nitin Kunkolienkar -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/m4.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/nkunkolienkar.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -134,7 +134,7 @@
           <!-- Arijit Chaudhuri -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f5.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/achaudhuri.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -149,7 +149,7 @@
           <!-- Manguirish Pai Raiker -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/m5.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/mpraikar.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -164,7 +164,7 @@
           <!-- Syed Wajih Ahmad Naqvi -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f6.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/swanaqvi.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -179,7 +179,7 @@
           <!-- Mridula Sinha -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/m6.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/msinha.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -194,7 +194,7 @@
           <!-- Sunil Singh -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f7.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/ssingh.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -209,7 +209,7 @@
           <!-- Suresh Prabhu -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/m7.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/sprabhu.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -224,7 +224,7 @@
           <!-- Alka Deo Marulkar -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f8.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/admarulkar.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -239,7 +239,7 @@
           <!-- Rajendra Prasad Pal -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/m8.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/rppai.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
@@ -254,7 +254,7 @@
           <!-- Rajiv Nigam -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f9.jpg)"></div>
+              <div class="user-img" style="background-image: url(images/testimonial/rnigam.jpeg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>

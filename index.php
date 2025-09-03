@@ -269,7 +269,7 @@ include_once('head_nav.php');
         </div>
 
         <div class="testimonial-item d-flex mb-3">
-          <img src="images/team/f8.jpg" alt="Alka Deo Marulkar" class="testimonial-img">
+          <img src="images/testimonial/admarulkar.jpeg" alt="Alka Deo Marulkar" class="testimonial-img">
           <div class="testimonial-text">
             <p>Through melody, we weave cultures. Ganga and Zuari flow together in song, reminding us that music unites hearts beyond boundaries.</p>
             <strong>- Alka Deo Marulkar (Versatile vocalist, purist and experimentalist)</strong>
