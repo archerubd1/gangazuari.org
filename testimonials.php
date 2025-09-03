@@ -11,152 +11,257 @@
       <div class="col-md-12">
         <div class="carousel-testimony owl-carousel">
 
-          <!-- Unmesh -->
+          <!-- Amartya Sen -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f1.jpg)">
-              </div>
+              <div class="user-img" style="background-image: url(images/team/f1.jpg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
                 </span>
-                <p>“Unmesh opened my mind to new ways of thinking about literature and philosophy. 
-                It felt like an intellectual festival where ideas flowed as freely as music.”</p>
-                <p class="name">Ananya Chatterjee</p>
-                <span class="position">Professor, Kolkata</span>
+                <p>“Ganga Zuari Academy nurtures dialogue across cultures, embodying India’s pluralism while enriching global conversations.”</p>
+                <p class="name">Amartya Sen</p>
+                <span class="position">Economist, Nobel Laureate</span>
               </div>
             </div>
           </div>
 
-          <!-- Chhandovani -->
+          <!-- Senayangba Chubatoshi Jamir -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f1.jpg)">
-              </div>
+              <div class="user-img" style="background-image: url(images/team/m1.jpg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
                 </span>
-                <p>“Through Chhandovani, I reconnected with my roots in dance and rhythm. 
-                The blend of Indian values with contemporary movement was truly inspiring.”</p>
-                <p class="name">Riya Naik</p>
-                <span class="position">Classical Dancer, Goa</span>
+                <p>“I am pleased to inaugurate the Ganga Zuari Academy. When rivers meet, they enrich without conflict. Here, unity in diversity is the guiding principle. With an apolitical stance and a commitment to the public, let knowledge be GZA’s boat and dialogue your destination.”</p>
+                <p class="name">Senayangba Chubatoshi Jamir</p>
+                <span class="position">Former Governor of Goa</span>
               </div>
             </div>
           </div>
 
-          <!-- Utsav -->
+          <!-- Pratap Singh Rane -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/m1.jpg)">
-              </div>
+              <div class="user-img" style="background-image: url(images/team/f2.jpg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
                 </span>
-                <p>“UTSAV brought together people from all walks of life. 
-                The music, theatre, and art created a true spirit of unity and celebration.”</p>
-                <p class="name">Rohit Verma</p>
-                <span class="position">Theatre Artist, Delhi</span>
+                <p>“An apolitical stage where voices mingle, GZA transforms cultural confluences into meaningful, democratic imagination.”</p>
+                <p class="name">Pratap Singh Rane</p>
+                <span class="position">Former Chief Minister, Goa</span>
               </div>
             </div>
           </div>
 
-          <!-- Tapovan -->
+          <!-- Maria Emelia Menezes -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f1.jpg)">
-              </div>
+              <div class="user-img" style="background-image: url(images/team/m2.jpg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
                 </span>
-                <p>“Tapovan gave us a platform to work on inclusive growth. 
-                The workshops on youth empowerment and culture left a lasting mark on our community.”</p>
-                <p class="name">Maria D’Souza</p>
-                <span class="position">Social Worker, Goa</span>
+                <p>“By connecting traditions and ideas, GZA builds bridges essential for inclusive growth and social harmony.”</p>
+                <p class="name">Maria Emelia Menezes</p>
+                <span class="position">Industrialist, Philanthropist</span>
               </div>
             </div>
           </div>
 
-          <!-- Extra Testimonial -->
+          <!-- Amitav Ghosh -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/m1.jpg)">
-              </div>
+              <div class="user-img" style="background-image: url(images/team/f3.jpg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
                 </span>
-                <p>“Being part of Ganga Zuari’s initiatives has been transformative. 
-                It is more than culture — it is about creating belonging and community.”</p>
-                <p class="name">Sayan Mukherjee</p>
-                <span class="position">Writer, Bengaluru</span>
+                <p>“GZA recalls India’s timeless civilizational dialogues, turning heritage into living thought and artistic engagement.”</p>
+                <p class="name">Amitav Ghosh</p>
+                <span class="position">Novelist, Historian of Culture</span>
               </div>
             </div>
           </div>
 
-          <!-- Additional 1 -->
+          <!-- Manohar Parrikar -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f1.jpg)">
-              </div>
+              <div class="user-img" style="background-image: url(images/team/m3.jpg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
                 </span>
-                <p>“The youth programs under Tapovan inspired my students to take pride in their culture while dreaming big for the future.”</p>
-                <p class="name">Neha Patil</p>
-                <span class="position">School Teacher, Pune</span>
+                <p>“Few platforms embody India’s cultural continuum like GZA—fostering unity while celebrating diversity.”</p>
+                <p class="name">Manohar Parrikar</p>
+                <span class="position">Former Chief Minister of Goa & Union Minister</span>
               </div>
             </div>
           </div>
 
-          <!-- Additional 2 -->
+          <!-- Haimanti Shukla -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/m1.jpg)">
-              </div>
+              <div class="user-img" style="background-image: url(images/team/f4.jpg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
                 </span>
-                <p>“At UTSAV, I saw traditions from Bengal and Goa come together in perfect harmony. It reminded me of India’s true strength — unity in diversity.”</p>
-                <p class="name">Arindam Ghosh</p>
-                <span class="position">Entrepreneur, Kolkata</span>
+                <p>“GZA creates resonant spaces where music, memory, and meaning inspire deeper human connection.”</p>
+                <p class="name">Haimanti Shukla</p>
+                <span class="position">Musician, Global Artist</span>
               </div>
             </div>
           </div>
 
-          <!-- Additional 3 -->
+          <!-- Nitin Kunkolienkar -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/m1.jpg)">
-              </div>
+              <div class="user-img" style="background-image: url(images/team/m4.jpg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
                 </span>
-                <p>“Chhandovani gave my daughter the confidence to perform on stage for the first time. It was a proud moment for our family.”</p>
-                <p class="name">Sunil Shenoy</p>
-                <span class="position">Parent, Mangalore</span>
+                <p>“Supporting GZA strengthens not just culture, but innovation, leadership, and inclusive social responsibility.”</p>
+                <p class="name">Nitin Kunkolienkar</p>
+                <span class="position">Industrialist</span>
               </div>
             </div>
           </div>
 
-          <!-- Additional 4 -->
+          <!-- Arijit Chaudhuri -->
           <div class="item">
             <div class="testimony-wrap d-flex">
-              <div class="user-img" style="background-image: url(images/team/f1.jpg)">
-              </div>
+              <div class="user-img" style="background-image: url(images/team/f5.jpg)"></div>
               <div class="text pl-4">
                 <span class="quote d-flex align-items-center justify-content-center">
                   <i class="fa fa-quote-left"></i>
                 </span>
-                <p>“Unmesh showed me how literature can be a bridge between generations. 
-                My father and I attended together, and it sparked conversations we never had before.”</p>
-                <p class="name">Aditi Mehra</p>
-                <span class="position">Student, Mumbai</span>
+                <p>“Academy’s initiatives decentralise knowledge, ensuring marginal voices shape national and global conversations.”</p>
+                <p class="name">Arijit Chaudhuri</p>
+                <span class="position">Literary Theorist, Scholar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Manguirish Pai Raiker -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team/m5.jpg)"></div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“By linking heritage and sustainability, GZA inspires ecological consciousness within India’s future generations.”</p>
+                <p class="name">Manguirish Pai Raiker</p>
+                <span class="position">President, GCCI & Chair, India-MSME</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Syed Wajih Ahmad Naqvi -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team/f6.jpg)"></div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“In promoting intellectual and cultural plurality, GZA safeguards democracy’s most precious lifeblood—dialogue.”</p>
+                <p class="name">Syed Wajih Ahmad Naqvi</p>
+                <span class="position">Scientist, Academician</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mridula Sinha -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team/m6.jpg)"></div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“GZA reflects humanity’s universal search: connecting diverse voices, weaving stories into shared meaning.”</p>
+                <p class="name">Mridula Sinha</p>
+                <span class="position">Former Governor of Goa, Author</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sunil Singh -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team/f7.jpg)"></div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“GZA embodies people-centred knowledge, fostering dialogue where economics, culture, and society converge productively.”</p>
+                <p class="name">Sunil Singh</p>
+                <span class="position">Director, Scientist, Academician</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Suresh Prabhu -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team/m7.jpg)"></div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“GZA reclaims dialogue as India’s civilizational strength, where past and present converse fruitfully.”</p>
+                <p class="name">Suresh Prabhu</p>
+                <span class="position">Former Union Minister, Vice-Chancellor</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alka Deo Marulkar -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team/f8.jpg)"></div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“Through melody, we weave cultures. Ganga and Zuari flow together in song, reminding us that music unites hearts beyond boundaries.”</p>
+                <p class="name">Alka Deo Marulkar</p>
+                <span class="position">Versatile Vocalist</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rajendra Prasad Pal -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team/m8.jpg)"></div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“Through GZA, young minds discover that creativity, compassion, and culture can transform communities.”</p>
+                <p class="name">Rajendra Prasad Pal</p>
+                <span class="position">IAS, Former Secretary, Poet</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rajiv Nigam -->
+          <div class="item">
+            <div class="testimony-wrap d-flex">
+              <div class="user-img" style="background-image: url(images/team/f9.jpg)"></div>
+              <div class="text pl-4">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="fa fa-quote-left"></i>
+                </span>
+                <p>“GZA’s inspiring vision weaves art, environment, and heritage together like a vibrant tapestry, creating a collective journey toward a brighter future.”</p>
+                <p class="name">Rajiv Nigam</p>
+                <span class="position">Philosopher, Geoarchaeologist</span>
               </div>
             </div>
           </div>
@@ -166,4 +271,3 @@
     </div>
   </div>
 </section>
-

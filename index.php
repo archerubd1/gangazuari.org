@@ -362,34 +362,40 @@ include_once('head_nav.php');
 
 
       <!-- About Section -->
+
+<!-- About Section -->
 <div class="col-md-7 wrap-about pt-0">
   <div class="heading-section pe-md-3">
     <span class="subheading">Welcome to The Ganga Zuari Academy</span>
     <h2 class="mb-3">A Global Cultural Think Tank</h2>
+    
     <p>
-      The <strong>Ganga Zuari Academy (GZA)</strong> is a cultural platform that unites traditions, ideas, and communities. 
-      Rooted in India’s heritage and open to the world, GZA serves as a hub for dialogue, creativity, and collaboration across borders.
+      The <strong>Ganga Zuari Academy (GZA)</strong> is a confluence of humanity beyond borders and a global hub for heritage and 
+      culture—connecting the human tribe across generations. We nurture research, dialogue, and sustainable practices, fostering 
+      awareness of humanity’s shared legacy.
     </p>
+    
     <p>
-      Guided by dedicated Presidium leaders and event verticals like <em>Chhandovani</em> (music), <em>Unmesh</em> (literature), and <em>Utsav</em> (festivals), 
-      the Academy curates programs that blend classical wisdom with contemporary expression. From performances and literary forums to culinary showcases and youth engagement, 
-      every initiative fosters cultural understanding and human values.
+      Rooted in Indian traditions yet reaching worldwide, GZA strives to preserve, innovate, and inspire future custodians of cultural 
+      and natural heritage. Guided by a committed Presidium and signature verticals such as <em>Chhandovani</em> (music), 
+      <em>Unmesh</em> (literature), and <em>Utsav</em> (festivals), the Academy creates platforms where heritage meets contemporary 
+      thought and artistic expression.
     </p>
-
-   <p><strong>We at GZA</strong> are committed to creating meaningful global impact through our initiatives:</p>
-<ul class="list-unstyled ms-3"> 
-  <li>🌍 <strong>Connect cultures globally</strong> through programs in music, literature, festivals, and art.</li>
-  <li>🤝 <strong>Facilitate cross-border dialogues</strong> to advance peace, inclusivity, and mutual respect.</li>
-  <li>📚 <strong>Serve as a knowledge hub</strong> by driving research, workshops, and international cultural exchange.</li>
-  <li>💡 <strong>Ignite creativity</strong> by merging traditional wisdom with contemporary innovation.</li>
-  <li>🎯 <strong>Empower youth</strong> to become cultural ambassadors and global changemakers.</li>
-  <li>🌱 <strong>Promote sustainable cultural development</strong> aligned with international goals and values.</li>
-</ul>
-
-
+    
+    <p><strong>Through our initiatives, GZA</strong> seeks to make lasting global impact:</p>
+    
+    <ul class="list-unstyled ms-3"> 
+      <li>🌍 <strong>Connecting cultures globally</strong> through literature, music, art, and festivals.</li>
+      <li>🤝 <strong>Building dialogues across borders</strong> that foster peace, inclusivity, and mutual respect.</li>
+      <li>📚 <strong>Strengthening knowledge ecosystems</strong> through research, workshops, and cultural exchange.</li>
+      <li>💡 <strong>Encouraging innovation</strong> by merging timeless traditions with modern creativity.</li>
+      <li>🎯 <strong>Empowering youth</strong> to become cultural ambassadors and future leaders.</li>
+      <li>🌱 <strong>Promoting sustainable practices</strong> to safeguard cultural and natural heritage for generations to come.</li>
+    </ul>
     
   </div>
 </div>
+
 
 
 	  
