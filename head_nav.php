@@ -89,11 +89,17 @@
 	<!-- END nav -->
 	
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar-2">
-  <div class="container">
+  <div class="container-fluid pl-2 pr-4"> <!-- Full-width navbar with slight left padding -->
+    
     <!-- Brand / Logo -->
-    <a class="navbar-brand" href="index.php">
-      <img src="images/2025/gza_logo.jpg" alt="The Ganga Zuari Academy Logo" style="height:80px; width:80px; margin-right:8px;">
-    </a>
+    <div class="d-flex align-items-center">
+      <a class="navbar-brand mb-0 mr-2" href="index.php" style="margin-left:15px;">
+        <img src="images/2025/gza_logo.jpg" alt="The Ganga Zuari Academy Logo" style="height:90px;">
+      </a>
+      <a class="navbar-brand mb-0" href="index.php">
+        <img src="images/2025/kp.png" alt="The Ganga Zuari Academy Logo" style="height:90px;">
+      </a>
+    </div>
 
     <!-- Mobile Toggle -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav-2" aria-controls="ftco-nav-2" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,7 +109,7 @@
     <!-- Menu Items -->
     <div class="collapse navbar-collapse" id="ftco-nav-2">
       <ul class="navbar-nav ml-auto">
-
+        
         <!-- Home -->
         <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
 
@@ -168,6 +174,7 @@
     </div>
   </div>
 </nav>
+
 
 
 <!-- ============================================================

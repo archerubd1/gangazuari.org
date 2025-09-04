@@ -60,7 +60,7 @@ include_once('head_nav.php');
     <div class="col-md-4 text-center mb-4">
       <div class="team-card shadow-sm p-3 rounded">
         <div class="team-img mx-auto">
-          <img src="images/team/m1.jpg" alt="Manguirish Pai Raikar" class="rounded-circle">
+          <img src="images/team/mpraikar.jpg" alt="Manguirish Pai Raikar" class="rounded-circle">
         </div>
         <h5 class="mt-3">Manguirish Pai Raikar</h5>
         <p class="text-muted mb-1">President</p>
@@ -79,7 +79,7 @@ include_once('head_nav.php');
     <div class="col-md-4 text-center mb-4">
       <div class="team-card shadow-sm p-3 rounded">
         <div class="team-img mx-auto">
-          <img src="images/team/m1.jpg" alt="Rajesh Tarkar" class="rounded-circle">
+          <img src="images/team/rtarkar.jpg" alt="Rajesh Tarkar" class="rounded-circle">
         </div>
         <h5 class="mt-3">Rajesh Tarkar</h5>
         <p class="text-muted mb-1">Vice President</p>
@@ -98,7 +98,7 @@ include_once('head_nav.php');
     <div class="col-md-4 text-center mb-4">
       <div class="team-card shadow-sm p-3 rounded">
         <div class="team-img mx-auto">
-          <img src="images/team/m1.jpg" alt="Dr. Dinesh Verma" class="rounded-circle">
+          <img src="images/team/dverma.jpg" alt="Dr. Dinesh Verma" class="rounded-circle">
         </div>
         <h5 class="mt-3">Dr. Dinesh Verma</h5>
         <p class="text-muted mb-1">Vice President</p>
@@ -117,7 +117,7 @@ include_once('head_nav.php');
     <div class="col-md-4 text-center mb-4">
       <div class="team-card shadow-sm p-3 rounded">
         <div class="team-img mx-auto">
-          <img src="images/team/m1.jpg" alt="Ranadhir Mukhopadhyay" class="rounded-circle">
+          <img src="images/team/rmukhopadhyay.jpg" alt="Ranadhir Mukhopadhyay" class="rounded-circle">
         </div>
         <h5 class="mt-3">Ranadhir Mukhopadhyay</h5>
         <p class="text-muted mb-1">General Secretary</p>
@@ -136,7 +136,7 @@ include_once('head_nav.php');
     <div class="col-md-4 text-center mb-4">
       <div class="team-card shadow-sm p-3 rounded">
         <div class="team-img mx-auto">
-          <img src="images/team/f1.jpg" alt="Dr. Neeta Hede Mazumdar" class="rounded-circle">
+          <img src="images/team/dnhmazumdar.jpg" alt="Dr. Neeta Hede Mazumdar" class="rounded-circle">
         </div>
         <h5 class="mt-3">Dr. Neeta Hede Mazumdar</h5>
         <p class="text-muted mb-1">Joint Secretary</p>
@@ -155,9 +155,9 @@ include_once('head_nav.php');
     <div class="col-md-4 text-center mb-4">
       <div class="team-card shadow-sm p-3 rounded">
         <div class="team-img mx-auto">
-          <img src="images/team/m1.jpg" alt="Saurav Roy" class="rounded-circle">
+          <img src="images/team/hkkaul.jpg" alt="Hari Krishan Kaul" class="rounded-circle">
         </div>
-        <h5 class="mt-3">Saurav Roy</h5>
+        <h5 class="mt-3">Hari Krishan Kaul</h5>
         <p class="text-muted mb-1">Treasurer</p>
         <div class="social-icons mb-2">
           <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
@@ -165,7 +165,7 @@ include_once('head_nav.php');
           <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
         </div>
         <div class="team-bio">
-          <p class="small">Saurav Roy ensures financial discipline and transparency, managing resources responsibly to support the Academy’s long-term vision.</p>
+          <p class="small">Hari Krishan Kaul ensures financial discipline and transparency, managing resources responsibly to support the Academy’s long-term vision.</p>
         </div>
       </div>
     </div>
@@ -174,7 +174,7 @@ include_once('head_nav.php');
     <div class="col-md-4 text-center mb-4">
       <div class="team-card shadow-sm p-3 rounded">
         <div class="team-img mx-auto">
-          <img src="images/team/m1.jpg" alt="Dr. Anil Chatterjee" class="rounded-circle">
+          <img src="images/team/dachattarjee.jpg" alt="Dr. Anil Chatterjee" class="rounded-circle">
         </div>
         <h5 class="mt-3">Dr. Anil Chatterjee</h5>
         <p class="text-muted mb-1">Chhandovani</p>
@@ -193,7 +193,7 @@ include_once('head_nav.php');
     <div class="col-md-4 text-center mb-4">
       <div class="team-card shadow-sm p-3 rounded">
         <div class="team-img mx-auto">
-          <img src="images/team/m1.jpg" alt="Somnath Sarkar" class="rounded-circle">
+          <img src="images/team/sskarkar.jpg" alt="Somnath Sarkar" class="rounded-circle">
         </div>
         <h5 class="mt-3">Somnath Sarkar</h5>
         <p class="text-muted mb-1">Unmesh</p>
@@ -212,7 +212,7 @@ include_once('head_nav.php');
     <div class="col-md-4 text-center mb-4">
       <div class="team-card shadow-sm p-3 rounded">
         <div class="team-img mx-auto">
-          <img src="images/team/f1.jpg" alt="Devindar Anand" class="rounded-circle">
+          <img src="images/team/danand.jpg" alt="Devindar Anand" class="rounded-circle">
         </div>
         <h5 class="mt-3">Devindar Anand</h5>
         <p class="text-muted mb-1">Utsav</p>

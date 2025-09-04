@@ -43,7 +43,7 @@ include_once('head_nav.php');
   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
   <!-- Article Text -->
-  <h2 class="mb-4">Nostalgia</h2>
+  <h4 class="mb-4">Nostalgia</h4>
   <p><em>– Khushi Chodankar</em></p>
 
   <p><strong>Nostalgia</strong> is a painting that invites viewers into a world of memories—where fleeting emotions, cherished past, and subtle sentiments come alive on canvas. Through her art, Khushi Chodankar captures the delicate balance between personal memory and universal longing.</p>
