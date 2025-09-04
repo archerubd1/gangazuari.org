@@ -70,7 +70,48 @@ include_once('head_nav.php');
 </div> <!-- .col-lg-8 -->
 
 
-     
+      <!-- Sidebar -->
+      <div class="col-lg-4 sidebar pl-lg-5 ftco-animate">
+
+        <!-- Search -->
+        <div class="sidebar-box">
+          <form action="#" class="search-form">
+            <div class="form-group">
+              <span class="fa fa-search"></span>
+              <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
+            </div>
+          </form>
+        </div>
+
+        <!-- Also Read This -->
+        <div class="sidebar-box ftco-animate">
+          <h3>Also Read This</h3>
+
+         <?php
+$articles = [
+    ["melange_1.php","বহু বিদ্যা, তীক্ষ্ণ বোধ, তথাপি নির্বোধ- ১ | Arijit Chowdhury","images/article_1.jpg","August 10, 2025"],
+    ["melange_2.php","ज़िन्दगी और फ़ुरसत | जयंत राय","images/poetry_1.jpg","August 12, 2025"],
+    ["melange_3.php","রবিগান রহস্য -৩- আমি যখন তাঁর দুয়ারে | Somnath Sarkar","images/essay_1.jpg","August 8, 2025"],
+    ["melange_4.php","[Title for Melange 4] | [Author]","images/science_1.jpg","August 14, 2025"],
+    ["melange_5.php","তোমার আছে তো হাতখানি | Dipankar Chowdhury","images/diba.jpg","August 16, 2025"],
+    ["melange_6.php","প্যাকেট | Jayanta Roy","images/story_1.jpg","August 18, 2025"],
+	["melange_7.php","What Schools Did Not Teach Us | P V Sathe","images/points_to_ponder.jpg","August 20, 2025"]
+	
+
+foreach($articles as $art){
+    echo '<div class="block-21 mb-4 d-flex">
+            <a class="blog-img mr-4" style="background-image: url('.$art[2].');"></a>
+            <div class="text">
+              <h3 class="heading"><a href="'.$art[0].'">'.$art[1].'</a></h3>
+              <div class="meta"><div><a href="#"><span class="fa fa-calendar"></span> '.$art[3].'</a></div></div>
+            </div>
+          </div>';
+}
+?>
+
+        </div>
+
+      </div> <!-- .col-lg-4 -->
 	 
 	 
 	 
