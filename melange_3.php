@@ -88,9 +88,9 @@ include_once('head_nav.php');
 
   <!-- About Author -->
   <div class="about-author d-flex p-4 bg-light mt-5">
-    <div class="bio mr-5">
-      <img src="images/team/m1.jpg" alt="Somnath Sarkar" class="img-fluid mb-4">
-    </div>
+    <!--<div class="bio mr-5">
+      <img src="images/team/m1.jpg" alt="Arijit Choudhuri" class="img-fluid mb-4">
+    </div>   -->
     <div class="desc">
       <h3>সোমনাথ সরকার</h3>
       <p>লেখক হিন্দু স্কুলের ছাত্র এবং নেভাল আর্কিটেকচার পড়ে কর্মসূত্রে গোয়াবাসী, অধুনা অবসরপ্রাপ্ত। রবীন্দ্রানুরাগী এবং শখের লেখা লেখেন।</p>
@@ -125,7 +125,7 @@ include_once('head_nav.php');
      
 	  ["melange_4.php","The Mystery of the Universe | Prof. (Dr.) Shibaji Roy","images/science_1.jpg","August 18, 2025"],  
       ["melange_5.php","তোমার আছে তো হাতখানি | Dipankar Chowdhury","images/diba.jpg","August 16, 2025"],
-      ["melange_6.php","প্যাকেৎ | Jayanta Roy","images/story_1.jpg","August 18, 2025"],
+     ["melange_6.php","প্যাকেট | Jayanta Roy","images/story_1.jpg","August 18, 2025"],
       ["melange_7.php","What Schools Did Not Teach Us | P V Sathe","images/points_to_ponder.jpg","August 20, 2025"],
 	  ["melange_10.php","Nostalgia | Khushi Chodankar","images/nos_khu.jpg","August 30, 2025"]
   ];

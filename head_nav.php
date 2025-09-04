@@ -131,7 +131,7 @@
             <a class="dropdown-item" href="unmesh.php">Unmesh</a>
             <a class="dropdown-item" href="chhandovani.php">Chhandovani</a>
             <a class="dropdown-item" href="utsav.php">Utsav</a>
-            <a class="dropdown-item" href="kshijit.php">Kshijit</a>
+            <a class="dropdown-item" href="horizon.php">Horizon</a>
           </div>
         </li>
 
@@ -153,7 +153,7 @@
           <a href="#" class="nav-link dropdown-toggle" id="gzaDropdown2" data-toggle="dropdown">GZA International</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="overview.php">Overview</a>
-            <a class="dropdown-item" href="kshijit.php">Kshijit</a>
+             <a class="dropdown-item" href="horizon.php">Horizon</a>
             <a class="dropdown-item" href="membership.php">Get Involved</a>
             <a class="dropdown-item" href="contact.php">Contact Us</a>
           </div>

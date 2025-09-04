@@ -109,9 +109,9 @@ include_once('head_nav.php');
 
   <!-- About Author -->
   <div class="about-author d-flex p-4 bg-light">
-    <div class="bio mr-5">
+    <!--<div class="bio mr-5">
       <img src="images/team/m1.jpg" alt="Arijit Choudhuri" class="img-fluid mb-4">
-    </div>
+    </div>   -->
     <div class="desc">
       <h3>Arijit Choudhuri</h3>
       <p>Located in Navi Mumbai, petroleum geologist by profession. Also interested in issues concerning pollution, climate change, and fast depleting groundwater reserves. Travelling, reading, writing articles, composing rhymes, and recitation are his hobbies.</p>

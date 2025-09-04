@@ -54,9 +54,9 @@ include_once('head_nav.php');
 
   <!-- About Author -->
   <div class="about-author d-flex p-4 bg-light mt-5">
-    <div class="bio mr-5">
-      <img src="images/team/f1.jpg" alt="Khushi Chodankar" class="img-fluid mb-4">
-    </div>
+     <!--<div class="bio mr-5">
+      <img src="images/team/m1.jpg" alt="Arijit Choudhuri" class="img-fluid mb-4">
+    </div>   -->
     <div class="desc">
   <h3>Khushi Chodankar</h3>
   <p>Khushi Chodankar is an emerging artist whose works convey sensitivity, introspection, and emotional depth. Her painting <em>Nostalgia</em> transforms memory into visual poetry, preserving fleeting moments and emotions with subtle elegance.</p>

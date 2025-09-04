@@ -114,7 +114,7 @@ include_once('head_nav.php');
         <div class="sidebar-box ftco-animate">
           <h3>Why Unmesh</h3>
           <p>Because words shape worlds. Unmesh is not just a program—it’s a movement where literature, language, and philosophy come alive. It exists to question, to inspire, and to unite diverse voices in conversations that matter.</p>
-          <p>Join us, and let your ideas flow like the rivers we are named after.</p>
+          <p>Join us, and let your ideas flow like the rivers we are named after. Reach out to us at <b>unmesh@gangazuari.org</b></p>
         </div>
       </div>
     </div>

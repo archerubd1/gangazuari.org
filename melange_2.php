@@ -97,9 +97,9 @@ include_once('head_nav.php');
 
  <!-- About Author -->
         <div class="about-author d-flex p-4 bg-light">
-          <div class="bio mr-5">
-            <img src="images/team/m1.jpg" alt="Jayanta Roy" class="img-fluid mb-4">
-          </div>
+          <!--<div class="bio mr-5">
+      <img src="images/team/m1.jpg" alt="Arijit Choudhuri" class="img-fluid mb-4">
+    </div>   -->
           <div class="desc">
             <h3>जयंत राय</h3>
             <p>Jayanta Roy, a Naval Architect by profession, is also an occasional writer. His travels across towns and metro cities in India and abroad inspire his poetic expressions and reflections on life.</p>
@@ -162,7 +162,7 @@ h2, h4 {
       ["melange_3.php","রবিগান রহস্য -৩- আমি যখন তাঁর দুয়ারে | Somnath Sarkar","images/essay_1.jpg","August 8, 2025"],
 	  ["melange_4.php","The Mystery of the Universe | Prof. (Dr.) Shibaji Roy","images/science_1.jpg","August 18, 2025"],  
       ["melange_5.php","তোমার আছে তো হাতখানি | Dipankar Chowdhury","images/diba.jpg","August 16, 2025"],
-      ["melange_6.php","প্যাকেৎ | Jayanta Roy","images/story_1.jpg","August 18, 2025"],
+     ["melange_6.php","প্যাকেট | Jayanta Roy","images/story_1.jpg","August 18, 2025"],
       ["melange_7.php","What Schools Did Not Teach Us | P V Sathe","images/points_to_ponder.jpg","August 20, 2025"],
 	  ["melange_10.php","Nostalgia | Khushi Chodankar","images/nos_khu.jpg","August 30, 2025"]
   ];

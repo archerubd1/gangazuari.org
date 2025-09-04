@@ -69,7 +69,10 @@ include_once('head_nav.php');
   
   <p>We invite you, dear reader, not just to read but to engage—to see how one voice echoes in another, how words and visuals open up new ways of seeing, and how creativity connects us across boundaries.</p>
   
-  <p>This is only the beginning of our journey. While the author contributes in their regional expression we provide you the option to translate it using Google Translator so you do not miss on the article. However, the essence may be diluted at times which we sincerely regret.</p>
+  <p>While the author contributes in their regional expression we provide you the option to translate it using Google 
+  Translator so you do not miss on the article. 
+  However, the essence may be diluted at times which we sincerely regret.This is only the beginning of our journey. 
+  </p>
   
   <p>We aspire to grow into a community that celebrates diversity of language, thought, and expression—a place where every voice has room to be heard. Step in, explore, and may something here stay with you long after you close this page.</p>
   

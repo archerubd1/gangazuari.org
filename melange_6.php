@@ -79,9 +79,9 @@ include_once('head_nav.php');
 
         <!-- About Author -->
         <div class="about-author d-flex p-4 bg-light mt-5">
-          <div class="bio mr-5">
-            <img src="images/team/m1.jpg" alt="Jayanta Roy" class="img-fluid mb-4">
-          </div>
+          <!--<div class="bio mr-5">
+      <img src="images/team/m1.jpg" alt="Arijit Choudhuri" class="img-fluid mb-4">
+    </div>   -->
           <div class="desc">
             <h3>Jayanta Roy</h3>
             <p>Jayanta Roy, a Naval Architect by profession, is also an occasional writer. His experiences in various towns and metro cities across India, and abroad, inform his writings, which often reflect everyday life, family, and work.</p>

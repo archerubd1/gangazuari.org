@@ -67,9 +67,9 @@ include_once('head_nav.php');
 
         <!-- Author Introduction -->
         <div class="about-author d-flex p-4 bg-light mt-5">
-          <div class="bio mr-5">
-            <img src="images/team/m1.jpg" alt="Padmanava Sathe" class="img-fluid mb-4">
-          </div>
+         <!--<div class="bio mr-5">
+      <img src="images/team/m1.jpg" alt="Arijit Choudhuri" class="img-fluid mb-4">
+    </div>   -->
           <div class="desc">
             <h3>Padmanava Sathe</h3>
             <p>Padmanava Sathe is a retired scientist from the National Institute of Oceanography, specializing in marine Remote Sensing. He has been a visiting faculty to many colleges and universities and is a distinguished educator with multi-faceted knowledge and an immense logical mind.</p>

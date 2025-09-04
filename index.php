@@ -594,16 +594,21 @@ include_once('head_nav.php');
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-3">
-        <div class="causes causes-2 text-center">
-          <a href="#" class="img w-100" style="background-image: url(images/tapovan.jpg);"></a>
-          <div class="text p-3">
-            <h2><a href="#">KSHITIJ</a></h2>
-            <p>Kshijit is committed to advancing holistic socio-economic development by connecting people, knowledge, and opportunities. </p>
-            <p><a href="#" class="btn btn-light w-100">Explore</a></p>
-          </div>
-        </div>
-      </div>
+  <div class="col-md-6 col-lg-3">
+  <div class="causes causes-2 text-center">
+    <a href="#" class="img w-100" style="background-image: url(images/tapovan.jpg);"></a>
+    <div class="text p-3">
+      <h2><a href="#">HORIZON</a></h2>
+      <p>
+        Horizon, GZA’s International Wing and fourth vertical, aims to nurture research, dialogue, and sustainable practices.
+      </p>
+      <p><a href="#" class="btn btn-light w-100">Explore</a></p>
+    </div>
+  </div>
+</div>
+
+
+
 
     </div>
   </div>

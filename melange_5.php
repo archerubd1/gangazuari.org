@@ -123,9 +123,9 @@ include_once('head_nav.php');
 
   <!-- About Author -->
   <div class="about-author d-flex p-4 bg-light mt-5">
-    <div class="bio mr-4">
-      <img src="images/team/m1.jpg" alt="দীপঙ্কর চৌধুরী" class="img-fluid mb-4">
-    </div>
+    <!--<div class="bio mr-5">
+      <img src="images/team/m1.jpg" alt="Arijit Choudhuri" class="img-fluid mb-4">
+    </div>   -->
     <div class="desc">
       <h3>দীপঙ্কর চৌধুরী</h3>
       <p>দীপঙ্কর চৌধুরী (জ. 1961) শিশুসাহিত্যিক, গ্রন্থ-সমালোচক ও অনুবাদক। প্রকাশিত কিশোরগল্প-সংকলন: 'ডাইনি ও অন্যান্য গল্প', 'মায়াতোরঙ্গ', 'এক্কা-দোক্কা', 'অপবাস্তব', 'নটে মিঞার গুপ্তধন (গ্রাফিক কিশোর-নভেল)', 'কলোনিয়াল কলকাতার ফুটবল: স্বরূপের সন্ধান' (অনুবাদ)। কলকাতার প্রেসিডেন্সি কলেজ প্রাক্তনী। পেশায় ছিলেন ব্যাঙ্কার, অধুনা সেবানিবৃত।</p>

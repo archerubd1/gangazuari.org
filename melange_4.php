@@ -66,9 +66,9 @@ include_once('head_nav.php');
 
         <!-- About Author -->
         <div class="about-author d-flex p-4 bg-light mt-5">
-          <div class="bio mr-5">
-            <img src="images/team/m1.jpg" alt="Prof. Shibaji Roy" class="img-fluid mb-4">
-          </div>
+        <!--<div class="bio mr-5">
+      <img src="images/team/m1.jpg" alt="Arijit Choudhuri" class="img-fluid mb-4">
+    </div>   -->
           <div class="desc">
             <h3>Dr. Shibaji Roy</h3>
             <p>Dr. Shibaji Roy studied at prestigious Kolkata institutions, completed his BSc in Physics from Presidency College, MSc from Calcutta University, and PhD from University of Rochester in 1991. He later joined Saha Institute of Nuclear Physics, retiring as Senior Professor. He specializes in string theory and popular science writing.</p>
@@ -100,7 +100,7 @@ include_once('head_nav.php');
       ["melange_2.php","ज़िन्दगी और फ़ुरसत | जयंत राय","images/poetry_1.jpg","August 12, 2025"],
       ["melange_3.php","রবিগান রহস্য -৩- আমি যখন তাঁর দুয়ারে | Somnath Sarkar","images/essay_1.jpg","August 8, 2025"],
       ["melange_5.php","তোমার আছে তো হাতখানি | Dipankar Chowdhury","images/diba.jpg","August 16, 2025"],
-      ["melange_6.php","প্যাকেৎ | Jayanta Roy","images/story_1.jpg","August 18, 2025"],
+     ["melange_6.php","প্যাকেট | Jayanta Roy","images/story_1.jpg","August 18, 2025"],
       ["melange_7.php","What Schools Did Not Teach Us | P V Sathe","images/points_to_ponder.jpg","August 20, 2025"],
 	  ["melange_10.php","Nostalgia | Khushi Chodankar","images/nos_khu.jpg","August 30, 2025"]
   ];

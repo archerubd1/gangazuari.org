@@ -120,7 +120,7 @@ include_once('head_nav.php');
           <h3>Why Utsav</h3>
           <p>Utsav is a confluence of cultures — a space where art, food, literature, and performance come alive to celebrate togetherness. 
 		  </p>
-          <p>Join us, and be part of this journey of unity through diversity. reach out to <b>utsav@gangazuari.org</b></p>
+          <p>Join us, and be part of this journey of unity through diversity. Reach out to us at <b>utsav@gangazuari.org</b></p>
         </div>
       </div>
     </div>
