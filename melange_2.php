@@ -180,18 +180,7 @@ h2, h4 {
 </div>
 
 
-        <!-- Tag Cloud -->
-        <div class="sidebar-box ftco-animate">
-          <h3>Tag Cloud</h3>
-          <div class="tagcloud">
-            <a href="#" class="tag-cloud-link">Science</a>
-            <a href="#" class="tag-cloud-link">Cosmology</a>
-            <a href="#" class="tag-cloud-link">Universe</a>
-            <a href="#" class="tag-cloud-link">Big Bang</a>
-          </div>
-        </div>
-
-      </div> <!-- .col-lg-4 -->
+        
 
     </div>
   </div>
