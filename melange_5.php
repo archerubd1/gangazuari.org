@@ -162,7 +162,8 @@ $articles = [
     ["melange_3.php","রবিগান রহস্য -৩- আমি যখন তাঁর দুয়ারে | Somnath Sarkar","images/essay_1.jpg","August 8, 2025"],
     ["melange_4.php","The Mystery of the Universe | Prof. (Dr.) Shibaji Roy","images/science_1.jpg","August 18, 2025"],  
     ["melange_6.php","প্যাকেট | Jayanta Roy","images/story_1.jpg","August 18, 2025"],
-    ["melange_7.php","What Schools Did Not Teach Us | P V Sathe","images/points_to_ponder.jpg","August 20, 2025"]
+    ["melange_7.php","What Schools Did Not Teach Us | P V Sathe","images/points_to_ponder.jpg","August 20, 2025"],
+	["melange_10.php","Nostalgia | Khushi Chodankar","images/nos_khu.jpg","August 30, 2025"]
 ];
 
 foreach($articles as $art){

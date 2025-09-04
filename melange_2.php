@@ -138,7 +138,7 @@ h2, h4 {
 </style>
 
 
-      <!-- Sidebar -->
+<!-- Sidebar -->
       <div class="col-lg-4 sidebar pl-lg-5 ftco-animate">
 
         <!-- Search -->
@@ -151,76 +151,32 @@ h2, h4 {
           </form>
         </div>
 
-       <!-- Recent Blog / Also Read This -->
+        <!-- Also Read This -->
 <div class="sidebar-box ftco-animate">
   <h3>Also Read This</h3>
 
-  <!-- Article 2 -->
-  <div class="block-21 mb-4 d-flex">
-    <a class="blog-img mr-4" style="background-image: url(images/article_1.jpg);"></a>
-    <div class="text">
-      <h3 class="heading"><a href="melange_1.php">বহু বিদ্যা, তীক্ষ্ণ বোধ, তথাপি নির্বোধ- ১ |  Arijit Chowdhury</a></h3>
-      <div class="meta">
-        <div><a href="#"><span class="fa fa-calendar"></span> August 10, 2025</a></div>
-      </div>
-    </div>
-  </div>
+  <?php
+  $articles = [
+		["melange_1.php","বহু বিদ্যা, তীক্ষ্ণ বোধ, তথাপি নির্বোধ- ১ | Arijit Chowdhury","images/article_1.jpg","August 10, 2025"],
+    
+      ["melange_3.php","রবিগান রহস্য -৩- আমি যখন তাঁর দুয়ারে | Somnath Sarkar","images/essay_1.jpg","August 8, 2025"],
+	  ["melange_4.php","The Mystery of the Universe | Prof. (Dr.) Shibaji Roy","images/science_1.jpg","August 18, 2025"],  
+      ["melange_5.php","তোমার আছে তো হাতখানি | Dipankar Chowdhury","images/diba.jpg","August 16, 2025"],
+      ["melange_6.php","প্যাকেৎ | Jayanta Roy","images/story_1.jpg","August 18, 2025"],
+      ["melange_7.php","What Schools Did Not Teach Us | P V Sathe","images/points_to_ponder.jpg","August 20, 2025"],
+	  ["melange_10.php","Nostalgia | Khushi Chodankar","images/nos_khu.jpg","August 30, 2025"]
+  ];
 
-  <!-- Article 3 -->
-  <div class="block-21 mb-4 d-flex">
-    <a class="blog-img mr-4" style="background-image: url(images/essay_1.jpg);"></a>
-    <div class="text">
-      <h3 class="heading"><a href="melange_3.php">রবীন্দ্রনাথ-৩: আমি যখন তাঁর দুয়ারে | Somnath Sarkar</a></h3>
-      <div class="meta">
-        <div><a href="#"><span class="fa fa-calendar"></span> August 12, 2025</a></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Article 4 -->
-  <div class="block-21 mb-4 d-flex">
-    <a class="blog-img mr-4" style="background-image: url(images/science_1.jpg);"></a>
-    <div class="text">
-      <h3 class="heading"><a href="melange_4.php">The Mystery of the Universe | Prof. (Dr.) Shibaji Roy</a></h3>
-      <div class="meta">
-        <div><a href="#"><span class="fa fa-calendar"></span> August 14, 2025</a></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Article 5 -->
-  <div class="block-21 mb-4 d-flex">
-    <a class="blog-img mr-4" style="background-image: url(images/diba.jpg);"></a>
-    <div class="text">
-      <h3 class="heading"><a href="melange_5.php">তোমার আছে তো হাতখানি | Dipankar Chowdhury</a></h3>
-      <div class="meta">
-        <div><a href="#"><span class="fa fa-calendar"></span> August 16, 2025</a></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Article 6 -->
-  <div class="block-21 mb-4 d-flex">
-    <a class="blog-img mr-4" style="background-image: url(images/story_1.jpg);"></a>
-    <div class="text">
-      <h3 class="heading"><a href="melange_6.php">প্যাকেৎ | Jayanta Roy</a></h3>
-      <div class="meta">
-        <div><a href="#"><span class="fa fa-calendar"></span> August 18, 2025</a></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Article 7 -->
-  <div class="block-21 mb-4 d-flex">
-    <a class="blog-img mr-4" style="background-image: url(images/points_to_ponder.jpg);"></a>
-    <div class="text">
-      <h3 class="heading"><a href="melange_7.php">What Schools Did Not Teach Us | P V Sathe</a></h3>
-      <div class="meta">
-        <div><a href="#"><span class="fa fa-calendar"></span> August 20, 2025</a></div>
-      </div>
-    </div>
-  </div>
-
+  foreach($articles as $art){
+      echo '<div class="block-21 mb-4 d-flex">
+              <a class="blog-img mr-4" style="background-image: url('.$art[2].');"></a>
+              <div class="text">
+                <h3 class="heading"><a href="'.$art[0].'">'.$art[1].'</a></h3>
+                <div class="meta"><div><a href="#"><span class="fa fa-calendar"></span> '.$art[3].'</a></div></div>
+              </div>
+            </div>';
+  }
+  ?>
 </div>
 
 
@@ -228,14 +184,13 @@ h2, h4 {
         <div class="sidebar-box ftco-animate">
           <h3>Tag Cloud</h3>
           <div class="tagcloud">
-            <a href="#" class="tag-cloud-link">Poetry</a>
-            <a href="#" class="tag-cloud-link">Life</a>
-            <a href="#" class="tag-cloud-link">Time</a>
-            <a href="#" class="tag-cloud-link">Reflection</a>
+            <a href="#" class="tag-cloud-link">Science</a>
+            <a href="#" class="tag-cloud-link">Cosmology</a>
+            <a href="#" class="tag-cloud-link">Universe</a>
+            <a href="#" class="tag-cloud-link">Big Bang</a>
           </div>
         </div>
 
-       
       </div> <!-- .col-lg-4 -->
 
     </div>
