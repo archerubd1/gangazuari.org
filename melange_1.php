@@ -155,7 +155,7 @@ include_once('head_nav.php');
 
   <!-- Article 2 -->
   <div class="block-21 mb-4 d-flex">
-    <a class="blog-img mr-4" style="background-image: url(images/poetry_1.jpg);"></a>
+    <a class="blog-img mr-4" style="background-image: url(images/article_1.jpg);"></a>
     <div class="text">
       <h3 class="heading"><a href="melange_2.php">ज़िन्दगी और फ़ुरसत | जयंत राय</a></h3>
       <div class="meta">
