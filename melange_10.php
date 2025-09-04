@@ -96,7 +96,7 @@ $articles = [
     ["melange_5.php","তোমার আছে তো হাতখানি | Dipankar Chowdhury","images/diba.jpg","August 16, 2025"],
     ["melange_6.php","প্যাকেট | Jayanta Roy","images/story_1.jpg","August 18, 2025"],
 	["melange_7.php","What Schools Did Not Teach Us | P V Sathe","images/points_to_ponder.jpg","August 20, 2025"]
-	
+];
 
 foreach($articles as $art){
     echo '<div class="block-21 mb-4 d-flex">
