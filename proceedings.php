@@ -3,7 +3,7 @@ $page='about';
 include_once('head_nav.php');
 ?>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner_all.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/founding-gza.jpg');" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
   <div class="container">
     <div class="row no-gutters slider-text align-items-end">
@@ -39,7 +39,7 @@ include_once('head_nav.php');
       
       <p>Explore a collection of inspiring speeches and documented proceedings that continue to shape ideas, foster dialogue, and create a meaningful impact on society.</p>
       
-      <p><a href="#" class="btn btn-primary mt-3">View Proceedings & Speeches</a></p>
+      <p><a href="#" class="btn btn-primary bg-secondary mt-3">View Archives & Records</a></p>
     </div>
   </div>
   

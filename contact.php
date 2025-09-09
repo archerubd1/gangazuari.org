@@ -4,7 +4,7 @@ include_once('head_nav.php');
 ?>
 
 	
-	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner_all.jpg');" data-stellar-background-ratio="0.5">
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/contact1.jpg');" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text align-items-end">
@@ -67,44 +67,46 @@ include_once('head_nav.php');
 							<div class="col-md-7">
 								<div class="contact-wrap w-100 p-md-5 p-4">
 									<h3 class="mb-4">Contact Us</h3>
-									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
-										<div class="row">
-											<div class="col-md-6">
-												<div class="form-group">
-													<label class="label" for="name">Full Name</label>
-													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
-												</div>
-											</div>
-											<div class="col-md-6"> 
-												<div class="form-group">
-													<label class="label" for="email">Email Address</label>
-													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<label class="label" for="subject">Subject</label>
-													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<label class="label" for="#">Message</label>
-													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<input type="submit" value="Send Message" class="btn btn-primary">
-													<div class="submitting"></div>
-												</div>
-											</div>
-										</div>
-									</form>
+									
+								<form method="POST" id="contactForm" name="contactForm" class="contactForm" action="process_contact.php">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label class="label" for="name">Full Name</label>
+        <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+      </div>
+    </div>
+    <div class="col-md-6"> 
+      <div class="form-group">
+        <label class="label" for="email">Email Address</label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="form-group">
+        <label class="label" for="subject">Subject</label>
+        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="form-group">
+        <label class="label" for="message">Message</label>
+        <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message" required></textarea>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="form-group">
+        <input type="submit" value="Send Message" class="btn btn-primary">
+      </div>
+    </div>
+  </div>
+</form>
+
+									
 								</div>
 							</div>
 							<div class="col-md-5 d-flex align-items-stretch">
-								<div class="info-wrap w-100 p-5 img" style="background-image: url(images/about-3.jpg);">
+								<div class="info-wrap w-100 p-5 img" style="background-image: url(images/contact.jpg);">
 								</div>
 							</div>
 						</div>

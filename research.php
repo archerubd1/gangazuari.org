@@ -3,7 +3,7 @@ $page="resources";
 include_once('head_nav.php');
 ?>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner_all.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/research2.jpg');" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
   <div class="container">
     <div class="row no-gutters slider-text align-items-end">

@@ -3,6 +3,7 @@ $page='get';
 include_once('head_nav.php');
 ?>
 
+
 <section class="hero-wrap hero-wrap-2" style="background-image: url('images/member.jpg');" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
   <div class="container">
@@ -53,6 +54,10 @@ include_once('head_nav.php');
 	 <p><br><br></p>
 	  <p><br><br></p>
 	
+	
+	
+
+
 	<!-- Membership Registration Form -->
 <div class="col-md-12 order-md-last d-flex align-items-stretch">
   <div class="donation-wrap w-100">
@@ -61,99 +66,102 @@ include_once('head_nav.php');
     <div class="total-donate d-flex align-items-center justify-content-center mb-4">
       <h2 class="mb-0 text-center">🌟 Become a Member of Ganga Zuari Academy</h2>
     </div>
+<form action="process_membership.php" method="POST" class="appointment">
+  <div class="row">
 
-    <form action="#" class="appointment">
-      <div class="row">
-        
-        <!-- Full Name -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="name">Full Name</label>
-            <div class="input-wrap">
-              <div class="icon"><span class="fa fa-user"></span></div>
-              <input type="text" class="form-control" placeholder="Enter your full name">
-            </div>
-          </div>
+    <!-- Full Name -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="full_name">Full Name</label>
+        <div class="input-wrap">
+          <div class="icon"><span class="fa fa-user"></span></div>
+          <input type="text" class="form-control" id="full_name" name="full_name" placeholder="Enter your full name" required>
         </div>
-        
-        <!-- Email -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <div class="input-wrap">
-              <div class="icon"><span class="fa fa-paper-plane"></span></div>
-              <input type="email" class="form-control" placeholder="example@email.com">
-            </div>
-          </div>
-        </div>
-
-        <!-- Phone -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="phone">Phone Number</label>
-            <div class="input-wrap">
-              <div class="icon"><span class="fa fa-phone"></span></div>
-              <input type="text" class="form-control" placeholder="+91 98765 43210">
-            </div>
-          </div>
-        </div>
-        
-        <!-- Membership Type -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="membership">Membership Type</label>
-            <div class="form-field">
-              <div class="select-wrap">
-                <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                <select name="membership" id="membership" class="form-control">
-                  <option value="">Choose a membership plan...</option>
-                  <option value="individual">Individual Member</option>
-                  <option value="family">Family Member</option>
-                  <option value="student">Student Member</option>
-                  <option value="patron">Patron / Lifetime Member</option>
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Interests -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="interest">Key Interests as a Member</label>
-            <div class="form-field">
-              <div class="select-wrap">
-                <div class="icon"><span class="fa fa-star"></span></div>
-                <select name="interest" id="interest" class="form-control">
-                  <option value="">Select your focus...</option>
-                  <option value="cultural">Cultural Events & Festivals</option>
-                  <option value="education">Education & Learning Programs</option>
-                  <option value="heritage">Heritage & Preservation</option>
-                  <option value="youth">Youth Empowerment</option>
-                  <option value="social">Social Impact & Outreach</option>
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Motivation -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="motivation">Why do you want to become a member?</label>
-            <textarea name="motivation" id="motivation" class="form-control" rows="4" placeholder="Share your reason here..."></textarea>
-          </div>
-        </div>
-        
-        <!-- Submit -->
-        <div class="col-md-12">
-          <div class="form-group text-center">
-            <input type="submit" value="🌟 Join as a Member" class="btn btn-success py-3 px-5 shadow">
-          </div>
-        </div>
-        
       </div>
-    </form>
+    </div>
+
+    <!-- Email -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <div class="input-wrap">
+          <div class="icon"><span class="fa fa-paper-plane"></span></div>
+          <input type="email" class="form-control" id="email" name="email" placeholder="example@email.com" required>
+        </div>
+      </div>
+    </div>
+
+    <!-- Phone -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <div class="input-wrap">
+          <div class="icon"><span class="fa fa-phone"></span></div>
+          <input type="text" class="form-control" id="phone" name="phone" placeholder="+91 98765 43210" required>
+        </div>
+      </div>
+    </div>
+
+    <!-- Membership Type -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="membership">Membership Type</label>
+        <div class="form-field">
+          <div class="select-wrap">
+            <div class="icon"><span class="fa fa-chevron-down"></span></div>
+            <select name="membership" id="membership" class="form-control" required>
+              <option value="">Choose a membership plan...</option>
+              <option value="individual">Individual Member</option>
+              <option value="family">Family Member</option>
+              <option value="student">Student Member</option>
+              <option value="patron">Patron / Lifetime Member</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interests -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="interest">Key Interests as a Member</label>
+        <div class="form-field">
+          <div class="select-wrap">
+            <div class="icon"><span class="fa fa-star"></span></div>
+            <select name="interest" id="interest" class="form-control" required>
+              <option value="">Select your focus...</option>
+              <option value="cultural">Cultural Events & Festivals</option>
+              <option value="education">Education & Learning Programs</option>
+              <option value="heritage">Heritage & Preservation</option>
+              <option value="youth">Youth Empowerment</option>
+              <option value="social">Social Impact & Outreach</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Motivation -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="motivation">Why do you want to become a member?</label>
+        <textarea name="motivation" id="motivation" class="form-control" rows="4" placeholder="Share your reason here..."></textarea>
+      </div>
+    </div>
+
+    <!-- Submit -->
+    <div class="col-md-12">
+      <div class="form-group text-center">
+        <input type="submit" value="🌟 Join as a Member" class="btn btn-success py-3 px-5 shadow">
+      </div>
+    </div>
+
+  </div>
+</form>
+
+	
+	
+	
   </div>
 </div>
 

@@ -14,7 +14,7 @@
 
       <!-- Call to Action -->
       <div class="col-md-4 col-lg-4 text-md-end mt-3 mt-md-0">
-        <a href="#" class="btn btn-primary py-3 px-5">
+        <a href="horizon.php" class="btn btn-primary py-3 px-5">
           Explore Our Global Initiatives
         </a>
       </div>
@@ -55,12 +55,14 @@
         <h2 class="footer-heading">Ganga Zuari Academy</h2>
         <p>The Ganga Zuari Academy is a non-profit cultural organization. We aim to encourage social harmony through inclusive cultural growth and exchange between Goa and Bengal.</p>
         <ul class="ftco-footer-social p-0">
-          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn"><span class="fa fa-linkedin"></span></a></li>
-          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
-          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
+          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn"><span class="fa-brands fa-linkedin"></span></a></li>
+          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa-brands fa-facebook"></span></a></li>
+          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa-brands fa-instagram"></span></a></li>
         </ul>
         <p><a href="#" class="btn btn-quarternary">Support Us</a></p>
       </div>
+	  
+	  
 
       <!-- Latest News -->
       <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
@@ -93,13 +95,13 @@
       <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
         <h2 class="footer-heading">Quick Links</h2>
         <ul class="list-unstyled">
-          <li><a href="#" class="py-2 d-block">Home</a></li>
-          <li><a href="#" class="py-2 d-block">About Us</a></li>
-          <li><a href="#" class="py-2 d-block">Programs</a></li>
-          <li><a href="#" class="py-2 d-block">Events</a></li>
-          <li><a href="#" class="py-2 d-block">Blog</a></li>
-          <li><a href="#" class="py-2 d-block">Get Involved</a></li>
-          <li><a href="#" class="py-2 d-block">Contact</a></li>
+          <li><a href="index.php" class="py-2 d-block">Home</a></li>
+          <li><a href="about-academy.php" class="py-2 d-block">About Us</a></li>
+          <li><a href="programs.php" class="py-2 d-block">Programs</a></li>
+          <li><a href="gallery.php" class="py-2 d-block">Events</a></li>
+          <li><a href="melange.php" class="py-2 d-block">Blog</a></li>
+          <li><a href="membership.php" class="py-2 d-block">Get Involved</a></li>
+          <li><a href="contact.php" class="py-2 d-block">Contact</a></li>
         </ul>
       </div>
 
@@ -381,6 +383,76 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+<style>
+/* Container for sticky CTA */
+.sticky-cta-container {
+  position: fixed;
+  top: 50%;
+  right: -50px;
+  transform: translateY(-50%) rotate(-90deg);
+  transform-origin: center center;
+  width: 160px;
+  height: 50px;
+  perspective: 1000px; /* enables 3D flip */
+  z-index: 10000;
+}
+
+/* Flip inner wrapper */
+.sticky-cta-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+/* Flip on hover */
+.sticky-cta-container:hover .sticky-cta-inner {
+  transform: rotateY(180deg);
+}
+
+/* Front & back common styles */
+.sticky-cta-front, .sticky-cta-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Front face */
+.sticky-cta-front {
+  background: #272535;
+  color: #c4a676;
+}
+
+/* Back face (tooltip message) */
+.sticky-cta-back {
+  background: #c4a676;
+  color: #000;
+  transform: rotateY(180deg);
+}
+</style>
+
+<!-- Sticky Vertical CTA -->
+<div class="sticky-cta-container">
+  <div class="sticky-cta-inner">
+    <!-- Front: normal label -->
+    <a href="melange.php" class="sticky-cta-front">Blog - Mélange</a>
+    <!-- Back: hover label -->
+    <a href="melange.php" class="sticky-cta-back" style="color:black;">Read Articles'</a>
+  </div>
+</div>
+
 
 
 
@@ -407,3 +479,5 @@ document.addEventListener('DOMContentLoaded', function() {
 		
 	</body>
 	</html>
+	
+	

@@ -23,7 +23,7 @@ include_once('head_nav.php');
     <div class="row">
 
       <!-- Main Article -->
-      <div class="col-lg-8 ftco-animate">
+      <div class="col-lg-12 ftco-animate">
 
 
 <!-- Translator -->
@@ -89,20 +89,32 @@ include_once('head_nav.php');
         </div>
 
       </div> <!-- .col-lg-8 -->
+	  
+	  
+	  
+<p><br><br></p>
+<div class="row justify-content-center mb-5">
+    <div class="col-md-8 heading-section text-center ftco-animate">
+        <h2 class="mb-4">Comments & Related Articles</h2>
+        <p class="lead">Discover what others are saying and explore articles that deepen your understanding of heritage preservation, community empowerment, and sustainable development across the globe.</p>
+    </div>
+</div>
+  
+  
+<!-- Main Article -->
+<div class="col-lg-8 ftco-animate">
+
+
+
+<iframe src="http://localhost/pcs?article=melange_6" width="100%" height="800px" frameborder="0" style="overflow:hidden;" scrolling="no"></iframe>
+
+
+</div>
 
       <!-- Sidebar -->
       <div class="col-lg-4 sidebar pl-lg-5 ftco-animate">
 
-        <!-- Search -->
-        <div class="sidebar-box">
-          <form action="#" class="search-form">
-            <div class="form-group">
-              <span class="fa fa-search"></span>
-              <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
-            </div>
-          </form>
-        </div>
-
+       
         <!-- Also Read This -->
         <div class="sidebar-box ftco-animate">
           <h3>Also Read This</h3>

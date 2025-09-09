@@ -1,6 +1,15 @@
 <?php 
-$page='programs';
+
+$page='horizon';
 include_once('head_nav.php');
+include_once('config.php');
+
+
+$stmt = $coni->prepare("SELECT * FROM upcoming_programs WHERE program_type = ? AND program_status = 'Published'");
+$stmt->bind_param("s", $page);
+$stmt->execute();
+$result = $stmt->get_result();
+
 ?>
 
 
@@ -39,9 +48,12 @@ include_once('head_nav.php');
           <span class="subheading">About Horizon</span>
           <h2 class="mb-2">Horizon – The International Wing of Ganga Zuari Academy</h2>
           
+		   <p><strong>Convenor:</strong> Dr. Dinesh Verma | <strong>Contact:</strong> 7042809368</p>
+		   
+		   
           <p>Horizon is the fourth vertical of the Ganga Zuari Academy, following Chhandovani, Unmesh, and Utsav. It serves as a global platform connecting heritage, culture, and knowledge across borders, fostering dialogue, research, and sustainable practices for humanity’s shared legacy.</p>
           
-          <p><strong>Convenor:</strong> Dr. Dinesh Verma | <strong>Contact:</strong> 7042809368</p>
+          
           
           <p>Horizon’s initiatives aim to preserve India’s rooted heritage while integrating global legacies to innovate toward a sustainable and inclusive future. Through interdisciplinary research programs, we seek to connect communities, inspire new ideas, and empower future custodians of cultural and natural heritage.</p>
           
@@ -168,113 +180,78 @@ include_once('head_nav.php');
     </div>
   </div>
 
-  <!-- Row 1: Programs 1-3 -->
-  <div class="row">
-    <!-- Program 1 -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="program-card text-center ftco-animate shadow-sm rounded">
-        <a href="#" class="img w-100" style="background-image: url('images/kshijit_program1.jpg'); height: 220px; display:block; background-size:cover; background-position:center;"></a>
-        <div class="text p-3">
-          <h3>Water, Ecology & Sustainability</h3>
-          <p>Linking heritage and ecology for a sustainable future through rivers, oceans, and traditional knowledge.</p>
-          <ul class="text-left small">
-            <li>Comparative study of riverine civilisations globally</li>
-            <li>Documenting indigenous ecological practices</li>
-            <li>Blue economy & sustainable coastal heritage</li>
-          </ul>
-          <p><a href="#" class="btn btn-primary w-100">Learn More</a></p>
-        </div>
-      </div>
-    </div>
 
-    <!-- Program 2 -->
-    <div class="col-md-6 col-lg-4 mb-4">
+ <div class="row">
+<?php while ($row = $result->fetch_assoc()): ?>
+    <div class="col-md-6 col-lg-4  mb-4">
       <div class="program-card text-center ftco-animate shadow-sm rounded">
-        <a href="#" class="img w-100" style="background-image: url('images/kshijit_program2.jpg'); height: 220px; display:block; background-size:cover; background-position:center;"></a>
+        
+        <!-- Program Image -->
+        <a href="#" 
+           class="img w-100" 
+           style="background-image: url('backoffice/<?php echo $row['image_path'] ?: 'default.jpg'; ?>'); 
+                  height: 220px; display:block; background-size:cover; background-position:center;">
+        </a>
+        
         <div class="text p-3">
-          <h3>Living Traditions & Intangible Heritage</h3>
-          <p>Preserving oral traditions, crafts, rituals, and performing arts as dynamic cultural resources.</p>
-          <ul class="text-left small">
-            <li>Documentation of endangered oral traditions and languages</li>
-            <li>Safeguarding crafts, music, and rituals</li>
-            <li>Culinary heritage & Ayurveda as cultural diplomacy</li>
-          </ul>
-          <p><a href="#" class="btn btn-primary w-100">Learn More</a></p>
-        </div>
-      </div>
-    </div>
+          <!-- Program Title -->
+          <h3><?php echo htmlspecialchars($row['program_title']); ?></h3>
+          
+          <!-- Program Brief -->
+          <p><?php echo nl2br(htmlspecialchars($row['program_brief'])); ?></p>
+          
+          <!-- Example Highlights (Optional if you store them as JSON / bullet points) -->
+          <?php if (!empty($row['highlights'])): ?>
+            <ul class="text-left small">
+              <?php foreach (explode(";", $row['highlights']) as $highlight): ?>
+                <li><?php echo htmlspecialchars(trim($highlight)); ?></li>
+              <?php endforeach; ?>
+            </ul>
+          <?php endif; ?>
+        <!-- Conditional Date & Venue Display -->
+<?php if (strtolower($row['display_date_venue']) === 'yes'): ?>
+    <p>
+        <strong>Date & Venue:</strong>
+        <?php echo date("d M Y", strtotime($row['program_date'])); ?>, 
+        <?php echo htmlspecialchars($row['venue']); ?>
+    </p>
+<?php endif; ?>
 
-    <!-- Program 3 -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="program-card text-center ftco-animate shadow-sm rounded">
-        <a href="#" class="img w-100" style="background-image: url('images/kshijit_program3.jpg'); height: 220px; display:block; background-size:cover; background-position:center;"></a>
-        <div class="text p-3">
-          <h3>Memory, Archives & Digital Futures</h3>
-          <p>Building inclusive digital heritage platforms and safeguarding shared human memory responsibly.</p>
-          <ul class="text-left small">
-            <li>Ethical digital archiving</li>
-            <li>Risks of memory distortion in digital media</li>
-            <li>Virtual museums and global heritage access</li>
-          </ul>
-          <p><a href="#" class="btn btn-primary w-100">Learn More</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- Conditional Register Button Display -->
+<?php if (strtolower($row['open_registrations_url']) === 'yes'): ?>
+    <p>
+        <form action="program_register.php" method="post">
+            <input type="hidden" name="id" value="<?php echo $row['program_id']; ?>">
+            <input type="hidden" name="type" value="<?php echo htmlspecialchars($row['program_type']); ?>">
+            
+            <?php 
+                $today = date('Y-m-d');
+                $programDate = $row['program_date'];
+                $isActive = ($today <= $programDate);
+            ?>
+            
+            <button type="submit"
+                    class="btn btn-lg w-100 fw-bold shadow <?php echo $isActive ? 'btn-success' : 'btn-danger'; ?>" 
+                    <?php echo $isActive ? '' : 'disabled'; ?>>
+                <?php echo $isActive ? 'Register Now' : 'Registration Closed'; ?>
+            </button>
+        </form>
+    </p>
+<?php endif; ?>
 
-  <!-- Row 2: Programs 4-6 -->
-  <div class="row">
-    <!-- Program 4 -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="program-card text-center ftco-animate shadow-sm rounded">
-        <a href="#" class="img w-100" style="background-image: url('images/horizon_maritime.jpg'); height: 220px; display:block; background-size:cover; background-position:center;"></a>
-        <div class="text p-3">
-          <h3>Maritime & Trade Legacies</h3>
-          <p>Highlighting oceans as connectors of civilisations and spaces for cultural dialogue.</p>
-          <ul class="text-left small">
-            <li>Goa’s role in Indian Ocean trade networks</li>
-            <li>Cross-cultural exchanges along spice routes</li>
-            <li>Comparative maritime heritage studies</li>
-          </ul>
-          <p><a href="#" class="btn btn-primary w-100">Learn More</a></p>
-        </div>
-      </div>
-    </div>
 
-    <!-- Program 5 -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="program-card text-center ftco-animate shadow-sm rounded">
-        <a href="#" class="img w-100" style="background-image: url('images/kshijit_program5.jpg'); height: 220px; display:block; background-size:cover; background-position:center;"></a>
-        <div class="text p-3">
-          <h3>Urban Heritage & Sustainable Development</h3>
-          <p>Integrating heritage into urban planning to create resilient, inclusive, and sustainable cities.</p>
-          <ul class="text-left small">
-            <li>Comparative study of heritage cities</li>
-            <li>Heritage-driven urban planning</li>
-            <li>Community-led conservation strategies</li>
-          </ul>
-          <p><a href="#" class="btn btn-primary w-100">Learn More</a></p>
-        </div>
-      </div>
-    </div>
+</form>
 
-    <!-- Program 6 -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="program-card text-center ftco-animate shadow-sm rounded">
-        <a href="#" class="img w-100" style="background-image: url('images/kshijit_program6.jpg'); height: 220px; display:block; background-size:cover; background-position:center;"></a>
-        <div class="text p-3">
-          <h3>Philosophy, Ethics & Global Citizenship</h3>
-          <p>Inspiring global ethics and shared human values through heritage, dialogue, and education.</p>
-          <ul class="text-left small">
-            <li>Comparative studies on Dharma, religion, and humanism</li>
-            <li>Interfaith and intercultural dialogues</li>
-            <li>Heritage education for global citizenship</li>
-          </ul>
-          <p><a href="#" class="btn btn-primary w-100">Learn More</a></p>
+            
+          </p>
         </div>
       </div>
     </div>
-  </div>
+  <?php endwhile; ?>
+</div> 
+
+
+
 </div>
 
 	

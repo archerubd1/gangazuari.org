@@ -567,7 +567,7 @@ include_once('head_nav.php');
           <div class="text p-3">
             <h2><a href="#">UNMESH</a></h2>
             <p>Exploring literature, language and philosophy through talks, seminars, and creative exchanges that foster critical thoughts.</p>
-            <p><a href="#" class="btn btn-light w-100">Explore</a></p>
+            <p><a href="unmesh1.php" class="btn btn-light w-100">Explore</a></p>
           </div>
         </div>
       </div>
@@ -578,7 +578,7 @@ include_once('head_nav.php');
           <div class="text p-3">
             <h2><a href="#">CHHANDOVANI</a></h2>
             <p>Promoting dance and music rooted in Indian values, with workshops and performances blending tradition and expression.</p>
-            <p><a href="#" class="btn btn-light w-100">Explore</a></p>
+            <p><a href="chhandovani1.php" class="btn btn-light w-100">Explore</a></p>
           </div>
         </div>
       </div>
@@ -589,7 +589,7 @@ include_once('head_nav.php');
           <div class="text p-3">
             <h2><a href="#">UTSAV</a></h2>
             <p>Annual cultural festivals celebrating art, music, theatre, and traditions — strengthening bonds of community and inclusivity.</p>
-            <p><a href="#" class="btn btn-light w-100">Explore</a></p>
+            <p><a href="utsav1.php" class="btn btn-light w-100">Explore</a></p>
           </div>
         </div>
       </div>
@@ -602,7 +602,7 @@ include_once('head_nav.php');
       <p>
         Horizon, GZA’s International Wing and fourth vertical, aims to nurture research, dialogue, and sustainable practices.
       </p>
-      <p><a href="#" class="btn btn-light w-100">Explore</a></p>
+      <p><a href="horizon.php" class="btn btn-light w-100">Explore</a></p>
     </div>
   </div>
 </div>
@@ -626,7 +626,7 @@ include_once('head_nav.php');
         <h2 class="font-weight-bold" style="color: #fff; font-size: 22px;">
           Celebrating our journey of culture, community & impact
         </h2>
-        <a href="#" class="btn btn-white btn-outline-white">Join Us</a>
+        <a href="membership.php" class="btn btn-white btn-outline-white">Join Us</a>
       </div>
 
       <!-- Impact Stats -->
@@ -857,15 +857,18 @@ include_once('head_nav.php');
 .social-icons {
   margin-top: 10px;
 }
+
+
 .social-icons a {
-  color: #fff;
-  font-size: 16px;
-  margin: 0 8px;
+  color: #fff;               /* white against blue */
+  font-size: 22px;           /* larger size */
+  margin: 0 10px;
   transition: color 0.3s;
 }
 .social-icons a:hover {
-  color: #ffdd57;
+  color: #ffdd57;            /* golden hover */
 }
+
 </style>
 
 <section class="ftco-section ftco-no-pt">
@@ -893,11 +896,12 @@ include_once('head_nav.php');
             <div class="team-card-back">
               <h4>Manguirish Pai Raikar</h4>
               <p>Goa-based entrepreneur and industry leader promoting MSMEs, skill development, and innovation. Former Chairman of ASSOCHAM National Council for MSME and past President of GCCI, he contributes actively to policy advocacy and sustainable economic growth.</p>
-              <div class="social-icons d-flex justify-content-center">
-                <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </div>
+             <div class="social-icons d-flex justify-content-center">
+  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
+
             </div>
           </div>
         </div>
@@ -921,10 +925,10 @@ include_once('head_nav.php');
               <h4>Rajesh Tarkar</h4>
               <p>A Krishna devotee, speaker, and builder from Goa. Rising from humble roots with faith in Karma, he excels in business, music, and inspires with his spiritual leadership.</p>
               <div class="social-icons d-flex justify-content-center">
-                <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </div>
+  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
             </div>
           </div>
         </div>
@@ -945,10 +949,10 @@ include_once('head_nav.php');
               <h4>Dinesh Verma</h4>
               <p>Ophthalmologist, inventor, and entrepreneur with focus on device innovation, cataract surgery, and retinal therapies. Leads Dumfries Visionostics in Scotland to advance ophthalmic research.</p>
               <div class="social-icons d-flex justify-content-center">
-                <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </div>
+  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
             </div>
           </div>
         </div>
@@ -968,11 +972,11 @@ include_once('head_nav.php');
             <div class="team-card-back">
               <h4>Ranadhir Mukhopadhyay</h4>
               <p>Interdisciplinary scholar with doctorates in Geology and Public Administration. Integrates science, ethics, and governance to promote inclusivity, sustainability, and equitable solutions for humanity’s future.</p>
-              <div class="social-icons d-flex justify-content-center">
-                <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </div>
+             <div class="social-icons d-flex justify-content-center">
+  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
             </div>
           </div>
         </div>
@@ -993,10 +997,10 @@ include_once('head_nav.php');
               <h4>Hari Krishan Kaul</h4>
               <p>General Manager of CMM ARENA-Goa and Chairman of GCCI’s Retail Trade Committee. Passionately drives consumer-focused retail growth, developing innovative facilities that shape Goa’s retail landscape.</p>
               <div class="social-icons d-flex justify-content-center">
-                <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </div>
+  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
             </div>
           </div>
         </div>
@@ -1019,10 +1023,10 @@ include_once('head_nav.php');
               <h4>Dr. Neeta Hede Mazumdar</h4>
               <p>PhD in Mathematics and Associate Professor at Quepem College. She brings academic rigor and leadership in education, contributing to cultural and intellectual growth.</p>
               <div class="social-icons d-flex justify-content-center">
-                <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </div>
+  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
             </div>
           </div>
         </div>
@@ -1042,11 +1046,11 @@ include_once('head_nav.php');
             <div class="team-card-back">
               <h4>Dr. Anil Chatterji</h4>
               <p>Indian marine biologist and CSIR-NIO veteran who advanced aquaculture through prawn hatcheries, raft farming, and pioneering research on the Indian horseshoe crab. Also a gifted musician.</p>
-              <div class="social-icons d-flex justify-content-center">
-                <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </div>
+            <div class="social-icons d-flex justify-content-center">
+  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
             </div>
           </div>
         </div>
@@ -1066,11 +1070,11 @@ include_once('head_nav.php');
             <div class="team-card-back">
               <h4>Somnath Sarkar</h4>
               <p>IIT Kharagpur graduate, retired Additional GM at Goa Shipyard Ltd. Deeply interested in art, culture, philosophy, writing, and modern physical science.</p>
-              <div class="social-icons d-flex justify-content-center">
-                <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </div>
+             <div class="social-icons d-flex justify-content-center">
+  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
             </div>
           </div>
         </div>
@@ -1090,11 +1094,11 @@ include_once('head_nav.php');
             <div class="team-card-back">
               <h4>Devinder Anand</h4>
               <p>Psycho-Spiritual Coach who left careers in exports, consultancy, and manpower analysis to focus on holistic well-being. Loves to travel, read, and immerse in nature.</p>
-              <div class="social-icons d-flex justify-content-center">
-                <a href="#"><span class="fa fa-linkedin"></span></a>
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-instagram"></span></a>
-              </div>
+            <div class="social-icons d-flex justify-content-center">
+  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
             </div>
           </div>
         </div>

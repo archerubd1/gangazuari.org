@@ -20,6 +20,9 @@ include_once('head_nav.php');
     <div class="row">
       <div class="col-lg-8 ftco-animate">
         <h2 class="mb-3">Unmesh: Celebrating Literature, Language & Philosophy</h2>
+		
+		<p><strong>Convenor:</strong> Somnath Sarkar| <strong>Contact:</strong> unmesh@gangazuari.org</p>
+		
         <p>The Ganga Zuari Unmesh program is a confluence of minds, words, and ideas. It brings together writers, thinkers, and readers to explore the essence of literature and the philosophy that shapes human expression. This initiative is not just about reading—it’s about questioning, interpreting, and expanding horizons.</p>
         <p>Our sessions embrace the depth of language and the beauty of philosophy, creating a dialogue that transcends boundaries. From classical texts to contemporary voices, Unmesh seeks to keep alive the spirit of inquiry and the art of storytelling that defines our culture.</p>
         <h2 class="mb-3 mt-5">Exploring New Dimensions</h2>

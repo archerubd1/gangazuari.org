@@ -3,7 +3,7 @@ $page='about';
 include_once('head_nav.php');
 ?>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner_all.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/2025/19a.jpg');" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
   <div class="container">
     <div class="row no-gutters slider-text align-items-end">
@@ -38,7 +38,8 @@ include_once('head_nav.php');
           
           <p>By fostering <strong>empathy, creativity, and leadership</strong>, Ganga Zuari Academy strives to cultivate a new generation of changemakers equipped to meet challenges and shape a harmonious future.</p>
           
-          <p><a href="#" class="btn btn-primary mt-3">Meet Our Leadership</a></p>
+          <p><a href="membership.php" class="btn btn-primary bg-secondary mt-3">Join Hands with Our Leadership</a></p>
+
         </div>
       </div>
       

@@ -1,6 +1,7 @@
 <?php
 $page="resources";
 include_once('head_nav.php');
+include_once('config.php');
 ?>
 
 
@@ -27,7 +28,7 @@ include_once('head_nav.php');
     <div class="row">
 
      <!-- Main Article -->
-<div class="col-lg-8 ftco-animate">
+<div class="col-lg-12 ftco-animate">
 
   <!-- Translator -->
   <div id="google_translate_element" class="mb-4"></div>
@@ -97,17 +98,7 @@ include_once('head_nav.php');
     <li>Eichmann in Jerusalem: A Report on the Banality of Evil, 1963, Hannah Arendt</li>
   </ul>
 
-  <!-- Tags -->
-  <div class="tag-widget post-tag-container mb-5 mt-5">
-    <div class="tagcloud">
-      <a href="#" class="tag-cloud-link">Society</a>
-      <a href="#" class="tag-cloud-link">Psychology</a>
-      <a href="#" class="tag-cloud-link">History</a>
-      <a href="#" class="tag-cloud-link">Philosophy</a>
-    </div>
-  </div>
-
-  <!-- About Author -->
+   <!-- About Author -->
   <div class="about-author d-flex p-4 bg-light">
     <!--<div class="bio mr-5">
       <img src="images/team/m1.jpg" alt="Arijit Choudhuri" class="img-fluid mb-4">
@@ -117,6 +108,8 @@ include_once('head_nav.php');
       <p>Located in Navi Mumbai, petroleum geologist by profession. Also interested in issues concerning pollution, climate change, and fast depleting groundwater reserves. Travelling, reading, writing articles, composing rhymes, and recitation are his hobbies.</p>
     </div>
   </div>
+<p><br><br></p>
+
 </div> <!-- .col-lg-8 -->
 
 <!-- Google Translate Scripts -->
@@ -131,26 +124,43 @@ include_once('head_nav.php');
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
+
+
+<p><br><br></p>
+<div class="row justify-content-center mb-5">
+    <div class="col-md-8 heading-section text-center ftco-animate">
+        <h2 class="mb-4">Comments & Related Articles</h2>
+        <p class="lead">Discover what others are saying and explore articles that deepen your understanding of heritage preservation, community empowerment, and sustainable development across the globe.</p>
+    </div>
+</div>
+  
+  
+<!-- Main Article -->
+<div class="col-lg-8 ftco-animate">
+
+<?php
+$base_url = ($_SERVER['HTTP_HOST'] === 'localhost') ? 'http://localhost' : 'https://gangazuari.org';
+?>
+<iframe 
+    src="<?php echo $base_url; ?>/pcs?article=melange_1" 
+    width="100%" 
+    height="2000px" 
+    frameborder="0" 
+    style="overflow:hidden;" 
+    scrolling="no">
+</iframe>
+
+
+</div>
 <!-- Sidebar -->
-      <div class="col-lg-4 sidebar pl-lg-5 ftco-animate">
-
-        <!-- Search -->
-        <div class="sidebar-box">
-          <form action="#" class="search-form">
-            <div class="form-group">
-              <span class="fa fa-search"></span>
-              <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
-            </div>
-          </form>
-        </div>
-
+<div class="col-lg-4 sidebar pl-lg-5 ftco-animate">
         <!-- Also Read This -->
 <div class="sidebar-box ftco-animate">
   <h3>Also Read This</h3>
 
   <?php
   $articles = [
-		["melange_1.php","বহু বিদ্যা, তীক্ষ্ণ বোধ, তথাপি নির্বোধ- ১ | Arijit Chowdhury","images/article_1.jpg","August 10, 2025"],
+		
       ["melange_2.php","ज़िन्दगी और फ़ुरसत | जयंत राय","images/poetry_1.jpg","August 12, 2025"],
       ["melange_3.php","রবিগান রহস্য -৩- আমি যখন তাঁর দুয়ারে | Somnath Sarkar","images/essay_1.jpg","August 8, 2025"],
 	  ["melange_4.php","The Mystery of the Universe | Prof. (Dr.) Shibaji Roy","images/science_1.jpg","August 18, 2025"],  
@@ -171,13 +181,14 @@ include_once('head_nav.php');
   }
   ?>
 </div>
-
-
-        
-    
-    </div>
+</div><!--------  Sidebar      ------------>
+</div>
+	
   </div>
 </section>
+
+
+
 
 
 

@@ -21,7 +21,7 @@ include_once('head_nav.php');
     
       <!-- Image Section -->
       <div class="col-md-6 d-flex order-md-last">
-        <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(images/about-gza.jpg);">
+        <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(images/about21.jpg);">
         </div>
       </div>
       
@@ -39,7 +39,8 @@ include_once('head_nav.php');
 		   <p>Ganga Zuari Academy is dedicated to nurturing individuals and strengthening communities through education, cultural awareness, and holistic development. We focus on creating opportunities that inspire learning, innovation, and social responsibility.</p>
         <p>Our programs and initiatives are designed to bridge gaps in knowledge and skills, promote community engagement, and empower individuals to make meaningful contributions to society. We believe that education and cultural understanding are the cornerstones of sustainable growth.</p>
         <p>By fostering leadership, creativity, and empathy, Ganga Zuari Academy aims to cultivate a future-ready generation equipped to address challenges and drive positive change in their communities.</p>
-        <p><a href="#" class="btn btn-primary mt-3">Learn More About Us</a></p>
+        <p><a href="membership.php" class="btn btn-primary mt-3 bg-secondary">Empower Our Mission</a></p>
+
 		  
         </div>
       </div>
@@ -156,7 +157,7 @@ include_once('head_nav.php');
           
           <p>Behind this initiative stands a collective of passionate individuals – scientists, academicians, writers, artists, civil servants, and community leaders – united by a cause-driven mission: to create a space where tradition and modern expression meet, empowering the next generation to lead with empathy, creativity, and courage.</p>
           
-          <p><a href="#" class="btn btn-primary mt-3">Discover Our Inspiration</a></p>
+          <p><a href="programs.php" class="btn btn-primary mt-3">Discover Our Inspiration</a></p>
         </div>
       </div>
       
@@ -338,176 +339,192 @@ include_once('head_nav.php');
 <div class="tab-pane fade show active" id="team" role="tabpanel">
   <div class="row justify-content-center">
 
-    <!-- President -->
-    <div class="col-md-4 text-center mb-4">
-      <div class="team-card shadow-sm p-3 rounded">
-        <div class="team-img mx-auto">
-          <img src="images/team/mpraikar.jpg" alt="Manguirish Pai Raikar" class="rounded-circle">
-        </div>
-        <h5 class="mt-3">Manguirish Pai Raikar</h5>
-        <p class="text-muted mb-1">President</p>
-        <div class="social-icons mb-2">
-          <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
-          <a href="#"><i class="fab fa-twitter mx-2"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
-        </div>
-        <div class="team-bio">
-          <p class="small">Manguirish Pai Raikar leads the Academy with a vision for growth, inclusivity, and education, promoting innovation while preserving cultural values.</p>
-        </div>
+    <section class="ftco-section ftco-no-pt">
+  <div class="container">
+    <div class="row justify-content-center pb-5 mb-3">
+      <div class="col-md-7 heading-section text-center ftco-animate">
+        <span class="subheading">Our Team</span>
+        <h2>Key People Who Make It Happen</h2>
       </div>
     </div>
 
-    <!-- Vice President: Rajesh Tarkar -->
-    <div class="col-md-4 text-center mb-4">
-      <div class="team-card shadow-sm p-3 rounded">
-        <div class="team-img mx-auto">
-          <img src="images/team/rtarkar.jpg" alt="Rajesh Tarkar" class="rounded-circle">
-        </div>
-        <h5 class="mt-3">Rajesh Tarkar</h5>
-        <p class="text-muted mb-1">Vice President</p>
-        <div class="social-icons mb-2">
-          <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
-          <a href="#"><i class="fab fa-twitter mx-2"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
-        </div>
-        <div class="team-bio">
-          <p class="small">Rajesh Tarkar actively supports cultural engagement and community collaboration, bringing energy and creativity to the Academy’s initiatives.</p>
-        </div>
-      </div>
-    </div>
+    <div class="row text-center">
 
-    <!-- Vice President: Dr. Dinesh Verma -->
-    <div class="col-md-4 text-center mb-4">
-      <div class="team-card shadow-sm p-3 rounded">
-        <div class="team-img mx-auto">
-          <img src="images/team/dverma.jpg" alt="Dr. Dinesh Verma" class="rounded-circle">
-        </div>
-        <h5 class="mt-3">Dr. Dinesh Verma</h5>
-        <p class="text-muted mb-1">Vice President</p>
-        <div class="social-icons mb-2">
-          <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
-          <a href="#"><i class="fab fa-twitter mx-2"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
-        </div>
-        <div class="team-bio">
-          <p class="small">Dr. Dinesh Verma contributes his expertise in academics and leadership, fostering innovation and supporting lifelong learning opportunities.</p>
+      <!-- President -->
+      <div class="col-md-4 text-center mb-4">
+        <div class="team-card shadow-sm p-3 rounded">
+          <div class="team-img mx-auto">
+            <img src="images/team/mpraikar.jpg" alt="Manguirish Pai Raikar" class="rounded-circle">
+          </div>
+          <h5 class="mt-3">Manguirish Pai Raikar</h5>
+          <p class="text-muted mb-1">President</p>
+          <div class="social-icons mb-2">
+            <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+            <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+          </div>
+          <div class="team-bio">
+            <p class="small">Manguirish Pai Raikar leads the Academy with a vision for growth, inclusivity, and education, promoting innovation while preserving cultural values.</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- General Secretary -->
-    <div class="col-md-4 text-center mb-4">
-      <div class="team-card shadow-sm p-3 rounded">
-        <div class="team-img mx-auto">
-          <img src="images/team/rmukhopadhyay.jpg" alt="Ranadhir Mukhopadhyay" class="rounded-circle">
-        </div>
-        <h5 class="mt-3">Ranadhir Mukhopadhyay</h5>
-        <p class="text-muted mb-1">General Secretary</p>
-        <div class="social-icons mb-2">
-          <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
-          <a href="#"><i class="fab fa-twitter mx-2"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
-        </div>
-        <div class="team-bio">
-          <p class="small">Ranadhir Mukhopadhyay oversees organizational operations, ensuring smooth coordination and driving impactful cultural and educational programs.</p>
+      <!-- Vice President: Rajesh Tarkar -->
+      <div class="col-md-4 text-center mb-4">
+        <div class="team-card shadow-sm p-3 rounded">
+          <div class="team-img mx-auto">
+            <img src="images/team/rtarkar.jpg" alt="Rajesh Tarkar" class="rounded-circle">
+          </div>
+          <h5 class="mt-3">Rajesh Tarkar</h5>
+          <p class="text-muted mb-1">Vice President</p>
+          <div class="social-icons mb-2">
+            <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+            <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+          </div>
+          <div class="team-bio">
+            <p class="small">Rajesh Tarkar actively supports cultural engagement and community collaboration, bringing energy and creativity to the Academy’s initiatives.</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Joint Secretary -->
-    <div class="col-md-4 text-center mb-4">
-      <div class="team-card shadow-sm p-3 rounded">
-        <div class="team-img mx-auto">
-          <img src="images/team/dnhmazumdar.jpg" alt="Dr. Neeta Hede Mazumdar" class="rounded-circle">
-        </div>
-        <h5 class="mt-3">Dr. Neeta Hede Mazumdar</h5>
-        <p class="text-muted mb-1">Joint Secretary</p>
-        <div class="social-icons mb-2">
-          <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
-          <a href="#"><i class="fab fa-twitter mx-2"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
-        </div>
-        <div class="team-bio">
-          <p class="small">Dr. Neeta Hede Mazumdar is dedicated to advancing cultural awareness and educational outreach, combining research with hands-on leadership.</p>
+      <!-- Vice President: Dr. Dinesh Verma -->
+      <div class="col-md-4 text-center mb-4">
+        <div class="team-card shadow-sm p-3 rounded">
+          <div class="team-img mx-auto">
+            <img src="images/team/dverma.jpg" alt="Dr. Dinesh Verma" class="rounded-circle">
+          </div>
+          <h5 class="mt-3">Dr. Dinesh Verma</h5>
+          <p class="text-muted mb-1">Vice President</p>
+          <div class="social-icons mb-2">
+            <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+            <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+          </div>
+          <div class="team-bio">
+            <p class="small">Dr. Dinesh Verma contributes his expertise in academics and leadership, fostering innovation and supporting lifelong learning opportunities.</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Treasurer -->
-    <div class="col-md-4 text-center mb-4">
-      <div class="team-card shadow-sm p-3 rounded">
-        <div class="team-img mx-auto">
-          <img src="images/team/hkkaul.jpg" alt="Hari Krishan Kaul" class="rounded-circle">
-        </div>
-        <h5 class="mt-3">Hari Krishan Kaul</h5>
-        <p class="text-muted mb-1">Treasurer</p>
-        <div class="social-icons mb-2">
-          <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
-          <a href="#"><i class="fab fa-twitter mx-2"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
-        </div>
-        <div class="team-bio">
-          <p class="small">Hari Krishan Kaul ensures financial discipline and transparency, managing resources responsibly to support the Academy’s long-term vision.</p>
+      <!-- General Secretary -->
+      <div class="col-md-4 text-center mb-4">
+        <div class="team-card shadow-sm p-3 rounded">
+          <div class="team-img mx-auto">
+            <img src="images/team/rmukhopadhyay.jpg" alt="Ranadhir Mukhopadhyay" class="rounded-circle">
+          </div>
+          <h5 class="mt-3">Ranadhir Mukhopadhyay</h5>
+          <p class="text-muted mb-1">General Secretary</p>
+          <div class="social-icons mb-2">
+            <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+            <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+          </div>
+          <div class="team-bio">
+            <p class="small">Ranadhir Mukhopadhyay oversees organizational operations, ensuring smooth coordination and driving impactful cultural and educational programs.</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Chhandovani -->
-    <div class="col-md-4 text-center mb-4">
-      <div class="team-card shadow-sm p-3 rounded">
-        <div class="team-img mx-auto">
-          <img src="images/team/dachattarjee.jpg" alt="Dr. Anil Chatterjee" class="rounded-circle">
-        </div>
-        <h5 class="mt-3">Dr. Anil Chatterjee</h5>
-        <p class="text-muted mb-1">Chhandovani</p>
-        <div class="social-icons mb-2">
-          <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
-          <a href="#"><i class="fab fa-twitter mx-2"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
-        </div>
-        <div class="team-bio">
-          <p class="small">Dr. Anil Chatterjee brings literary excellence to the Academy, nurturing creativity, writing, and cultural expression through Chhandovani.</p>
+      <!-- Joint Secretary -->
+      <div class="col-md-4 text-center mb-4">
+        <div class="team-card shadow-sm p-3 rounded">
+          <div class="team-img mx-auto">
+            <img src="images/team/dnhmazumdar.jpg" alt="Dr. Neeta Hede Mazumdar" class="rounded-circle">
+          </div>
+          <h5 class="mt-3">Dr. Neeta Hede Mazumdar</h5>
+          <p class="text-muted mb-1">Joint Secretary</p>
+          <div class="social-icons mb-2">
+            <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+            <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+          </div>
+          <div class="team-bio">
+            <p class="small">Dr. Neeta Hede Mazumdar is dedicated to advancing cultural awareness and educational outreach, combining research with hands-on leadership.</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Unmesh -->
-    <div class="col-md-4 text-center mb-4">
-      <div class="team-card shadow-sm p-3 rounded">
-        <div class="team-img mx-auto">
-          <img src="images/team/sskarkar.jpg" alt="Somnath Sarkar" class="rounded-circle">
-        </div>
-        <h5 class="mt-3">Somnath Sarkar</h5>
-        <p class="text-muted mb-1">Unmesh</p>
-        <div class="social-icons mb-2">
-          <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
-          <a href="#"><i class="fab fa-twitter mx-2"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
-        </div>
-        <div class="team-bio">
-          <p class="small">Somnath Sarkar leads Unmesh with a focus on inspiring performances and cultural innovation, bridging tradition and modernity.</p>
+      <!-- Treasurer -->
+      <div class="col-md-4 text-center mb-4">
+        <div class="team-card shadow-sm p-3 rounded">
+          <div class="team-img mx-auto">
+            <img src="images/team/hkkaul.jpg" alt="Hari Krishan Kaul" class="rounded-circle">
+          </div>
+          <h5 class="mt-3">Hari Krishan Kaul</h5>
+          <p class="text-muted mb-1">Treasurer</p>
+          <div class="social-icons mb-2">
+            <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+            <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+          </div>
+          <div class="team-bio">
+            <p class="small">Hari Krishan Kaul ensures financial discipline and transparency, managing resources responsibly to support the Academy’s long-term vision.</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Utsav -->
-    <div class="col-md-4 text-center mb-4">
-      <div class="team-card shadow-sm p-3 rounded">
-        <div class="team-img mx-auto">
-          <img src="images/team/danand.jpg" alt="Devindar Anand" class="rounded-circle">
-        </div>
-        <h5 class="mt-3">Devindar Anand</h5>
-        <p class="text-muted mb-1">Utsav</p>
-        <div class="social-icons mb-2">
-          <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
-          <a href="#"><i class="fab fa-twitter mx-2"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
-        </div>
-        <div class="team-bio">
-          <p class="small">Devindar Anand curates Utsav, celebrating culture and heritage through festivals, events, and creative showcases for the community.</p>
+      <!-- Chhandovani -->
+      <div class="col-md-4 text-center mb-4">
+        <div class="team-card shadow-sm p-3 rounded">
+          <div class="team-img mx-auto">
+            <img src="images/team/dachattarjee.jpg" alt="Dr. Anil Chatterjee" class="rounded-circle">
+          </div>
+          <h5 class="mt-3">Dr. Anil Chatterjee</h5>
+          <p class="text-muted mb-1">Chhandovani</p>
+          <div class="social-icons mb-2">
+            <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+            <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+          </div>
+          <div class="team-bio">
+            <p class="small">Dr. Anil Chatterjee brings literary excellence to the Academy, nurturing creativity, writing, and cultural expression through Chhandovani.</p>
+          </div>
         </div>
       </div>
+
+      <!-- Unmesh -->
+      <div class="col-md-4 text-center mb-4">
+        <div class="team-card shadow-sm p-3 rounded">
+          <div class="team-img mx-auto">
+            <img src="images/team/sskarkar.jpg" alt="Somnath Sarkar" class="rounded-circle">
+          </div>
+          <h5 class="mt-3">Somnath Sarkar</h5>
+          <p class="text-muted mb-1">Unmesh</p>
+          <div class="social-icons mb-2">
+            <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+            <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+          </div>
+          <div class="team-bio">
+            <p class="small">Somnath Sarkar leads Unmesh with a focus on inspiring performances and cultural innovation, bridging tradition and modernity.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Utsav -->
+      <div class="col-md-4 text-center mb-4">
+        <div class="team-card shadow-sm p-3 rounded">
+          <div class="team-img mx-auto">
+            <img src="images/team/danand.jpg" alt="Devindar Anand" class="rounded-circle">
+          </div>
+          <h5 class="mt-3">Devindar Anand</h5>
+          <p class="text-muted mb-1">Utsav</p>
+          <div class="social-icons mb-2">
+            <a href="#"><i class="fab fa-facebook-f mx-2"></i></a>
+            <a href="#"><i class="fab fa-twitter mx-2"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in mx-2"></i></a>
+          </div>
+          <div class="team-bio">
+            <p class="small">Devindar Anand curates Utsav, celebrating culture and heritage through festivals, events, and creative showcases for the community.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
+</section>
+
 
   </div>
 </div>

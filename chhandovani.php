@@ -25,6 +25,9 @@ include_once('head_nav.php');
     <div class="row">
       <div class="col-lg-8 ftco-animate">
         <h2 class="mb-3">Chhandovani: Dance Rooted in Culture, Modern Expressions, Steps of Change</h2>
+		
+		<p><strong>Convenor:</strong> Dr Anil Chatterjee| <strong>Contact:</strong> chhandovani@gangazuari.org</p>
+		
         <p>Chhandovani is a celebration of movement where rhythm meets meaning. Its essence lies in nurturing a dance culture that draws from Indian values (Saat-Sur) while embracing contemporary expressions. It is not confined to classical forms alone, but creates space for new interpretations that inspire both the body and soul.</p>
         <p>Through workshops, performances, and explorations, Chhandovani seeks to create harmony between tradition and innovation—where every step becomes a dialogue between the past and the present. It is an initiative for the youth and the community to experience dance as a way of life, not just an art form.</p>
         

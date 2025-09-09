@@ -50,6 +50,9 @@
 	<!-- Favicon -->
 	<link rel="icon" href="images/favicon.ico" type="image/png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<script src="http://gangazuari.org/comments/embed.js"></script>
 
 	<!-- Google Analytics (for SEM & tracking) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-1"></script>
@@ -75,10 +78,11 @@
 				<div class="col-md-6 d-flex justify-content-md-end">
 					<div class="social-media">
 						<p class="mb-0 d-flex">
-							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-facebook"><i class="sr-only">Facebook</i></span></a>
+							
+							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-linkedin"><i class="sr-only">Linkedin</i></span></a>
+							<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa-brands fa-instagram"><i class="sr-only">Instagram</i></span></a>
+							
 						</p>
 					</div>
 				</div>
@@ -86,20 +90,15 @@
 		</div>
 	</div>
 	
-	<!-- END nav -->
 	
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar-2">
-  <div class="container-fluid pl-2 pr-4"> <!-- Full-width navbar with slight left padding -->
-    
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar-2">
+  <div class="container">
+
     <!-- Brand / Logo -->
-    <div class="d-flex align-items-center">
-      <a class="navbar-brand mb-0 mr-2" href="index.php" style="margin-left:15px;">
-        <img src="images/2025/gza_logo.jpg" alt="The Ganga Zuari Academy Logo" style="height:90px;">
-      </a>
-      <a class="navbar-brand mb-0" href="index.php">
-        <img src="images/2025/kp.png" alt="The Ganga Zuari Academy Logo" style="height:90px;">
-      </a>
-    </div>
+    <a class="navbar-brand d-flex align-items-center mr-3" href="index.php">
+      <img src="images/gza.png" alt="The Ganga Zuari Academy Logo" style="height:80px; margin-right:10px;">
+      <img src="images/2025/kp.png" alt="The Ganga Zuari Academy KP Logo" style="height:80px;">
+    </a>
 
     <!-- Mobile Toggle -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav-2" aria-controls="ftco-nav-2" aria-expanded="false" aria-label="Toggle navigation">
@@ -107,11 +106,14 @@
     </button>
 
     <!-- Menu Items -->
-    <div class="collapse navbar-collapse" id="ftco-nav-2">
-      <ul class="navbar-nav ml-auto">
-        
+    <div class="collapse navbar-collapse justify-content-center" id="ftco-nav-2">
+      <ul class="navbar-nav">
+
         <!-- Home -->
-        <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
+      <li <?php if($page == 'home') { echo 'class="nav-item active"'; } else { echo 'class="nav-item"'; } ?>>
+    <a href="index.php" class="nav-link">Home</a>
+</li>
+
 
         <!-- About Us -->
         <li class="nav-item dropdown">
@@ -121,6 +123,7 @@
             <a class="dropdown-item" href="leadership.php">Leadership & Governance</a>
             <a class="dropdown-item" href="reports.php">Reports & Financials</a>
             <a class="dropdown-item" href="proceedings.php">Proceedings & Speeches</a>
+            <a class="dropdown-item" href="contact.php">Contact Us</a>
           </div>
         </li>
 
@@ -128,16 +131,16 @@
         <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" id="programDropdown2" data-toggle="dropdown">Programs</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="unmesh.php">Unmesh</a>
-            <a class="dropdown-item" href="chhandovani.php">Chhandovani</a>
-            <a class="dropdown-item" href="utsav.php">Utsav</a>
+            <a class="dropdown-item" href="unmesh1.php">Unmesh</a>
+            <a class="dropdown-item" href="chhandovani1.php">Chhandovani</a>
+            <a class="dropdown-item" href="utsav1.php">Utsav</a>
             <a class="dropdown-item" href="horizon.php">Horizon</a>
           </div>
         </li>
 
         <!-- Insights & Resources -->
         <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" id="insightsDropdown2" data-toggle="dropdown">Insights & Resources</a>
+          <a href="#" class="nav-link dropdown-toggle" id="insightsDropdown2" data-toggle="dropdown">Insights, Resources, & Blogs</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="press.php">Inmedia Coverage</a>
             <a class="dropdown-item" href="gallery.php">Gallery</a>
@@ -153,16 +156,16 @@
           <a href="#" class="nav-link dropdown-toggle" id="gzaDropdown2" data-toggle="dropdown">GZA International</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="overview.php">Overview</a>
-             <a class="dropdown-item" href="horizon.php">Horizon</a>
+            <a class="dropdown-item" href="horizon.php">Horizon</a>
             <a class="dropdown-item" href="membership.php">Get Involved</a>
             <a class="dropdown-item" href="contact.php">Contact Us</a>
           </div>
         </li>
 
         <!-- Get Involved -->
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown dropdown-menu-right">
           <a href="#" class="nav-link dropdown-toggle" id="involvedDropdown2" data-toggle="dropdown">Get Involved</a>
-          <div class="dropdown-menu">
+          <div class="dropdown-menu dropdown-menu-right">
             <a class="dropdown-item" href="membership.php">Membership</a>
             <a class="dropdown-item" href="volunteer.php">Volunteers</a>
             <a class="dropdown-item" href="donate.php">Donate</a>
@@ -174,6 +177,7 @@
     </div>
   </div>
 </nav>
+
 
 
 

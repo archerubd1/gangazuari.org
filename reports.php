@@ -3,7 +3,7 @@ $page='about';
 include_once('head_nav.php');
 ?>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner_all.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/2025/14.jpg');" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
   <div class="container">
     <div class="row no-gutters slider-text align-items-end">
@@ -41,7 +41,8 @@ include_once('head_nav.php');
       
       <p>By maintaining clear and accessible records, we foster accountability while empowering stakeholders to witness the tangible impact of their support.</p>
       
-      <p><a href="#" class="btn btn-primary mt-3">View Reports & Financials</a></p>
+    <p><a href="leadership.php" class="btn btn-primary bg-secondary mt-3">Meet the Leadership Behind the Numbers</a></p>
+
     </div>
   </div>
   
@@ -110,6 +111,77 @@ include_once('head_nav.php');
         </div>
       </div>
       
+    </div>
+  </div>
+</section>
+
+
+<p><br><br></p>
+
+<!-- Annual Activity Reports Section -->
+<section id="activity-reports" class="py-5" style="background: url('images/footprints.jpg') center/cover no-repeat fixed;">
+  <div class="container">
+    
+    <!-- Heading -->
+    <div class="text-center mb-5">
+      <h2 class="font-weight-bold text-white">Annual Activity Reports</h2>
+      <p style="color:#f8f9fa;">
+        Each year, Ganga Zuari Academy captures the journey of its programs — from literature and arts 
+        to music and research. These reports highlight the stories, milestones, and community impact 
+        that define our mission.
+      </p>
+    </div>
+
+    <div class="row">
+      
+      <!-- Unmesh -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow">
+          <img src="images/unmesh.jpg" class="card-img-top" alt="Unmesh Report Placeholder">
+          <div class="card-body">
+            <h4 class="card-title">Unmesh – Literature, Language & Philosophy</h4>
+            <p class="card-text">Dialogues that inspired critical thought and celebrated human expression throughout the year.</p>
+            <a href="pdfs/unmesh-activity-report-2023-24.pdf" class="btn btn-primary" download>📥 Download Report</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chhandonvani -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow">
+          <img src="images/chhandovani_teacher.jpg" class="card-img-top" alt="Chhandonvani Report Placeholder">
+          <div class="card-body">
+            <h4 class="card-title">Chhandonvani – Music & Performing Arts</h4>
+            <p class="card-text">Annual highlights of performances, workshops, and cultural dialogues through sound and movement.</p>
+            <a href="pdfs/chhandonvani-activity-report-2023-24.pdf" class="btn btn-primary" download>📥 Download Report</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Utsav -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow">
+          <img src="images/utsav1.jpg" class="card-img-top" alt="Utsav Report Placeholder">
+          <div class="card-body">
+            <h4 class="card-title">Utsav – Arts & Culture</h4>
+            <p class="card-text">A year of exhibitions, performances, and creative collaborations that celebrated cultural diversity.</p>
+            <a href="pdfs/utsav-activity-report-2023-24.pdf" class="btn btn-primary" download>📥 Download Report</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Horizon -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow">
+          <img src="images/image_6.jpg" class="card-img-top" alt="Horizon Report Placeholder">
+          <div class="card-body">
+            <h4 class="card-title">Horizon – Research & Ideas</h4>
+            <p class="card-text">Insights, publications, and thought-leadership initiatives that shaped academic and cultural discourse.</p>
+            <a href="pdfs/horizon-activity-report-2023-24.pdf" class="btn btn-primary" download>📥 Download Report</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>

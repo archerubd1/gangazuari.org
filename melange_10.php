@@ -3,7 +3,7 @@ $page="resources";
 include_once('head_nav.php');
 ?>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/nos_khu.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2" style="background-image: url('images/kh.jpg');" data-stellar-background-ratio="0.5">
   <div class="overlay"></div>
   <div class="container">
     <div class="row no-gutters slider-text align-items-end">
@@ -23,7 +23,7 @@ include_once('head_nav.php');
     <div class="row">
 
     <!-- Main Article -->
-<div class="col-lg-8 ftco-animate">
+<div class="col-lg-12 ftco-animate">
 
   <!-- Translator -->
   <div id="google_translate_element" class="mb-4"></div>
@@ -70,19 +70,34 @@ include_once('head_nav.php');
 </div> <!-- .col-lg-8 -->
 
 
+
+
+
+  
+<p><br><br></p>
+<div class="row justify-content-center mb-5">
+    <div class="col-md-8 heading-section text-center ftco-animate">
+        <h2 class="mb-4">Comments & Related Articles</h2>
+        <p class="lead">Discover what others are saying and explore articles that deepen your understanding of heritage preservation, community empowerment, and sustainable development across the globe.</p>
+    </div>
+</div>
+  
+  
+<!-- Main Article -->
+<div class="col-lg-8 ftco-animate">
+
+
+
+<iframe src="http://localhost/pcs?article=melange_10" width="100%" height="800px" frameborder="0" style="overflow:hidden;" scrolling="no"></iframe>
+
+
+</div>
+
+
       <!-- Sidebar -->
       <div class="col-lg-4 sidebar pl-lg-5 ftco-animate">
 
-        <!-- Search -->
-        <div class="sidebar-box">
-          <form action="#" class="search-form">
-            <div class="form-group">
-              <span class="fa fa-search"></span>
-              <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
-            </div>
-          </form>
-        </div>
-
+       
         <!-- Also Read This -->
         <div class="sidebar-box ftco-animate">
           <h3>Also Read This</h3>
