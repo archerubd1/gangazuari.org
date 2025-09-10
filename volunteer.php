@@ -60,126 +60,187 @@ include_once('head_nav.php');
       <h2 class="mb-0 text-center">🌟 Join Ganga Zuari Academy as a Volunteer</h2>
     </div>
 
-    <form action="#" class="appointment">
-      <div class="row">
-        
-        <!-- Full Name -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="name">Full Name</label>
-            <div class="input-wrap">
-              <div class="icon"><span class="fa fa-user"></span></div>
-              <input type="text" class="form-control" placeholder="Enter your full name">
-            </div>
-          </div>
-        </div>
-        
-        <!-- Email -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <div class="input-wrap">
-              <div class="icon"><span class="fa fa-paper-plane"></span></div>
-              <input type="email" class="form-control" placeholder="example@email.com">
-            </div>
-          </div>
-        </div>
+  <form action="volunteer-submit.php" method="POST" class="appointment">
+  <div class="row">
 
-        <!-- Phone -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="phone">Phone Number</label>
-            <div class="input-wrap">
-              <div class="icon"><span class="fa fa-phone"></span></div>
-              <input type="text" class="form-control" placeholder="+91 98765 43210">
-            </div>
-          </div>
+    <!-- Full Name -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <div class="input-wrap">
+          <div class="icon"><span class="fa fa-user"></span></div>
+          <input type="text" name="name" class="form-control" placeholder="Enter your full name" required>
         </div>
-        
-        <!-- Areas of Interest -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="interest">Areas of Interest</label>
-            <div class="form-field">
-              <div class="select-wrap">
-                <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                <select name="interest" id="interest" class="form-control">
-                  <option value="">Choose an area...</option>
-                  <option value="events">Event Management (Cultural & Social)</option>
-                  <option value="teaching">Teaching / Mentorship</option>
-                  <option value="outreach">Community Outreach</option>
-                  <option value="fundraising">Fundraising & Campaigns</option>
-                  <option value="media">Media & Communications</option>
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Skills -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="skills">Your Skills / Expertise</label>
-            <div class="input-wrap">
-              <div class="icon"><span class="fa fa-lightbulb"></span></div>
-              <input type="text" class="form-control" placeholder="e.g., Public Speaking, Writing, Design, Management">
-            </div>
-          </div>
-        </div>
-        
-        <!-- Availability -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="availability">Availability</label>
-            <div class="d-lg-flex">
-              <div class="form-radio mr-3">
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="availability" checked>
-                    <span class="checkmark"></span>
-                    <span class="fill-control-description">Weekdays</span>
-                  </label>
-                </div>
-              </div>
-              <div class="form-radio mr-3">
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="availability">
-                    <span class="checkmark"></span>
-                    <span class="fill-control-description">Weekends</span>
-                  </label>
-                </div>
-              </div>
-              <div class="form-radio">
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="availability">
-                    <span class="checkmark"></span>
-                    <span class="fill-control-description">Flexible</span>
-                  </label>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Motivation -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="motivation">Why do you want to volunteer with us?</label>
-            <textarea name="motivation" id="motivation" class="form-control" rows="4" placeholder="Share your motivation here..."></textarea>
-          </div>
-        </div>
-        
-        <!-- Submit -->
-        <div class="col-md-12">
-          <div class="form-group text-center">
-            <input type="submit" value="🌍 Become a Volunteer" class="btn btn-primary py-3 px-5 shadow">
-          </div>
-        </div>
-        
       </div>
-    </form>
+    </div>
+
+    <!-- Email -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <div class="input-wrap">
+          <div class="icon"><span class="fa fa-paper-plane"></span></div>
+          <input type="email" name="email" class="form-control" placeholder="example@email.com" required>
+        </div>
+      </div>
+    </div>
+
+    <!-- Phone -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <div class="input-wrap">
+          <div class="icon"><span class="fa fa-phone"></span></div>
+          <input type="tel" name="phone" class="form-control" placeholder="+91 98765 43210" required>
+        </div>
+      </div>
+    </div>
+
+    <!-- Areas of Interest -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="interest">Areas of Interest</label>
+        <div class="form-field">
+          <div class="select-wrap">
+            <div class="icon"><span class="fa fa-chevron-down"></span></div>
+            <select name="interest" id="interest" class="form-control" required>
+              <option value="">Choose an area...</option>
+              <option value="events">Event Management (Cultural & Social)</option>
+              <option value="teaching">Teaching / Mentorship</option>
+              <option value="outreach">Community Outreach</option>
+              <option value="fundraising">Fundraising & Campaigns</option>
+              <option value="media">Media & Communications</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills / Expertise (Dropdown) -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="skills">Your Skills / Expertise</label>
+        <div class="form-field">
+          <div class="select-wrap">
+            <div class="icon"><span class="fa fa-lightbulb"></span></div>
+            <select name="skills" id="skills" class="form-control" required>
+              <option value="">Select a skill based on area of interest.....</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Availability -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="availability">Availability</label>
+        <div class="d-lg-flex">
+          <div class="form-radio mr-3">
+            <div class="radio">
+              <label>
+                <input type="radio" name="availability" value="Weekdays" checked required>
+                <span class="checkmark"></span>
+                <span class="fill-control-description">Weekdays</span>
+              </label>
+            </div>
+          </div>
+          <div class="form-radio mr-3">
+            <div class="radio">
+              <label>
+                <input type="radio" name="availability" value="Weekends" required>
+                <span class="checkmark"></span>
+                <span class="fill-control-description">Weekends</span>
+              </label>
+            </div>
+          </div>
+          <div class="form-radio">
+            <div class="radio">
+              <label>
+                <input type="radio" name="availability" value="Flexible" required>
+                <span class="checkmark"></span>
+                <span class="fill-control-description">Flexible</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Motivation -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="motivation">Why do you want to volunteer with us?</label>
+        <textarea name="motivation" id="motivation" class="form-control" rows="4" placeholder="Share your motivation here..." required></textarea>
+      </div>
+    </div>
+
+    <!-- Submit -->
+    <div class="col-md-12">
+      <div class="form-group text-center">
+        <input type="submit" value="🌍 Become a Volunteer" class="btn btn-primary py-3 px-5 shadow">
+      </div>
+    </div>
+
+  </div>
+</form>
+
+<!-- JS: Populate Skills Dynamically -->
+<script>
+const skillOptions = {
+    "events": [
+        "Event Planning",
+        "Stage Management",
+        "Logistics Coordination",
+        "Volunteer Coordination"
+    ],
+    "teaching": [
+        "Subject Expertise",
+        "Curriculum Development",
+        "Tutoring",
+        "Mentorship"
+    ],
+    "outreach": [
+        "Community Engagement",
+        "Survey Collection",
+        "Program Planning",
+        "Relationship Building"
+    ],
+    "fundraising": [
+        "Grant Writing",
+        "Campaign Planning",
+        "Donor Communication",
+        "Sponsorship Management"
+    ],
+    "media": [
+        "Photography",
+        "Content Writing",
+        "Social Media Management",
+        "Graphic Design"
+    ]
+};
+
+document.getElementById('interest').addEventListener('change', function () {
+    const selectedInterest = this.value;
+    const skillsDropdown = document.getElementById('skills');
+
+    // Reset previous options
+    skillsDropdown.innerHTML = '<option value="">Select a skill based on area...</option>';
+
+    if (skillOptions[selectedInterest]) {
+        skillOptions[selectedInterest].forEach(skill => {
+            const option = document.createElement('option');
+            option.value = skill;
+            option.textContent = skill;
+            skillsDropdown.appendChild(option);
+        });
+    }
+});
+</script>
+
+	
+	
+	
   </div>
 </div>
 

@@ -63,107 +63,176 @@ include_once('head_nav.php');
   
 </div>
 
+<form action="donate-submit.php" method="POST" class="appointment">
+  <div class="row">
 
-    <form action="#" class="appointment">
-      <div class="row">
-        
-        <!-- Name -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="name">Full Name</label>
-            <div class="input-wrap">
-              <div class="icon"><span class="fa fa-user"></span></div>
-              <input type="text" class="form-control" placeholder="">
-            </div>
-          </div>
+    <!-- Full Name -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <div class="input-wrap">
+          <div class="icon"><span class="fa fa-user"></span></div>
+          <input type="text" name="name" class="form-control" placeholder="Enter your full name" required>
         </div>
-        
-        <!-- Email -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <div class="input-wrap">
-              <div class="icon"><span class="fa fa-paper-plane"></span></div>
-              <input type="email" class="form-control" placeholder="">
-            </div>
-          </div>
-        </div>
-        
-        <!-- Causes -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="cause">Select Cause</label>
-            <div class="form-field">
-              <div class="select-wrap">
-                <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                <select name="cause" id="cause" class="form-control">
-                  <option value="">Choose a cause...</option>
-                  <option value="unmesh">Unmesh – Literary Initiatives</option>
-                  <option value="chhandovani">Chhandovani – Musical Heritage</option>
-                  <option value="utsav">Utsav – Cultural Festivals</option>
-                  <option value="tapovan">Tapovan – Youth & Learning</option>
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Amount -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="amount">Donation Amount (INR)</label>
-            <div class="input-wrap">
-              <div class="icon"><span class="fa fa-inr"></span></div>
-              <input type="text" class="form-control" placeholder="₹500">
-            </div>
-          </div>
-        </div>
-        
-        <!-- Payment Method -->
-        <div class="col-md-12">
-          <div class="form-group">
-            <label for="payment">Payment Method</label>
-            <div class="d-lg-flex">
-              <div class="form-radio mr-3">
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="payment" checked>
-                    <span class="checkmark"></span>
-                    <span class="fill-control-description">UPI / Netbanking</span>
-                  </label>
-                </div>
-              </div>
-              <div class="form-radio mr-3">
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="payment">
-                    <span class="checkmark"></span>
-                    <span class="fill-control-description">Credit / Debit Card</span>
-                  </label>
-                </div>
-              </div>
-              <div class="form-radio">
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="payment">
-                    <span class="checkmark"></span>
-                    <span class="fill-control-description">Bank Transfer</span>
-                  </label>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Submit -->
-        <div class="col-md-12">
-          <div class="form-group text-center">
-            <input type="submit" value="Donate Now" class="btn btn-danger py-3 px-5 shadow">
-          </div>
-        </div>
-        
       </div>
-    </form>
+    </div>
+
+    <!-- Email -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <div class="input-wrap">
+          <div class="icon"><span class="fa fa-paper-plane"></span></div>
+          <input type="email" name="email" class="form-control" placeholder="example@email.com" required>
+        </div>
+      </div>
+    </div>
+
+    <!-- Donor KYC Type -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="kyc_type">Donor KYC Type</label>
+        <div class="form-field">
+          <div class="select-wrap">
+            <div class="icon"><span class="fa fa-id-card"></span></div>
+            <select name="kyc_type" id="kyc_type" class="form-control" required onchange="toggleKycNumberField(this.value)">
+              <option value="">Select KYC Type...</option>
+              <option value="Aadhaar">Aadhaar</option>
+              <option value="PAN">PAN</option>
+              <option value="Voter ID">Voter ID</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- KYC Number (Hidden by default) -->
+    <div class="col-md-12" id="kyc_number_group" style="display: none;">
+      <div class="form-group">
+        <label for="kyc_number">KYC Number</label>
+        <div class="input-wrap">
+          <div class="icon"><span class="fa fa-key"></span></div>
+          <input type="text" name="kyc_number" id="kyc_number" class="form-control" placeholder="" required>
+        </div>
+      </div>
+    </div>
+
+    <!-- Select Cause -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="cause">Select Cause</label>
+        <div class="form-field">
+          <div class="select-wrap">
+            <div class="icon"><span class="fa fa-chevron-down"></span></div>
+            <select name="cause" id="cause" class="form-control" required>
+              <option value="">Choose a cause...</option>
+              <option value="unmesh">Unmesh – Literary Initiatives</option>
+              <option value="chhandovani">Chhandovani – Musical Heritage</option>
+              <option value="utsav">Utsav – Cultural Festivals</option>
+              <option value="tapovan">Tapovan – Youth & Learning</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Donation Amount -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="amount">Donation Amount (INR)</label>
+        <div class="input-wrap">
+          <div class="icon"><span class="fa fa-inr"></span></div>
+          <input type="number" name="amount" class="form-control" placeholder="₹500" min="1" required>
+        </div>
+      </div>
+    </div>
+
+    <!-- Payment Method -->
+    <div class="col-md-12">
+      <div class="form-group">
+        <label for="payment_method">Payment Method</label>
+        <div class="d-lg-flex">
+          <div class="form-radio mr-3">
+            <div class="radio">
+              <label>
+                <input type="radio" name="payment_method" value="UPI / Netbanking" checked required>
+                <span class="checkmark"></span>
+                <span class="fill-control-description">UPI / Netbanking</span>
+              </label>
+            </div>
+          </div>
+          <div class="form-radio mr-3">
+            <div class="radio">
+              <label>
+                <input type="radio" name="payment_method" value="Credit / Debit Card" required>
+                <span class="checkmark"></span>
+                <span class="fill-control-description">Credit / Debit Card</span>
+              </label>
+            </div>
+          </div>
+          <div class="form-radio">
+            <div class="radio">
+              <label>
+                <input type="radio" name="payment_method" value="Bank Transfer" required>
+                <span class="checkmark"></span>
+                <span class="fill-control-description">Bank Transfer</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- IT Tax Benefits Message -->
+    <div class="col-md-12">
+      <p><strong>Note:</strong> Your donation is eligible for IT deductions under Section 80G of the Income Tax Act. An official receipt will be sent to your email for tax purposes.</p>
+    </div>
+
+    <!-- Submit -->
+    <div class="col-md-12">
+      <div class="form-group text-center">
+        <input type="submit" value="Donate Now" class="btn btn-danger py-3 px-5 shadow">
+      </div>
+    </div>
+
+  </div>
+</form>
+
+<script>
+  function toggleKycNumberField(value) {
+    const kycGroup = document.getElementById('kyc_number_group');
+    const kycInput = document.getElementById('kyc_number');
+
+    if (value) {
+      kycGroup.style.display = 'block';
+      kycInput.setAttribute('required', 'required');
+
+      let placeholderText = 'Enter your KYC Number';
+      if (value === 'Aadhaar') {
+        placeholderText = 'Enter your Aadhaar number (12 digits)';
+      } else if (value === 'PAN') {
+        placeholderText = 'Enter your PAN number (e.g., ABCDE1234F)';
+      } else if (value === 'Voter ID') {
+        placeholderText = 'Enter your Voter ID number';
+      } else if (value === 'Other') {
+        placeholderText = 'Enter your Other ID number';
+      }
+
+      kycInput.setAttribute('placeholder', placeholderText);
+
+    } else {
+      kycGroup.style.display = 'none';
+      kycInput.removeAttribute('required');
+      kycInput.value = '';
+    }
+  }
+</script>
+
+
+	
+	
+	
   </div>
 </div>
 
